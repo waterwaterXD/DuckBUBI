@@ -1,0 +1,198 @@
+{% extends "base_generic.html" %}
+
+{% block title %}
+<title>問卷作答</title>
+{% endblock %}
+
+{% block content %}
+    <style>
+        nav ul li a {
+            text-decoration: none;
+            position: relative;
+            color: #999999;
+            font-weight: 600;
+        }
+        
+        nav ul li a::after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 0.125em;
+            background-color: #cd0000;
+            transition: width 0.5s;
+        }
+
+        nav ul li a:hover::after {
+            width: 100%;
+        }
+
+        a.logout-link:hover {
+            font-weight: bold;
+            color: #cd0000;
+        }
+
+        .card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+            height: 300px;
+            width: 300px;
+            border: 5px solid #707070;
+        }
+
+        .card-body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn-custom1 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            border-radius: 25px;
+            width: 100px;
+            color: #cd0000;
+            border: 1px solid #cd0000;
+            background-color: #fff;
+            transition: background-color 0.5s;
+        }
+    
+        .btn-custom1:hover {
+            color: #fff;
+            background-color: #cd0000;
+            border: 1px solid #cd0000;
+        }
+
+        .btn-custom2 {
+            font-size: 20px;
+            border-radius: 25px;
+            width: 120px;
+            color: #ffffff;
+            border: 1px solid #707070;
+            background-color: #707070;
+            transition: background-color 0.5s;
+        }
+    
+        .btn-custom2:hover {
+            color: #ffffff;
+            background-color: #444444;
+            border: 1px solid #444444;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <main id="main">
+        {% if request.user.is_staff %}
+        <nav id="header" class="flex-shrink-0 p-3" style="width: 280px; height: 100%;">
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <a href="/home/" class="logo">Training Center</a>
+            </div>
+            <hr style="color: #909090;">
+            <ul class="list-unstyled">
+                <li>
+                    <a class="nav-link scrollto" href="/home/">首頁</a>
+                </li>
+                <li>
+                    <a class="nav-link scrollto" href="/scores/course-list/">課程管理</a>
+                </li>
+                <li>
+                    <a class="nav-link scrollto" href="/scores/score_find/">成績查詢</a>
+                </li>
+                <li>
+                    <a class="nav-link scrollto" href="/admin/auth/user/">帳號管理</a>
+                </li>
+                <li>
+                    <a class="nav-link scrollto" href="/question/question_list/">問卷系統</a>
+                </li>
+            </ul>
+            <div style="position: fixed; bottom: 0;">
+                <div style="width: 248px;">
+                    <hr style="color: #909090;">
+                </div>
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    {% if request.user.is_authenticated %}
+                        <a class="nav-link scrollto fw-bold">{{request.user}}</a>
+                    {% endif %}
+                    <a class="nav-link scrollto logout-link" href="/welcome/logout/">登出</a>
+                </div>
+            </div>
+        </nav>
+        {% else %}
+        <nav id="header" class="flex-shrink-0 p-3" style="width: 280px; height: 100%;">
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <a href="/home/" class="logo">Training Center</a>
+            </div>
+            <hr style="color: #909090;">
+            <ul class="list-unstyled">
+                <li>
+                    <a class="nav-link scrollto" href="/home/">首頁</a>
+                </li>
+                <li>
+                    <a class="nav-link scrollto" href="">成績查詢</a>
+                </li>
+                <li>
+                    <a class="nav-link scrollto" href="/question/question_list/">問卷作答</a>
+                </li>
+                <li>
+                    <a class="nav-link scrollto" href="/home/student-information/">修改基本資料</a>
+                </li>
+            </ul>
+            <div style="position: fixed; bottom: 0;">
+                <div style="width: 248px;">
+                    <hr style="color: #909090;">
+                </div>
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    {% if request.user.is_authenticated %}
+                        <a class="nav-link scrollto fw-bold">{{request.user}}</a>
+                    {% endif %}
+                    <a class="nav-link scrollto logout-link" href="/welcome/logout/">登出</a>
+                </div>
+            </div>
+        </nav>
+        {% endif %}
+
+        <section id="home" class="text-center" style="display: flex; justify-content: center; align-items: center; width: 100hv; height: 100hv; margin-left: 280px;">
+            <div class="container align-items-center" style="flex-direction: column; max-width: 80%; margin-top: 40px; margin-bottom: 40px;" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="400">
+                <h2 class="mb-2 fw-bold">課程問卷</h2>
+                {% if request.user.is_staff %}
+                <div class="row pt-3">
+                    <div class="col-md-6 text-start">
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <a href="{% url 'question:question_analyis' %}"><button type="button" class="btn btn-custom1">問卷分析</button></a>
+                    </div>
+                </div>
+                {% endif %}
+                <hr>
+                <div class="row">
+                    {% if questionnaires %}
+                        {% for qs in questionnaires %}
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="card">
+                                    <div class="row card-body">
+                                        <h4 class="card-title fw-bold">{{ qs.coursename }}</h4>
+                                        <h4 class="card-title fw-bold">{{ qs.title }}</h4>
+                                        <div>
+                                            <a href="{% url 'question:get_questionnaire'  qs.id %}" class="btn btn-custom2">開始作答</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    {% else %}
+                        <div class="col-12">
+                            <h2 class="tm-question-none">No question are available!</h2>
+                        </div>
+                    {% endif %}
+            
+                </div>
+            </div>
+    </section>
+    </main>
+{% endblock %}

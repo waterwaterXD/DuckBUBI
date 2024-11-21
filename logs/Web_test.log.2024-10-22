@@ -1,0 +1,59 @@
+10-22 10:14:08 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+10-22 10:14:09 uvicorn.error INFO     Started server process [23528]
+10-22 10:14:09 uvicorn.error INFO     Waiting for application startup.
+10-22 10:14:09 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+10-22 10:14:09 uvicorn.error INFO     Application startup complete.
+10-22 10:14:09 uvicorn.error INFO     Uvicorn running on http://172.28.0.78:80 (Press CTRL+C to quit)
+10-22 10:14:13 uvicorn.access INFO     172.28.0.78:63070 - "GET / HTTP/1.1" 302
+10-22 10:14:13 uvicorn.access INFO     172.28.0.78:63070 - "GET /home/ HTTP/1.1" 200
+10-22 10:14:13 uvicorn.access INFO     172.28.0.78:63070 - "GET /static/assets/img/output.gif HTTP/1.1" 200
+10-22 10:14:13 uvicorn.access INFO     172.28.0.78:63070 - "GET /static/assets/img/background.jpg HTTP/1.1" 200
+10-22 10:14:44 uvicorn.access INFO     172.28.0.78:63073 - "GET /welcome/login/ HTTP/1.1" 200
+10-22 10:14:47 uvicorn.access INFO     172.28.0.78:63073 - "POST /welcome/login/ HTTP/1.1" 302
+10-22 10:14:47 uvicorn.access INFO     172.28.0.78:63073 - "GET /home/ HTTP/1.1" 200
+10-22 10:14:48 uvicorn.access INFO     172.28.0.78:63073 - "GET /static/assets/img/fishman.png HTTP/1.1" 200
+10-22 10:15:19 uvicorn.access INFO     172.28.0.78:63086 - "GET /home/aboutus/ HTTP/1.1" 200
+10-22 10:15:22 uvicorn.access INFO     172.28.0.78:63086 - "GET /home/questionnaire/ HTTP/1.1" 200
+10-22 10:15:24 uvicorn.access INFO     172.28.0.78:63086 - "GET /home/ HTTP/1.1" 200
+10-22 10:15:26 uvicorn.access INFO     172.28.0.78:63086 - "GET /home/depression/ HTTP/1.1" 200
+10-22 10:15:26 uvicorn.access INFO     172.28.0.78:63091 - "GET /static/assets/img/%E7%B5%90%E5%B1%80.jpg HTTP/1.1" 200
+10-22 10:15:26 uvicorn.access INFO     172.28.0.78:63086 - "GET /static/assets/img/%E9%AD%94%E7%8E%8B%E5%9F%8E.jpg HTTP/1.1" 200
+10-22 10:15:26 uvicorn.access INFO     172.28.0.78:63089 - "GET /static/assets/img/%E6%88%B0%E9%AC%A5%E5%A0%B4%E6%99%AF.png HTTP/1.1" 200
+10-22 10:15:26 uvicorn.access INFO     172.28.0.78:63090 - "GET /static/assets/img/%E5%BF%83%E9%9D%88%E8%BF%B7%E5%AE%AE.png HTTP/1.1" 200
+10-22 10:15:26 uvicorn.access INFO     172.28.0.78:63088 - "GET /static/assets/img/%E9%99%B0%E6%9A%97%E6%A3%AE%E6%9E%97.jpg HTTP/1.1" 200
+10-22 10:17:52 uvicorn.access INFO     172.28.0.78:63135 - "GET /home/ HTTP/1.1" 200
+10-22 10:17:52 uvicorn.access INFO     172.28.0.78:63135 - "GET /home/questionnaire/ HTTP/1.1" 200
+10-22 10:17:53 uvicorn.access INFO     172.28.0.78:63135 - "GET /home/contact/ HTTP/1.1" 200
+10-22 10:17:59 uvicorn.access INFO     172.28.0.78:63143 - "GET /home/video/ HTTP/1.1" 200
+10-22 10:17:59 uvicorn.access INFO     172.28.0.78:63143 - "GET /static/assets/img/%E6%86%82%E9%AC%B1%E7%97%87.png HTTP/1.1" 200
+10-22 10:17:59 uvicorn.access INFO     172.28.0.78:63144 - "GET /static/assets/img/%E8%87%AA%E7%84%B6%E8%AA%9E%E8%A8%80%E8%99%95%E7%90%86.png HTTP/1.1" 200
+10-22 10:18:08 uvicorn.access INFO     172.28.0.78:63148 - "GET /home/ebook/ HTTP/1.1" 200
+10-22 10:18:09 uvicorn.access INFO     172.28.0.78:63148 - "GET /static/assets/img/nlp.png HTTP/1.1" 200
+10-22 10:18:10 uvicorn.access INFO     172.28.0.78:63148 - "GET /home/video/ HTTP/1.1" 200
+10-22 10:18:14 uvicorn.access INFO     172.28.0.78:63148 - "GET /home/ebook/ HTTP/1.1" 200
+10-22 10:18:21 uvicorn.access INFO     172.28.0.78:63150 - "GET /home/ebook/ HTTP/1.1" 200
+10-22 10:18:38 uvicorn.access INFO     172.28.0.78:63151 - "GET /home/aboutus/ HTTP/1.1" 200
+10-22 10:19:17 uvicorn.access INFO     172.28.0.78:63154 - "GET /home/ HTTP/1.1" 200
+10-22 10:22:13 uvicorn.access INFO     172.28.0.78:63226 - "GET /home/ HTTP/1.1" 200
+10-22 10:22:17 uvicorn.access INFO     172.28.0.78:63226 - "GET /welcome/logout/ HTTP/1.1" 302
+10-22 10:22:17 uvicorn.access INFO     172.28.0.78:63226 - "GET /home/ HTTP/1.1" 200
+10-22 10:22:26 uvicorn.access INFO     172.28.0.78:63234 - "GET /welcome/login/ HTTP/1.1" 200
+10-22 10:22:29 uvicorn.access INFO     172.28.0.78:63234 - "POST /welcome/login/ HTTP/1.1" 302
+10-22 10:22:29 uvicorn.access INFO     172.28.0.78:63234 - "GET /home/ HTTP/1.1" 200
+10-22 10:22:33 uvicorn.access INFO     172.28.0.78:63234 - "GET /home/questionnaire/ HTTP/1.1" 200
+10-22 10:22:38 uvicorn.access INFO     172.28.0.78:63238 - "GET /home/contact/ HTTP/1.1" 200
+10-22 10:22:42 uvicorn.access INFO     172.28.0.78:63238 - "GET /home/contact/ HTTP/1.1" 200
+10-22 10:22:44 uvicorn.access INFO     172.28.0.78:63238 - "GET /home/depression/ HTTP/1.1" 200
+10-22 10:22:54 uvicorn.access INFO     172.28.0.78:63252 - "GET /home/aboutus/ HTTP/1.1" 200
+10-22 10:23:07 uvicorn.access INFO     172.28.0.78:63257 - "GET /home/hospital/ HTTP/1.1" 200
+10-22 10:23:08 uvicorn.access INFO     172.28.0.78:63257 - "GET /home/get_locations/ HTTP/1.1" 200
+10-22 10:23:11 uvicorn.access INFO     172.28.0.78:63257 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+10-22 10:23:11 uvicorn.access INFO     172.28.0.78:63259 - "GET /media/hospital_photos/%E9%83%AD%E7%8E%89%E6%9F%B1%E8%A8%BA%E6%89%80.jpg HTTP/1.1" 200
+10-22 10:23:11 uvicorn.access INFO     172.28.0.78:63261 - "GET /media/hospital_photos/%E5%BF%83%E6%AC%A3.JPG HTTP/1.1" 200
+10-22 10:23:11 uvicorn.access INFO     172.28.0.78:63257 - "GET /media/hospital_photos/%E6%A5%A0%E6%A2%93%E5%BF%83%E5%AF%AC%E8%A8%BA%E6%89%80.jpg HTTP/1.1" 200
+10-22 10:23:11 uvicorn.access INFO     172.28.0.78:63260 - "GET /media/hospital_photos/%E6%BE%84%E6%B2%B3%E5%BF%83%E7%90%86%E8%AB%AE%E5%95%86%E6%89%80.jpg HTTP/1.1" 200
+10-22 10:23:11 uvicorn.access INFO     172.28.0.78:63262 - "GET /media/hospital_photos/%E7%B6%AD%E4%BD%B3%E8%BA%AB%E5%BF%83%E8%A8%BA%E6%89%80.png HTTP/1.1" 200
+10-22 10:23:18 uvicorn.access INFO     172.28.0.78:63265 - "GET /home/ebook/ HTTP/1.1" 200
+10-22 10:23:22 uvicorn.access INFO     172.28.0.78:63265 - "GET /home/video/ HTTP/1.1" 200
+10-22 10:24:48 uvicorn.error INFO     Shutting down
+10-22 10:24:48 uvicorn.error INFO     Finished server process [23528]

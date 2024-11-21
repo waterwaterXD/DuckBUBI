@@ -1,0 +1,10 @@
+08-07 10:04:25 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-07 10:04:26 uvicorn.error INFO     Started server process [2792]
+08-07 10:04:26 uvicorn.error INFO     Waiting for application startup.
+08-07 10:04:26 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-07 10:04:26 uvicorn.error INFO     Application startup complete.
+08-07 10:04:26 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-07 10:04:30 uvicorn.access INFO     26.37.7.101:49379 - "GET / HTTP/1.1" 302
+08-07 10:04:30 uvicorn.access INFO     26.37.7.101:49379 - "GET /home/ HTTP/1.1" 200
+08-07 10:04:47 uvicorn.error INFO     Shutting down
+08-07 10:04:47 uvicorn.error INFO     Finished server process [2792]

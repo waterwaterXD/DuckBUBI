@@ -1,0 +1,12 @@
+11-15 09:40:10 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+11-15 09:40:10 uvicorn.error INFO     Started server process [10860]
+11-15 09:40:10 uvicorn.error INFO     Waiting for application startup.
+11-15 09:40:10 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+11-15 09:40:10 uvicorn.error INFO     Application startup complete.
+11-15 09:40:10 uvicorn.error INFO     Uvicorn running on http://172.28.0.78:80 (Press CTRL+C to quit)
+11-15 09:40:15 uvicorn.access INFO     172.28.0.78:51056 - "GET / HTTP/1.1" 302
+11-15 09:40:15 uvicorn.access INFO     172.28.0.78:51056 - "GET /home/ HTTP/1.1" 200
+11-15 09:40:15 uvicorn.access INFO     172.28.0.78:51056 - "GET /static/assets/img/fishman.png HTTP/1.1" 200
+11-15 09:40:17 uvicorn.access INFO     172.28.0.78:51056 - "GET /static/assets/img/background.jpg HTTP/1.1" 200
+11-15 09:40:23 django.request WARNING  Not Found: /favicon.ico
+11-15 09:40:23 uvicorn.access INFO     172.28.0.78:51081 - "GET /favicon.ico HTTP/1.1" 404

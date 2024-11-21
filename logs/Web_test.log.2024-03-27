@@ -1,0 +1,875 @@
+03-27 09:53:43 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 09:53:43 uvicorn.error INFO     Started server process [3520]
+03-27 09:53:43 uvicorn.error INFO     Waiting for application startup.
+03-27 09:53:43 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 09:53:43 uvicorn.error INFO     Application startup complete.
+03-27 09:53:43 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 09:53:59 django.request WARNING  Not Found: /favicon.ico
+03-27 09:53:59 uvicorn.access INFO     192.168.103.46:50310 - "GET /favicon.ico HTTP/1.1" 404
+03-27 09:53:59 uvicorn.access INFO     192.168.103.46:50310 - "GET /admin/ HTTP/1.1" 302
+03-27 09:54:00 uvicorn.access INFO     192.168.103.46:50310 - "GET /admin/login/?next=/admin/ HTTP/1.1" 200
+03-27 09:54:00 uvicorn.access INFO     192.168.103.46:50311 - "GET /static/admin/css/dark_mode.css HTTP/1.1" 200
+03-27 09:54:00 uvicorn.access INFO     192.168.103.46:50328 - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200
+03-27 09:54:00 uvicorn.access INFO     192.168.103.46:50329 - "GET /static/admin/js/theme.js HTTP/1.1" 200
+03-27 09:54:00 uvicorn.access INFO     192.168.103.46:50326 - "GET /static/admin/css/login.css HTTP/1.1" 200
+03-27 09:54:00 uvicorn.access INFO     192.168.103.46:50327 - "GET /static/admin/css/responsive.css HTTP/1.1" 200
+03-27 09:54:00 uvicorn.access INFO     192.168.103.46:50310 - "GET /static/admin/css/base.css HTTP/1.1" 200
+03-27 09:54:00 uvicorn.access INFO     192.168.103.46:50328 - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200
+03-27 09:54:03 uvicorn.access INFO     192.168.103.46:50328 - "POST /admin/login/?next=/admin/ HTTP/1.1" 200
+03-27 09:58:48 uvicorn.error INFO     Shutting down
+03-27 09:58:48 uvicorn.error INFO     Finished server process [3520]
+03-27 09:59:18 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 09:59:19 uvicorn.error INFO     Started server process [11752]
+03-27 09:59:19 uvicorn.error INFO     Waiting for application startup.
+03-27 09:59:19 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 09:59:19 uvicorn.error INFO     Application startup complete.
+03-27 09:59:19 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 09:59:24 uvicorn.access INFO     192.168.103.46:50422 - "POST /admin/login/?next=/admin/ HTTP/1.1" 302
+03-27 09:59:24 uvicorn.access INFO     192.168.103.46:50422 - "GET /admin/ HTTP/1.1" 200
+03-27 09:59:25 uvicorn.access INFO     192.168.103.46:50422 - "GET /static/admin/css/base.css HTTP/1.1" 304
+03-27 09:59:25 uvicorn.access INFO     192.168.103.46:50423 - "GET /static/admin/css/dark_mode.css HTTP/1.1" 304
+03-27 09:59:25 uvicorn.access INFO     192.168.103.46:50427 - "GET /static/admin/css/responsive.css HTTP/1.1" 304
+03-27 09:59:25 uvicorn.access INFO     192.168.103.46:50426 - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304
+03-27 09:59:25 uvicorn.access INFO     192.168.103.46:50428 - "GET /static/admin/js/theme.js HTTP/1.1" 304
+03-27 09:59:25 uvicorn.access INFO     192.168.103.46:50422 - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304
+03-27 09:59:25 uvicorn.access INFO     192.168.103.46:50425 - "GET /static/admin/css/dashboard.css HTTP/1.1" 200
+03-27 09:59:25 uvicorn.access INFO     192.168.103.46:50422 - "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200
+03-27 09:59:25 uvicorn.access INFO     192.168.103.46:50425 - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200
+03-27 09:59:27 uvicorn.access INFO     192.168.103.46:50425 - "GET /admin/welcome/account/ HTTP/1.1" 200
+03-27 09:59:27 uvicorn.access INFO     192.168.103.46:50428 - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200
+03-27 09:59:27 uvicorn.access INFO     192.168.103.46:50426 - "GET /static/admin/js/jquery.init.js HTTP/1.1" 200
+03-27 09:59:27 uvicorn.access INFO     192.168.103.46:50423 - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200
+03-27 09:59:27 uvicorn.access INFO     192.168.103.46:50422 - "GET /static/admin/css/changelists.css HTTP/1.1" 200
+03-27 09:59:27 uvicorn.access INFO     192.168.103.46:50427 - "GET /static/admin/js/core.js HTTP/1.1" 200
+03-27 09:59:27 uvicorn.access INFO     192.168.103.46:50425 - "GET /admin/jsi18n/ HTTP/1.1" 200
+03-27 09:59:27 uvicorn.access INFO     192.168.103.46:50428 - "GET /static/admin/js/urlify.js HTTP/1.1" 200
+03-27 09:59:27 uvicorn.access INFO     192.168.103.46:50426 - "GET /static/admin/js/actions.js HTTP/1.1" 200
+03-27 09:59:27 uvicorn.access INFO     192.168.103.46:50423 - "GET /static/admin/js/prepopulate.js HTTP/1.1" 200
+03-27 09:59:27 uvicorn.access INFO     192.168.103.46:50422 - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200
+03-27 09:59:27 uvicorn.access INFO     192.168.103.46:50427 - "GET /static/admin/img/search.svg HTTP/1.1" 200
+03-27 09:59:27 uvicorn.access INFO     192.168.103.46:50427 - "GET /static/admin/js/filters.js HTTP/1.1" 200
+03-27 09:59:27 uvicorn.access INFO     192.168.103.46:50427 - "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200
+03-27 09:59:30 uvicorn.access INFO     192.168.103.46:50427 - "GET /admin/welcome/account/add/ HTTP/1.1" 200
+03-27 09:59:30 uvicorn.access INFO     192.168.103.46:50422 - "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200
+03-27 09:59:30 uvicorn.access INFO     192.168.103.46:50426 - "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200
+03-27 09:59:30 uvicorn.access INFO     192.168.103.46:50427 - "GET /static/admin/css/forms.css HTTP/1.1" 200
+03-27 09:59:30 uvicorn.access INFO     192.168.103.46:50423 - "GET /admin/jsi18n/ HTTP/1.1" 200
+03-27 09:59:30 uvicorn.access INFO     192.168.103.46:50423 - "GET /static/admin/js/change_form.js HTTP/1.1" 200
+03-27 09:59:30 uvicorn.access INFO     192.168.103.46:50427 - "GET /static/admin/css/widgets.css HTTP/1.1" 200
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50509 - "POST /admin/welcome/account/add/ HTTP/1.1" 200
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50509 - "GET /static/admin/css/base.css HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50508 - "GET /static/admin/css/dark_mode.css HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50510 - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50513 - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50511 - "GET /static/admin/css/forms.css HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50512 - "GET /admin/jsi18n/ HTTP/1.1" 200
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50509 - "GET /static/admin/css/responsive.css HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50508 - "GET /static/admin/js/jquery.init.js HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50510 - "GET /static/admin/js/core.js HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50511 - "GET /static/admin/js/actions.js HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50513 - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50512 - "GET /static/admin/css/widgets.css HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50509 - "GET /static/admin/js/urlify.js HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50508 - "GET /static/admin/js/prepopulate.js HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50510 - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50511 - "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50513 - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50513 - "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50510 - "GET /static/admin/js/theme.js HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50511 - "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50509 - "GET /static/admin/js/change_form.js HTTP/1.1" 304
+03-27 10:01:09 uvicorn.access INFO     192.168.103.46:50508 - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304
+03-27 10:07:10 uvicorn.error INFO     Shutting down
+03-27 10:07:10 uvicorn.error INFO     Finished server process [11752]
+03-27 11:50:42 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 11:50:42 uvicorn.error INFO     Started server process [23148]
+03-27 11:50:42 uvicorn.error INFO     Waiting for application startup.
+03-27 11:50:42 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 11:50:42 uvicorn.error INFO     Application startup complete.
+03-27 11:50:42 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 11:51:02 django.request WARNING  Not Found: /welcome/
+03-27 11:51:02 uvicorn.access INFO     192.168.103.46:51634 - "GET /welcome/ HTTP/1.1" 404
+03-27 11:51:20 uvicorn.error INFO     Shutting down
+03-27 11:51:20 uvicorn.error INFO     Finished server process [23148]
+03-27 11:51:33 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 11:51:34 uvicorn.error INFO     Started server process [19700]
+03-27 11:51:34 uvicorn.error INFO     Waiting for application startup.
+03-27 11:51:34 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 11:51:34 uvicorn.error INFO     Application startup complete.
+03-27 11:51:34 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 11:51:36 uvicorn.access INFO     192.168.103.46:51645 - "GET /welcome/ HTTP/1.1" 302
+03-27 11:51:36 uvicorn.access INFO     192.168.103.46:51645 - "GET /home/test/ HTTP/1.1" 200
+03-27 11:56:00 uvicorn.error INFO     Shutting down
+03-27 11:56:00 uvicorn.error INFO     Finished server process [19700]
+03-27 11:56:02 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 11:56:02 uvicorn.error INFO     Started server process [21284]
+03-27 11:56:02 uvicorn.error INFO     Waiting for application startup.
+03-27 11:56:02 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 11:56:02 uvicorn.error INFO     Application startup complete.
+03-27 11:56:02 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 11:56:13 uvicorn.access INFO     192.168.103.46:51673 - "GET /admin/welcome/ HTTP/1.1" 200
+03-27 11:56:13 uvicorn.access INFO     192.168.103.46:51674 - "GET /static/admin/css/base.css HTTP/1.1" 304
+03-27 11:56:13 uvicorn.access INFO     192.168.103.46:51673 - "GET /static/admin/css/dashboard.css HTTP/1.1" 304
+03-27 11:56:13 uvicorn.access INFO     192.168.103.46:51680 - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304
+03-27 11:56:13 uvicorn.access INFO     192.168.103.46:51679 - "GET /static/admin/css/dark_mode.css HTTP/1.1" 304
+03-27 11:56:13 uvicorn.access INFO     192.168.103.46:51681 - "GET /static/admin/css/responsive.css HTTP/1.1" 304
+03-27 11:56:13 uvicorn.access INFO     192.168.103.46:51681 - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304
+03-27 11:56:13 uvicorn.access INFO     192.168.103.46:51679 - "GET /static/admin/js/theme.js HTTP/1.1" 304
+03-27 11:56:13 uvicorn.access INFO     192.168.103.46:51680 - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304
+03-27 11:56:13 uvicorn.access INFO     192.168.103.46:51673 - "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304
+03-27 11:56:18 uvicorn.access INFO     192.168.103.46:51673 - "GET /welcome/ HTTP/1.1" 302
+03-27 11:56:18 uvicorn.access INFO     192.168.103.46:51673 - "GET /home/test/ HTTP/1.1" 200
+03-27 11:56:19 django.request WARNING  Not Found: /adaccount/logout/
+03-27 11:56:19 uvicorn.access INFO     192.168.103.46:51673 - "GET /adaccount/logout/ HTTP/1.1" 404
+03-27 11:57:53 uvicorn.error INFO     Shutting down
+03-27 11:57:53 uvicorn.error INFO     Finished server process [21284]
+03-27 11:57:54 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 11:57:54 uvicorn.error INFO     Started server process [20516]
+03-27 11:57:54 uvicorn.error INFO     Waiting for application startup.
+03-27 11:57:54 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 11:57:54 uvicorn.error INFO     Application startup complete.
+03-27 11:57:54 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 11:57:57 django.request WARNING  Not Found: /adaccount/logout/
+03-27 11:57:57 uvicorn.access INFO     192.168.103.46:51695 - "GET /adaccount/logout/ HTTP/1.1" 404
+03-27 11:58:02 uvicorn.access INFO     192.168.103.46:51695 - "GET /home/test/ HTTP/1.1" 200
+03-27 11:58:05 uvicorn.access INFO     192.168.103.46:51695 - "GET /home/test/ HTTP/1.1" 200
+03-27 11:58:06 django.request WARNING  Not Found: /welcome/logout/
+03-27 11:58:06 uvicorn.access INFO     192.168.103.46:51695 - "GET /welcome/logout/ HTTP/1.1" 404
+03-27 12:00:08 uvicorn.access INFO     192.168.103.46:51710 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:00:10 uvicorn.error INFO     Shutting down
+03-27 12:00:10 uvicorn.error INFO     Finished server process [20516]
+03-27 12:00:11 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 12:00:12 uvicorn.error INFO     Started server process [23444]
+03-27 12:00:12 uvicorn.error INFO     Waiting for application startup.
+03-27 12:00:12 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 12:00:12 uvicorn.error INFO     Application startup complete.
+03-27 12:00:12 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 12:00:13 uvicorn.access INFO     192.168.103.46:51715 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:00:14 uvicorn.access INFO     192.168.103.46:51715 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:00:14 uvicorn.access INFO     192.168.103.46:51715 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:00:15 django.request ERROR    Internal Server Error: /welcome/login/
+Traceback (most recent call last):
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "E:\ANAconda\envs\Django_1\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "E:\python_project\Django\Test1\TSMC\welcome\views.py", line 22, in login
+    return render(request, 'welcome/login.html', locals())
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\defaulttags.py", line 967, in do_if
+    nodelist = parser.parse(("endif",))
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 3: 'if'. Looking for one of: endif.
+03-27 12:00:15 uvicorn.access INFO     192.168.103.46:51715 - "GET /welcome/login/ HTTP/1.1" 500
+03-27 12:01:22 uvicorn.error INFO     Shutting down
+03-27 12:01:22 uvicorn.error INFO     Finished server process [23444]
+03-27 12:01:23 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 12:01:24 uvicorn.error INFO     Started server process [6704]
+03-27 12:01:24 uvicorn.error INFO     Waiting for application startup.
+03-27 12:01:24 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 12:01:24 uvicorn.error INFO     Application startup complete.
+03-27 12:01:24 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 12:01:27 uvicorn.access INFO     192.168.103.46:51725 - "GET /welcome/login/ HTTP/1.1" 200
+03-27 12:01:32 uvicorn.access INFO     192.168.103.46:51725 - "POST /welcome/login/ HTTP/1.1" 302
+03-27 12:01:32 uvicorn.access INFO     192.168.103.46:51725 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:01:33 uvicorn.access INFO     192.168.103.46:51725 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:01:33 uvicorn.access INFO     192.168.103.46:51725 - "GET /welcome/login/ HTTP/1.1" 200
+03-27 12:01:34 django.request ERROR    Internal Server Error: /welcome/register/
+Traceback (most recent call last):
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'eor.0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "E:\ANAconda\envs\Django_1\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "E:\python_project\Django\Test1\TSMC\welcome\views.py", line 47, in register
+    return render(request, 'welcome/register.html', context, locals())
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'eor.0'. Did you forget to register or load this tag?
+03-27 12:01:34 uvicorn.access INFO     192.168.103.46:51725 - "GET /welcome/register/ HTTP/1.1" 500
+03-27 12:02:10 uvicorn.error INFO     Shutting down
+03-27 12:02:11 uvicorn.error INFO     Finished server process [6704]
+03-27 12:02:12 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 12:02:12 uvicorn.error INFO     Started server process [20704]
+03-27 12:02:12 uvicorn.error INFO     Waiting for application startup.
+03-27 12:02:12 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 12:02:12 uvicorn.error INFO     Application startup complete.
+03-27 12:02:12 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 12:02:15 django.request ERROR    Internal Server Error: /welcome/register/
+Traceback (most recent call last):
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'eor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "E:\ANAconda\envs\Django_1\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "E:\python_project\Django\Test1\TSMC\welcome\views.py", line 47, in register
+    return render(request, 'welcome/register.html', context, locals())
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'eor'. Did you forget to register or load this tag?
+03-27 12:02:15 uvicorn.access INFO     192.168.103.46:51734 - "GET /welcome/register/ HTTP/1.1" 500
+03-27 12:02:18 uvicorn.access INFO     192.168.103.46:51734 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 12:02:18 uvicorn.access INFO     192.168.103.46:51734 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:02:20 uvicorn.access INFO     192.168.103.46:51734 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:02:21 uvicorn.access INFO     192.168.103.46:51734 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 12:02:21 uvicorn.access INFO     192.168.103.46:51734 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:02:23 uvicorn.access INFO     192.168.103.46:51734 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:02:23 uvicorn.access INFO     192.168.103.46:51734 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 12:02:23 uvicorn.access INFO     192.168.103.46:51734 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:02:26 uvicorn.access INFO     192.168.103.46:51734 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:02:31 uvicorn.access INFO     192.168.103.46:51735 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:02:35 uvicorn.error INFO     Shutting down
+03-27 12:02:35 uvicorn.error INFO     Finished server process [20704]
+03-27 12:02:38 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 12:02:38 uvicorn.error INFO     Started server process [22060]
+03-27 12:02:38 uvicorn.error INFO     Waiting for application startup.
+03-27 12:02:38 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 12:02:38 uvicorn.error INFO     Application startup complete.
+03-27 12:02:38 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 12:02:39 uvicorn.access INFO     192.168.103.46:51740 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:02:40 uvicorn.access INFO     192.168.103.46:51740 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:02:41 uvicorn.access INFO     192.168.103.46:51740 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 12:02:41 uvicorn.access INFO     192.168.103.46:51740 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:02:41 uvicorn.access INFO     192.168.103.46:51740 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:02:42 uvicorn.access INFO     192.168.103.46:51740 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 12:02:42 uvicorn.access INFO     192.168.103.46:51740 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:02:50 uvicorn.access INFO     192.168.103.46:51741 - "GET /welcome/ HTTP/1.1" 302
+03-27 12:02:50 uvicorn.access INFO     192.168.103.46:51741 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:02:52 uvicorn.access INFO     192.168.103.46:51741 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:02:53 uvicorn.access INFO     192.168.103.46:51741 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 12:02:53 uvicorn.access INFO     192.168.103.46:51741 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:02:58 uvicorn.access INFO     192.168.103.46:51742 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:02:59 uvicorn.access INFO     192.168.103.46:51742 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 12:02:59 uvicorn.access INFO     192.168.103.46:51742 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:03:05 uvicorn.error INFO     Shutting down
+03-27 12:03:05 uvicorn.error INFO     Finished server process [22060]
+03-27 12:03:06 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 12:03:06 uvicorn.error INFO     Started server process [15028]
+03-27 12:03:06 uvicorn.error INFO     Waiting for application startup.
+03-27 12:03:06 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 12:03:06 uvicorn.error INFO     Application startup complete.
+03-27 12:03:06 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 12:03:32 uvicorn.error INFO     Shutting down
+03-27 12:03:32 uvicorn.error INFO     Finished server process [15028]
+03-27 12:03:32 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 12:03:33 uvicorn.error INFO     Started server process [19508]
+03-27 12:03:33 uvicorn.error INFO     Waiting for application startup.
+03-27 12:03:33 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 12:03:33 uvicorn.error INFO     Application startup complete.
+03-27 12:03:33 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 12:03:42 uvicorn.access INFO     192.168.103.46:51751 - "GET /welcome/ HTTP/1.1" 302
+03-27 12:03:42 uvicorn.access INFO     192.168.103.46:51751 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:03:45 uvicorn.access INFO     192.168.103.46:51751 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:03:45 uvicorn.access INFO     192.168.103.46:51751 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 12:03:45 uvicorn.access INFO     192.168.103.46:51751 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:04:01 uvicorn.error INFO     Shutting down
+03-27 12:04:01 uvicorn.error INFO     Finished server process [19508]
+03-27 12:04:04 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 12:04:04 uvicorn.error INFO     Started server process [15856]
+03-27 12:04:04 uvicorn.error INFO     Waiting for application startup.
+03-27 12:04:04 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 12:04:04 uvicorn.error INFO     Application startup complete.
+03-27 12:04:04 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 12:04:06 uvicorn.access INFO     192.168.103.46:51756 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:04:07 uvicorn.access INFO     192.168.103.46:51756 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:04:07 uvicorn.access INFO     192.168.103.46:51756 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 12:04:07 uvicorn.access INFO     192.168.103.46:51756 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:04:51 uvicorn.access INFO     192.168.103.46:51757 - "GET /admin/ HTTP/1.1" 302
+03-27 12:04:51 uvicorn.access INFO     192.168.103.46:51757 - "GET /admin/login/?next=/admin/ HTTP/1.1" 200
+03-27 12:04:51 uvicorn.access INFO     192.168.103.46:51757 - "GET /static/admin/css/login.css HTTP/1.1" 304
+03-27 12:04:55 uvicorn.access INFO     192.168.103.46:51757 - "POST /admin/login/?next=/admin/ HTTP/1.1" 302
+03-27 12:04:55 uvicorn.access INFO     192.168.103.46:51757 - "GET /admin/ HTTP/1.1" 200
+03-27 12:04:57 uvicorn.access INFO     192.168.103.46:51757 - "POST /admin/logout/ HTTP/1.1" 200
+03-27 12:04:58 uvicorn.access INFO     192.168.103.46:51757 - "GET /admin/ HTTP/1.1" 302
+03-27 12:04:58 uvicorn.access INFO     192.168.103.46:51757 - "GET /admin/login/?next=/admin/ HTTP/1.1" 200
+03-27 12:05:02 uvicorn.access INFO     192.168.103.46:51757 - "GET /welcome/ HTTP/1.1" 302
+03-27 12:05:02 uvicorn.access INFO     192.168.103.46:51757 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:05:04 uvicorn.access INFO     192.168.103.46:51757 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:05:05 uvicorn.access INFO     192.168.103.46:51757 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 12:05:05 uvicorn.access INFO     192.168.103.46:51757 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:05:08 uvicorn.access INFO     192.168.103.46:51757 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:05:08 uvicorn.access INFO     192.168.103.46:51757 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 12:05:08 uvicorn.access INFO     192.168.103.46:51757 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:07:14 uvicorn.error INFO     Shutting down
+03-27 12:07:14 uvicorn.error INFO     Finished server process [15856]
+03-27 12:07:20 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 12:07:20 uvicorn.error INFO     Started server process [21876]
+03-27 12:07:20 uvicorn.error INFO     Waiting for application startup.
+03-27 12:07:20 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 12:07:20 uvicorn.error INFO     Application startup complete.
+03-27 12:07:20 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 12:07:20 uvicorn.access INFO     192.168.103.46:51791 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:07:22 uvicorn.access INFO     192.168.103.46:51791 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:07:22 uvicorn.access INFO     192.168.103.46:51791 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 12:07:22 uvicorn.access INFO     192.168.103.46:51791 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:08:13 uvicorn.error INFO     Shutting down
+03-27 12:08:13 uvicorn.error INFO     Finished server process [21876]
+03-27 12:08:27 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 12:08:27 uvicorn.error INFO     Started server process [2744]
+03-27 12:08:27 uvicorn.error INFO     Waiting for application startup.
+03-27 12:08:27 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 12:08:27 uvicorn.error INFO     Application startup complete.
+03-27 12:08:27 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 12:08:27 uvicorn.access INFO     192.168.103.46:51803 - "GET /welcome/ HTTP/1.1" 302
+03-27 12:08:27 uvicorn.access INFO     192.168.103.46:51803 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:08:30 uvicorn.access INFO     192.168.103.46:51803 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:08:31 uvicorn.access INFO     192.168.103.46:51803 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 12:08:31 uvicorn.access INFO     192.168.103.46:51803 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:08:31 uvicorn.access INFO     192.168.103.46:51803 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:08:31 uvicorn.access INFO     192.168.103.46:51803 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 12:08:31 uvicorn.access INFO     192.168.103.46:51803 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:09:22 uvicorn.error INFO     Shutting down
+03-27 12:09:22 uvicorn.error INFO     Finished server process [2744]
+03-27 12:09:27 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 12:09:27 uvicorn.error INFO     Started server process [18664]
+03-27 12:09:27 uvicorn.error INFO     Waiting for application startup.
+03-27 12:09:27 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 12:09:27 uvicorn.error INFO     Application startup complete.
+03-27 12:09:27 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 12:09:29 uvicorn.access INFO     192.168.103.46:51843 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:09:30 uvicorn.access INFO     192.168.103.46:51843 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 12:09:30 uvicorn.access INFO     192.168.103.46:51843 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:09:32 uvicorn.access INFO     192.168.103.46:51843 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:09:32 uvicorn.access INFO     192.168.103.46:51843 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 12:09:32 uvicorn.access INFO     192.168.103.46:51843 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:10:03 uvicorn.error INFO     Shutting down
+03-27 12:10:03 uvicorn.error INFO     Finished server process [18664]
+03-27 12:10:05 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 12:10:06 uvicorn.error INFO     Started server process [20040]
+03-27 12:10:06 uvicorn.error INFO     Waiting for application startup.
+03-27 12:10:06 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 12:10:06 uvicorn.error INFO     Application startup complete.
+03-27 12:10:06 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 12:10:07 uvicorn.access INFO     192.168.103.46:51866 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:10:07 uvicorn.access INFO     192.168.103.46:51866 - "GET /welcome/login/ HTTP/1.1" 200
+03-27 12:10:14 django.request ERROR    Internal Server Error: /welcome/register/
+Traceback (most recent call last):
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'eor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "E:\ANAconda\envs\Django_1\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "E:\python_project\Django\Test1\TSMC\welcome\views.py", line 47, in register
+    return render(request, 'welcome/register.html', context, locals())
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'eor'. Did you forget to register or load this tag?
+03-27 12:10:14 uvicorn.access INFO     192.168.103.46:51867 - "GET /welcome/register/ HTTP/1.1" 500
+03-27 12:13:47 uvicorn.error INFO     Shutting down
+03-27 12:13:47 uvicorn.error INFO     Finished server process [20040]
+03-27 12:16:41 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 12:16:41 uvicorn.error INFO     Started server process [22248]
+03-27 12:16:41 uvicorn.error INFO     Waiting for application startup.
+03-27 12:16:41 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 12:16:41 uvicorn.error INFO     Application startup complete.
+03-27 12:16:41 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 12:16:44 uvicorn.access INFO     192.168.103.46:52101 - "GET /welcome/register/ HTTP/1.1" 200
+03-27 12:17:05 uvicorn.access INFO     192.168.103.46:52102 - "GET /welcome/ HTTP/1.1" 200
+03-27 12:17:08 uvicorn.access INFO     192.168.103.46:52102 - "POST /welcome/ HTTP/1.1" 200
+03-27 12:17:33 uvicorn.error INFO     Shutting down
+03-27 12:17:33 uvicorn.error INFO     Finished server process [22248]
+03-27 12:17:36 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 12:17:36 uvicorn.error INFO     Started server process [2148]
+03-27 12:17:36 uvicorn.error INFO     Waiting for application startup.
+03-27 12:17:36 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 12:17:36 uvicorn.error INFO     Application startup complete.
+03-27 12:17:36 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 12:17:38 uvicorn.access INFO     192.168.103.46:52138 - "POST /welcome/ HTTP/1.1" 302
+03-27 12:17:38 uvicorn.access INFO     192.168.103.46:52138 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:17:39 uvicorn.access INFO     192.168.103.46:52138 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:17:39 uvicorn.access INFO     192.168.103.46:52138 - "GET /home/test/ HTTP/1.1" 302
+03-27 12:17:39 django.request WARNING  Not Found: /accounts/login/
+03-27 12:17:39 uvicorn.access INFO     192.168.103.46:52138 - "GET /accounts/login/?next=/home/test/ HTTP/1.1" 404
+03-27 12:18:17 uvicorn.access INFO     192.168.103.46:52139 - "GET /home/test/ HTTP/1.1" 302
+03-27 12:18:17 django.request WARNING  Not Found: /accounts/login/
+03-27 12:18:17 uvicorn.access INFO     192.168.103.46:52139 - "GET /accounts/login/?next=/home/test/ HTTP/1.1" 404
+03-27 12:18:33 django.request WARNING  Not Found: /welocme/login/
+03-27 12:18:33 uvicorn.access INFO     192.168.103.46:52160 - "GET /welocme/login/ HTTP/1.1" 404
+03-27 12:18:40 django.request WARNING  Not Found: /welocme/login
+03-27 12:18:40 uvicorn.access INFO     192.168.103.46:52170 - "GET /welocme/login HTTP/1.1" 404
+03-27 12:18:45 django.request WARNING  Not Found: /welocme/l
+03-27 12:18:45 uvicorn.access INFO     192.168.103.46:52177 - "GET /welocme/l HTTP/1.1" 404
+03-27 12:18:51 django.request WARNING  Not Found: /welocme/
+03-27 12:18:51 uvicorn.access INFO     192.168.103.46:52180 - "GET /welocme/ HTTP/1.1" 404
+03-27 12:19:15 uvicorn.access INFO     192.168.103.46:52184 - "GET /admin/ HTTP/1.1" 302
+03-27 12:19:15 uvicorn.access INFO     192.168.103.46:52184 - "GET /admin/login/?next=/admin/ HTTP/1.1" 200
+03-27 12:19:15 uvicorn.access INFO     192.168.103.46:52184 - "GET /static/admin/css/base.css HTTP/1.1" 304
+03-27 12:19:15 uvicorn.access INFO     192.168.103.46:52184 - "GET /static/admin/css/dark_mode.css HTTP/1.1" 304
+03-27 12:19:15 uvicorn.access INFO     192.168.103.46:52200 - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304
+03-27 12:19:15 uvicorn.access INFO     192.168.103.46:52201 - "GET /static/admin/css/login.css HTTP/1.1" 304
+03-27 12:19:15 uvicorn.access INFO     192.168.103.46:52202 - "GET /static/admin/css/responsive.css HTTP/1.1" 304
+03-27 12:19:15 uvicorn.access INFO     192.168.103.46:52202 - "GET /static/admin/js/theme.js HTTP/1.1" 304
+03-27 12:19:15 uvicorn.access INFO     192.168.103.46:52201 - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304
+03-27 12:19:18 uvicorn.access INFO     192.168.103.46:52201 - "POST /admin/login/?next=/admin/ HTTP/1.1" 302
+03-27 12:19:18 uvicorn.access INFO     192.168.103.46:52201 - "GET /admin/ HTTP/1.1" 200
+03-27 12:19:18 uvicorn.access INFO     192.168.103.46:52201 - "GET /static/admin/css/dashboard.css HTTP/1.1" 304
+03-27 12:19:18 uvicorn.access INFO     192.168.103.46:52201 - "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304
+03-27 12:19:18 uvicorn.access INFO     192.168.103.46:52202 - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304
+03-27 12:19:19 uvicorn.access INFO     192.168.103.46:52202 - "POST /admin/logout/ HTTP/1.1" 200
+03-27 12:19:20 uvicorn.access INFO     192.168.103.46:52202 - "GET /admin/ HTTP/1.1" 302
+03-27 12:19:20 uvicorn.access INFO     192.168.103.46:52202 - "GET /admin/login/?next=/admin/ HTTP/1.1" 200
+03-27 12:19:28 uvicorn.access INFO     192.168.103.46:52214 - "GET /welcome/ HTTP/1.1" 302
+03-27 12:19:28 uvicorn.access INFO     192.168.103.46:52214 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:19:30 uvicorn.access INFO     192.168.103.46:52214 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:19:30 uvicorn.access INFO     192.168.103.46:52214 - "GET /home/test/ HTTP/1.1" 302
+03-27 12:19:30 django.request WARNING  Not Found: /accounts/login/
+03-27 12:19:30 uvicorn.access INFO     192.168.103.46:52214 - "GET /accounts/login/?next=/home/test/ HTTP/1.1" 404
+03-27 12:20:49 uvicorn.error INFO     Shutting down
+03-27 12:20:49 uvicorn.error INFO     Finished server process [2148]
+03-27 12:20:53 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 12:20:53 uvicorn.error INFO     Started server process [17480]
+03-27 12:20:53 uvicorn.error INFO     Waiting for application startup.
+03-27 12:20:53 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 12:20:53 uvicorn.error INFO     Application startup complete.
+03-27 12:20:53 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 12:20:56 django.request WARNING  Not Found: /accounts/login/
+03-27 12:20:56 uvicorn.access INFO     192.168.103.46:52269 - "GET /accounts/login/?next=/home/test/ HTTP/1.1" 404
+03-27 12:20:57 django.request WARNING  Not Found: /accounts/login/
+03-27 12:20:57 uvicorn.access INFO     192.168.103.46:52269 - "GET /accounts/login/?next=/home/test/ HTTP/1.1" 404
+03-27 12:21:08 uvicorn.access INFO     192.168.103.46:52270 - "GET /welcome/ HTTP/1.1" 302
+03-27 12:21:08 uvicorn.access INFO     192.168.103.46:52270 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:21:09 uvicorn.access INFO     192.168.103.46:52270 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:21:09 uvicorn.access INFO     192.168.103.46:52270 - "GET /home/test/ HTTP/1.1" 302
+03-27 12:21:09 uvicorn.access INFO     192.168.103.46:52270 - "GET /welcome/login?next=/home/test/ HTTP/1.1" 301
+03-27 12:21:10 uvicorn.access INFO     192.168.103.46:52270 - "GET /welcome/login/?next=/home/test/ HTTP/1.1" 302
+03-27 12:21:10 uvicorn.access INFO     192.168.103.46:52270 - "GET /home/test/ HTTP/1.1" 200
+03-27 12:21:11 uvicorn.access INFO     192.168.103.46:52270 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 12:21:11 uvicorn.access INFO     192.168.103.46:52270 - "GET /home/test/ HTTP/1.1" 302
+03-27 12:21:11 uvicorn.access INFO     192.168.103.46:52270 - "GET /welcome/login/?next=/home/test/ HTTP/1.1" 302
+03-27 12:21:11 uvicorn.access INFO     192.168.103.46:52270 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:09:32 uvicorn.access INFO     192.168.103.46:52446 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:09:32 uvicorn.access INFO     192.168.103.46:52446 - "GET /home/test/ HTTP/1.1" 302
+03-27 13:09:32 uvicorn.access INFO     192.168.103.46:52446 - "GET /welcome/login/?next=/home/test/ HTTP/1.1" 302
+03-27 13:09:32 uvicorn.access INFO     192.168.103.46:52446 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:19:08 uvicorn.error INFO     Shutting down
+03-27 13:19:08 uvicorn.error INFO     Finished server process [17480]
+03-27 13:19:13 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 13:19:13 uvicorn.error INFO     Started server process [4184]
+03-27 13:19:13 uvicorn.error INFO     Waiting for application startup.
+03-27 13:19:13 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 13:19:13 uvicorn.error INFO     Application startup complete.
+03-27 13:19:13 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 13:19:18 uvicorn.access INFO     192.168.103.46:63388 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:19:20 uvicorn.access INFO     192.168.103.46:63388 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:19:20 uvicorn.access INFO     192.168.103.46:63388 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:20:47 uvicorn.error INFO     Shutting down
+03-27 13:20:47 uvicorn.error INFO     Finished server process [4184]
+03-27 13:20:48 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 13:20:48 uvicorn.error INFO     Started server process [25980]
+03-27 13:20:48 uvicorn.error INFO     Waiting for application startup.
+03-27 13:20:48 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 13:20:48 uvicorn.error INFO     Application startup complete.
+03-27 13:20:48 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 13:20:52 uvicorn.access INFO     192.168.103.46:63440 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:20:53 uvicorn.access INFO     192.168.103.46:63440 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 13:20:53 uvicorn.access INFO     192.168.103.46:63440 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:20:54 uvicorn.access INFO     192.168.103.46:63440 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:20:54 uvicorn.access INFO     192.168.103.46:63440 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:20:56 uvicorn.access INFO     192.168.103.46:63440 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 13:20:56 uvicorn.access INFO     192.168.103.46:63440 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:20:57 uvicorn.access INFO     192.168.103.46:63440 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:20:57 uvicorn.access INFO     192.168.103.46:63440 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:21:05 uvicorn.access INFO     192.168.103.46:63441 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 13:21:05 uvicorn.access INFO     192.168.103.46:63441 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:22:58 uvicorn.access INFO     192.168.103.45:58730 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:22:58 django.request WARNING  Not Found: /favicon.ico
+03-27 13:22:58 uvicorn.access INFO     192.168.103.45:58730 - "GET /favicon.ico HTTP/1.1" 404
+03-27 13:23:00 uvicorn.access INFO     192.168.103.45:58730 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 13:23:00 uvicorn.access INFO     192.168.103.45:58730 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:23:01 uvicorn.access INFO     192.168.103.45:58730 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:23:01 uvicorn.access INFO     192.168.103.45:58730 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:23:02 uvicorn.access INFO     192.168.103.45:58730 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 13:23:02 uvicorn.access INFO     192.168.103.45:58730 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:23:05 uvicorn.access INFO     192.168.103.45:58730 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:23:05 uvicorn.access INFO     192.168.103.45:58730 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:26:18 uvicorn.error INFO     Shutting down
+03-27 13:26:18 uvicorn.error INFO     Finished server process [25980]
+03-27 13:26:20 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 13:26:20 uvicorn.error INFO     Started server process [24684]
+03-27 13:26:20 uvicorn.error INFO     Waiting for application startup.
+03-27 13:26:20 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 13:26:20 uvicorn.error INFO     Application startup complete.
+03-27 13:26:20 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 13:26:24 uvicorn.access INFO     192.168.103.46:63628 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:26:24 uvicorn.access INFO     192.168.103.46:63628 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:26:25 uvicorn.access INFO     192.168.103.46:63628 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 13:26:25 uvicorn.access INFO     192.168.103.46:63628 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:26:26 uvicorn.access INFO     192.168.103.46:63628 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:26:26 uvicorn.access INFO     192.168.103.46:63628 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:27:52 uvicorn.error INFO     Shutting down
+03-27 13:27:52 uvicorn.error INFO     Finished server process [24684]
+03-27 13:27:53 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 13:27:53 uvicorn.error INFO     Started server process [20312]
+03-27 13:27:53 uvicorn.error INFO     Waiting for application startup.
+03-27 13:27:53 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 13:27:53 uvicorn.error INFO     Application startup complete.
+03-27 13:27:53 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 13:27:55 uvicorn.access INFO     192.168.103.46:63682 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 13:27:55 uvicorn.access INFO     192.168.103.46:63682 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:27:56 uvicorn.access INFO     192.168.103.46:63682 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:27:56 uvicorn.access INFO     192.168.103.46:63682 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:28:03 uvicorn.access INFO     192.168.103.46:63683 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 13:28:03 uvicorn.access INFO     192.168.103.46:63683 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:30:17 uvicorn.error INFO     Shutting down
+03-27 13:30:17 uvicorn.error INFO     Finished server process [20312]
+03-27 13:30:18 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 13:30:18 uvicorn.error INFO     Started server process [8116]
+03-27 13:30:18 uvicorn.error INFO     Waiting for application startup.
+03-27 13:30:18 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 13:30:18 uvicorn.error INFO     Application startup complete.
+03-27 13:30:18 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 13:30:22 uvicorn.access INFO     192.168.103.46:63766 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:30:23 uvicorn.access INFO     192.168.103.46:63766 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:30:23 uvicorn.access INFO     192.168.103.46:63766 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:30:24 uvicorn.access INFO     192.168.103.46:63766 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 13:30:24 uvicorn.access INFO     192.168.103.46:63766 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:30:24 uvicorn.access INFO     192.168.103.46:63766 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:30:24 uvicorn.access INFO     192.168.103.46:63766 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:30:25 uvicorn.access INFO     192.168.103.46:63766 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 13:30:25 uvicorn.access INFO     192.168.103.46:63766 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:31:23 uvicorn.error INFO     Shutting down
+03-27 13:31:23 uvicorn.error INFO     Finished server process [8116]
+03-27 13:31:24 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 13:31:25 uvicorn.error INFO     Started server process [21220]
+03-27 13:31:25 uvicorn.error INFO     Waiting for application startup.
+03-27 13:31:25 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 13:31:25 uvicorn.error INFO     Application startup complete.
+03-27 13:31:25 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 13:31:27 uvicorn.access INFO     192.168.103.46:63804 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:31:27 uvicorn.access INFO     192.168.103.46:63804 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:31:28 uvicorn.access INFO     192.168.103.46:63804 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 13:31:28 uvicorn.access INFO     192.168.103.46:63804 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:32:09 uvicorn.access INFO     192.168.103.46:63805 - "GET /welcome/ HTTP/1.1" 302
+03-27 13:32:09 uvicorn.access INFO     192.168.103.46:63805 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:32:57 uvicorn.access INFO     192.168.103.46:63832 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:33:00 uvicorn.access INFO     192.168.103.46:63832 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 13:33:00 uvicorn.access INFO     192.168.103.46:63832 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:33:07 uvicorn.access INFO     192.168.103.46:63859 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:33:07 uvicorn.access INFO     192.168.103.46:63859 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:33:15 uvicorn.access INFO     192.168.103.46:63866 - "GET /admin/ HTTP/1.1" 302
+03-27 13:33:15 uvicorn.access INFO     192.168.103.46:63866 - "GET /admin/login/?next=/admin/ HTTP/1.1" 200
+03-27 13:33:15 uvicorn.access INFO     192.168.103.46:63866 - "GET /static/admin/css/base.css HTTP/1.1" 304
+03-27 13:33:15 uvicorn.access INFO     192.168.103.46:63870 - "GET /static/admin/css/dark_mode.css HTTP/1.1" 304
+03-27 13:33:15 uvicorn.access INFO     192.168.103.46:63871 - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304
+03-27 13:33:15 uvicorn.access INFO     192.168.103.46:63872 - "GET /static/admin/css/login.css HTTP/1.1" 304
+03-27 13:33:15 uvicorn.access INFO     192.168.103.46:63874 - "GET /static/admin/js/theme.js HTTP/1.1" 304
+03-27 13:33:15 uvicorn.access INFO     192.168.103.46:63873 - "GET /static/admin/css/responsive.css HTTP/1.1" 304
+03-27 13:33:15 uvicorn.access INFO     192.168.103.46:63870 - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304
+03-27 13:33:18 uvicorn.access INFO     192.168.103.46:63870 - "POST /admin/login/?next=/admin/ HTTP/1.1" 302
+03-27 13:33:18 uvicorn.access INFO     192.168.103.46:63870 - "GET /admin/ HTTP/1.1" 200
+03-27 13:33:18 uvicorn.access INFO     192.168.103.46:63870 - "GET /static/admin/css/dashboard.css HTTP/1.1" 304
+03-27 13:33:18 uvicorn.access INFO     192.168.103.46:63870 - "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304
+03-27 13:33:18 uvicorn.access INFO     192.168.103.46:63873 - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304
+03-27 13:33:21 django.request WARNING  Not Found: /catalog/
+03-27 13:33:21 uvicorn.access INFO     192.168.103.46:63873 - "GET /catalog/ HTTP/1.1" 404
+03-27 13:33:25 uvicorn.access INFO     192.168.103.46:63873 - "GET /admin/ HTTP/1.1" 200
+03-27 13:33:30 uvicorn.access INFO     192.168.103.46:63873 - "POST /admin/logout/ HTTP/1.1" 200
+03-27 13:33:32 uvicorn.access INFO     192.168.103.46:63873 - "GET /admin/ HTTP/1.1" 302
+03-27 13:33:32 uvicorn.access INFO     192.168.103.46:63873 - "GET /admin/login/?next=/admin/ HTTP/1.1" 200
+03-27 13:33:35 uvicorn.access INFO     192.168.103.46:63873 - "POST /admin/login/?next=/admin/ HTTP/1.1" 302
+03-27 13:33:35 uvicorn.access INFO     192.168.103.46:63873 - "GET /admin/ HTTP/1.1" 200
+03-27 13:33:44 uvicorn.access INFO     192.168.103.46:63886 - "GET /welcome/ HTTP/1.1" 302
+03-27 13:33:44 uvicorn.access INFO     192.168.103.46:63886 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:33:48 uvicorn.access INFO     192.168.103.46:63886 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:33:48 uvicorn.access INFO     192.168.103.46:63886 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:33:49 uvicorn.access INFO     192.168.103.46:63886 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 13:33:49 uvicorn.access INFO     192.168.103.46:63886 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:33:50 uvicorn.access INFO     192.168.103.46:63886 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:33:50 uvicorn.access INFO     192.168.103.46:63886 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:35:17 uvicorn.error INFO     Shutting down
+03-27 13:35:17 uvicorn.error INFO     Finished server process [21220]
+03-27 13:35:18 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 13:35:18 uvicorn.error INFO     Started server process [18656]
+03-27 13:35:18 uvicorn.error INFO     Waiting for application startup.
+03-27 13:35:18 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 13:35:18 uvicorn.error INFO     Application startup complete.
+03-27 13:35:18 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 13:35:27 uvicorn.access INFO     192.168.103.46:63957 - "GET /welcome/login/ HTTP/1.1" 200
+03-27 13:35:36 uvicorn.access INFO     192.168.103.46:63958 - "POST /welcome/login/ HTTP/1.1" 200
+03-27 13:35:42 uvicorn.access INFO     192.168.103.46:63964 - "GET /welcome/register/ HTTP/1.1" 200
+03-27 13:39:01 uvicorn.access INFO     192.168.103.46:64085 - "GET /admin/ HTTP/1.1" 302
+03-27 13:39:01 uvicorn.access INFO     192.168.103.46:64085 - "GET /admin/login/?next=/admin/ HTTP/1.1" 200
+03-27 13:39:04 uvicorn.access INFO     192.168.103.46:64085 - "POST /admin/login/?next=/admin/ HTTP/1.1" 302
+03-27 13:39:04 uvicorn.access INFO     192.168.103.46:64085 - "GET /admin/ HTTP/1.1" 200
+03-27 13:39:06 uvicorn.access INFO     192.168.103.46:64085 - "GET /admin/welcome/account/ HTTP/1.1" 200
+03-27 13:39:06 uvicorn.access INFO     192.168.103.46:64085 - "GET /static/admin/css/changelists.css HTTP/1.1" 304
+03-27 13:39:06 uvicorn.access INFO     192.168.103.46:64092 - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304
+03-27 13:39:06 uvicorn.access INFO     192.168.103.46:64093 - "GET /static/admin/js/jquery.init.js HTTP/1.1" 304
+03-27 13:39:06 uvicorn.access INFO     192.168.103.46:64094 - "GET /static/admin/js/core.js HTTP/1.1" 304
+03-27 13:39:06 uvicorn.access INFO     192.168.103.46:64095 - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304
+03-27 13:39:06 uvicorn.access INFO     192.168.103.46:64086 - "GET /admin/jsi18n/ HTTP/1.1" 200
+03-27 13:39:06 uvicorn.access INFO     192.168.103.46:64085 - "GET /static/admin/js/urlify.js HTTP/1.1" 304
+03-27 13:39:06 uvicorn.access INFO     192.168.103.46:64092 - "GET /static/admin/js/prepopulate.js HTTP/1.1" 304
+03-27 13:39:06 uvicorn.access INFO     192.168.103.46:64094 - "GET /static/admin/js/actions.js HTTP/1.1" 304
+03-27 13:39:06 uvicorn.access INFO     192.168.103.46:64093 - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304
+03-27 13:39:06 uvicorn.access INFO     192.168.103.46:64095 - "GET /static/admin/img/search.svg HTTP/1.1" 304
+03-27 13:39:06 uvicorn.access INFO     192.168.103.46:64095 - "GET /static/admin/js/filters.js HTTP/1.1" 304
+03-27 13:39:06 uvicorn.access INFO     192.168.103.46:64095 - "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304
+03-27 13:39:08 uvicorn.access INFO     192.168.103.46:64095 - "GET /admin/auth/user/ HTTP/1.1" 200
+03-27 13:39:08 uvicorn.access INFO     192.168.103.46:64093 - "GET /admin/jsi18n/ HTTP/1.1" 200
+03-27 13:39:08 uvicorn.access INFO     192.168.103.46:64095 - "GET /static/admin/img/icon-no.svg HTTP/1.1" 200
+03-27 13:39:08 uvicorn.access INFO     192.168.103.46:64094 - "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200
+03-27 13:39:08 uvicorn.access INFO     192.168.103.46:64093 - "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200
+03-27 13:39:26 uvicorn.access INFO     192.168.103.46:64107 - "POST /admin/auth/user/ HTTP/1.1" 302
+03-27 13:39:26 uvicorn.access INFO     192.168.103.46:64107 - "GET /admin/auth/user/ HTTP/1.1" 200
+03-27 13:39:26 uvicorn.access INFO     192.168.103.46:64107 - "GET /admin/jsi18n/ HTTP/1.1" 200
+03-27 13:39:26 uvicorn.access INFO     192.168.103.46:64107 - "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200
+03-27 13:39:31 uvicorn.access INFO     192.168.103.46:64107 - "POST /admin/auth/user/ HTTP/1.1" 200
+03-27 13:39:31 uvicorn.access INFO     192.168.103.46:64107 - "GET /static/admin/js/cancel.js HTTP/1.1" 200
+03-27 13:39:32 uvicorn.access INFO     192.168.103.46:64107 - "POST /admin/auth/user/ HTTP/1.1" 302
+03-27 13:39:32 uvicorn.access INFO     192.168.103.46:64107 - "GET /admin/auth/user/ HTTP/1.1" 200
+03-27 13:39:32 uvicorn.access INFO     192.168.103.46:64107 - "GET /admin/jsi18n/ HTTP/1.1" 200
+03-27 13:40:19 uvicorn.error INFO     Shutting down
+03-27 13:40:19 uvicorn.error INFO     Finished server process [18656]
+03-27 13:40:23 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 13:40:23 uvicorn.error INFO     Started server process [20848]
+03-27 13:40:23 uvicorn.error INFO     Waiting for application startup.
+03-27 13:40:23 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 13:40:23 uvicorn.error INFO     Application startup complete.
+03-27 13:40:23 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 13:40:26 uvicorn.access INFO     192.168.103.46:64146 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 13:40:26 uvicorn.access INFO     192.168.103.46:64146 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:40:27 uvicorn.access INFO     192.168.103.46:64146 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:40:27 uvicorn.access INFO     192.168.103.46:64146 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:40:28 uvicorn.access INFO     192.168.103.46:64146 - "GET /welcome/login/ HTTP/1.1" 200
+03-27 13:40:31 uvicorn.access INFO     192.168.103.46:64146 - "POST /welcome/login/ HTTP/1.1" 302
+03-27 13:40:31 uvicorn.access INFO     192.168.103.46:64146 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:40:32 uvicorn.access INFO     192.168.103.46:64146 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:40:32 uvicorn.access INFO     192.168.103.46:64146 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:40:33 uvicorn.access INFO     192.168.103.46:64146 - "GET /welcome/login/ HTTP/1.1" 200
+03-27 13:40:36 uvicorn.access INFO     192.168.103.46:64146 - "GET /welcome/register/ HTTP/1.1" 200
+03-27 13:40:39 uvicorn.access INFO     192.168.103.46:64146 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 13:40:39 uvicorn.access INFO     192.168.103.46:64146 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:40:53 uvicorn.access INFO     192.168.103.46:64147 - "GET /admin/auth/user/ HTTP/1.1" 302
+03-27 13:40:53 uvicorn.access INFO     192.168.103.46:64147 - "GET /admin/login/?next=/admin/auth/user/ HTTP/1.1" 200
+03-27 13:40:55 uvicorn.access INFO     192.168.103.46:64147 - "POST /admin/login/?next=/admin/auth/user/ HTTP/1.1" 302
+03-27 13:40:55 uvicorn.access INFO     192.168.103.46:64147 - "GET /admin/auth/user/ HTTP/1.1" 200
+03-27 13:40:55 uvicorn.access INFO     192.168.103.46:64147 - "GET /admin/jsi18n/ HTTP/1.1" 200
+03-27 13:41:22 uvicorn.access INFO     192.168.103.46:64160 - "POST /admin/auth/user/ HTTP/1.1" 200
+03-27 13:41:23 uvicorn.access INFO     192.168.103.46:64160 - "POST /admin/auth/user/ HTTP/1.1" 302
+03-27 13:41:24 uvicorn.access INFO     192.168.103.46:64160 - "GET /admin/auth/user/ HTTP/1.1" 200
+03-27 13:41:24 uvicorn.access INFO     192.168.103.46:64160 - "GET /admin/jsi18n/ HTTP/1.1" 200
+03-27 13:42:03 uvicorn.error INFO     Shutting down
+03-27 13:42:03 uvicorn.error INFO     Finished server process [20848]
+03-27 13:42:05 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 13:42:05 uvicorn.error INFO     Started server process [18752]
+03-27 13:42:05 uvicorn.error INFO     Waiting for application startup.
+03-27 13:42:05 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 13:42:05 uvicorn.error INFO     Application startup complete.
+03-27 13:42:05 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 13:42:09 uvicorn.access INFO     192.168.103.46:64201 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:42:09 uvicorn.access INFO     192.168.103.46:64201 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:42:10 uvicorn.access INFO     192.168.103.46:64201 - "GET /welcome/login/ HTTP/1.1" 200
+03-27 13:42:11 uvicorn.access INFO     192.168.103.46:64201 - "GET /welcome/register/ HTTP/1.1" 200
+03-27 13:42:20 uvicorn.access INFO     192.168.103.46:64202 - "POST /welcome/register/ HTTP/1.1" 302
+03-27 13:42:20 uvicorn.access INFO     192.168.103.46:64202 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:42:22 uvicorn.access INFO     192.168.103.46:64202 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:42:22 uvicorn.access INFO     192.168.103.46:64202 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:42:23 uvicorn.access INFO     192.168.103.46:64202 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 13:42:23 uvicorn.access INFO     192.168.103.46:64202 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:42:23 uvicorn.access INFO     192.168.103.46:64202 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:42:23 uvicorn.access INFO     192.168.103.46:64202 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:42:24 uvicorn.access INFO     192.168.103.46:64202 - "GET /welcome/login/ HTTP/1.1" 302
+03-27 13:42:24 uvicorn.access INFO     192.168.103.46:64202 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:42:27 uvicorn.access INFO     192.168.103.46:64202 - "GET /admin/auth/user/ HTTP/1.1" 302
+03-27 13:42:27 uvicorn.access INFO     192.168.103.46:64202 - "GET /admin/login/?next=/admin/auth/user/ HTTP/1.1" 200
+03-27 13:42:31 uvicorn.access INFO     192.168.103.46:64202 - "POST /admin/login/?next=/admin/auth/user/ HTTP/1.1" 302
+03-27 13:42:31 uvicorn.access INFO     192.168.103.46:64202 - "GET /admin/auth/user/ HTTP/1.1" 200
+03-27 13:42:31 uvicorn.access INFO     192.168.103.46:64202 - "GET /admin/jsi18n/ HTTP/1.1" 200
+03-27 13:42:35 uvicorn.access INFO     192.168.103.46:64202 - "POST /admin/auth/user/ HTTP/1.1" 200
+03-27 13:42:36 uvicorn.access INFO     192.168.103.46:64202 - "POST /admin/auth/user/ HTTP/1.1" 302
+03-27 13:42:36 uvicorn.access INFO     192.168.103.46:64202 - "GET /admin/auth/user/ HTTP/1.1" 200
+03-27 13:42:36 uvicorn.access INFO     192.168.103.46:64202 - "GET /admin/jsi18n/ HTTP/1.1" 200
+03-27 13:46:35 uvicorn.access INFO     192.168.103.46:64347 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:46:35 uvicorn.access INFO     192.168.103.46:64347 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:46:43 uvicorn.access INFO     192.168.103.46:64348 - "GET /welcome/login/ HTTP/1.1" 200
+03-27 13:46:49 uvicorn.access INFO     192.168.103.46:64354 - "POST /welcome/login/ HTTP/1.1" 200
+03-27 13:46:53 uvicorn.access INFO     192.168.103.46:64354 - "POST /welcome/login/ HTTP/1.1" 302
+03-27 13:46:53 uvicorn.access INFO     192.168.103.46:64354 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:48:39 uvicorn.access INFO     192.168.103.46:64415 - "GET /welcome/logout/ HTTP/1.1" 302
+03-27 13:48:39 uvicorn.access INFO     192.168.103.46:64415 - "GET /home/test/ HTTP/1.1" 200
+03-27 13:48:41 uvicorn.error INFO     Shutting down
+03-27 13:48:41 uvicorn.error INFO     Finished server process [18752]
+03-27 13:48:42 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 13:48:42 uvicorn.error INFO     Started server process [21756]
+03-27 13:48:42 uvicorn.error INFO     Waiting for application startup.
+03-27 13:48:42 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 13:48:42 uvicorn.error INFO     Application startup complete.
+03-27 13:48:42 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 13:48:43 uvicorn.access INFO     192.168.103.46:64421 - "GET /welcome/login/ HTTP/1.1" 200
+03-27 13:48:44 uvicorn.access INFO     192.168.103.46:64421 - "GET /welcome/register/ HTTP/1.1" 200
+03-27 13:54:45 uvicorn.error INFO     Shutting down
+03-27 13:54:45 uvicorn.error INFO     Finished server process [21756]
+03-27 13:54:46 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 13:54:46 uvicorn.error INFO     Started server process [25004]
+03-27 13:54:46 uvicorn.error INFO     Waiting for application startup.
+03-27 13:54:46 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 13:54:46 uvicorn.error INFO     Application startup complete.
+03-27 13:54:46 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 13:54:49 uvicorn.access INFO     192.168.103.46:64607 - "POST /welcome/register/ HTTP/1.1" 200
+03-27 13:54:51 uvicorn.access INFO     192.168.103.46:64607 - "GET /welcome/register/ HTTP/1.1" 200
+03-27 13:54:53 uvicorn.access INFO     192.168.103.46:64607 - "GET /welcome/register/ HTTP/1.1" 200
+03-27 13:55:13 uvicorn.error INFO     Shutting down
+03-27 13:55:14 uvicorn.error INFO     Finished server process [25004]
+03-27 13:55:14 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC']
+03-27 13:55:15 uvicorn.error INFO     Started server process [7944]
+03-27 13:55:15 uvicorn.error INFO     Waiting for application startup.
+03-27 13:55:15 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-27 13:55:15 uvicorn.error INFO     Application startup complete.
+03-27 13:55:15 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+03-27 13:55:17 uvicorn.access INFO     192.168.103.46:64626 - "GET /welcome/register/ HTTP/1.1" 200
+03-27 13:56:11 uvicorn.access INFO     192.168.103.46:64627 - "POST /welcome/register/ HTTP/1.1" 200
+03-27 13:56:14 uvicorn.access INFO     192.168.103.46:64627 - "POST /welcome/register/ HTTP/1.1" 200
+03-27 14:43:09 django.request WARNING  Not Found: /st
+03-27 14:43:09 uvicorn.access INFO     192.168.103.46:49731 - "GET /st HTTP/1.1" 404
+03-27 14:43:17 uvicorn.access INFO     192.168.103.46:49732 - "GET /static HTTP/1.1" 301
+03-27 14:43:17 django.request WARNING  Not Found: /static/
+03-27 14:43:17 uvicorn.access INFO     192.168.103.46:49732 - "GET /static/ HTTP/1.1" 404
+03-27 14:43:31 django.request WARNING  Not Found: /^static/
+03-27 14:43:31 uvicorn.access INFO     192.168.103.46:49740 - "GET /%5Estatic/ HTTP/1.1" 404
+03-27 14:48:35 django.request WARNING  Not Found: /static/
+03-27 14:48:35 uvicorn.access INFO     192.168.103.46:49921 - "GET /static/ HTTP/1.1" 404
+03-27 16:13:13 uvicorn.error INFO     Shutting down
+03-27 16:13:13 uvicorn.error INFO     Finished server process [7944]

@@ -1,0 +1,33 @@
+08-21 16:05:02 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-21 16:05:03 uvicorn.error INFO     Started server process [24352]
+08-21 16:05:03 uvicorn.error INFO     Waiting for application startup.
+08-21 16:05:03 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-21 16:05:03 uvicorn.error INFO     Application startup complete.
+08-21 16:05:03 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-21 16:05:07 uvicorn.access INFO     26.37.7.101:51307 - "GET / HTTP/1.1" 302
+08-21 16:05:07 uvicorn.access INFO     26.37.7.101:51307 - "GET /home/ HTTP/1.1" 200
+08-21 16:05:07 uvicorn.access INFO     26.37.7.101:51308 - "GET /static/assets/img/background.jpg HTTP/1.1" 304
+08-21 16:05:07 uvicorn.access INFO     26.37.7.101:51307 - "GET /static/assets/img/output.gif HTTP/1.1" 304
+08-21 16:05:08 django.request WARNING  Not Found: /favicon.ico
+08-21 16:05:08 uvicorn.access INFO     26.37.7.101:51307 - "GET /favicon.ico HTTP/1.1" 404
+08-21 16:05:14 uvicorn.access INFO     26.37.7.101:51319 - "GET /home/ HTTP/1.1" 200
+08-21 16:05:14 uvicorn.access INFO     26.37.7.101:51319 - "GET /static/assets/img/output.gif HTTP/1.1" 200
+08-21 16:05:14 uvicorn.access INFO     26.37.7.101:51320 - "GET /static/assets/img/background.jpg HTTP/1.1" 200
+08-21 16:05:14 django.request WARNING  Not Found: /favicon.ico
+08-21 16:05:14 uvicorn.access INFO     26.37.7.101:51320 - "GET /favicon.ico HTTP/1.1" 404
+08-21 16:05:19 uvicorn.error INFO     Shutting down
+08-21 16:05:19 uvicorn.error INFO     Finished server process [24352]
+08-21 20:30:38 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-21 20:30:39 uvicorn.error INFO     Started server process [5956]
+08-21 20:30:39 uvicorn.error INFO     Waiting for application startup.
+08-21 20:30:39 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-21 20:30:39 uvicorn.error INFO     Application startup complete.
+08-21 20:30:39 uvicorn.error INFO     Uvicorn running on http://192.168.241.102:80 (Press CTRL+C to quit)
+08-21 20:30:43 uvicorn.access INFO     192.168.241.102:55631 - "GET / HTTP/1.1" 302
+08-21 20:30:43 uvicorn.access INFO     192.168.241.102:55631 - "GET /home/ HTTP/1.1" 200
+08-21 20:30:43 uvicorn.access INFO     192.168.241.102:55631 - "GET /static/assets/img/output.gif HTTP/1.1" 200
+08-21 20:30:43 uvicorn.access INFO     192.168.241.102:55631 - "GET /static/assets/img/background.jpg HTTP/1.1" 200
+08-21 20:30:43 django.request WARNING  Not Found: /favicon.ico
+08-21 20:30:43 uvicorn.access INFO     192.168.241.102:55631 - "GET /favicon.ico HTTP/1.1" 404
+08-21 20:30:47 uvicorn.error INFO     Shutting down
+08-21 20:30:47 uvicorn.error INFO     Finished server process [5956]

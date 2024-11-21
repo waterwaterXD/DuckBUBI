@@ -1,0 +1,210 @@
+{% extends "base_generic.html" %}
+
+{% block title %}
+<title>榮譽榜</title>
+{% endblock %}
+
+{% block content %}
+<style>
+    .btn-custom1 {
+        margin-left: 15px;
+        font-size: 16px;
+        border-radius: 25px;
+        width: 70px;
+        color: #fff;
+        border: 1px solid #cd0000;
+        background-color: #cd0000;
+        transition: background-color 0.5s;
+    }
+    
+    .btn-custom1:hover {
+        color: #fff;
+        background-color: #950000;
+        border: 1px solid #950000;
+    }
+
+    .btn-custom2 {
+        float: right;
+        font-size: 16px;
+        border-radius: 25px;
+        width: 70px;
+        color: #cd0000;
+        border: 1px solid #cd0000;
+        background-color: #fff;
+        transition: background-color 0.5s;
+    }
+    
+    .btn-custom2:hover {
+        color: #fff;
+        background-color: #cd0000;
+        border: 1px solid #cd0000;
+    }
+
+    .coursename {
+        font-size: 24px;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    select {
+        font-size: 18px;
+        border: 1px solid #70707060;
+        height: 50px;
+        border-radius: 3px;
+        color: #707070;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    label{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .student-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+        height: 395px;
+        width: 395px;
+        border-color: #70707050;
+    }
+
+    .rank-icon1 {
+        width: 100px;
+        height: 100px;
+        margin-top: 25px;
+    }
+
+    .rank-icon2 {
+        width: 50px;
+        height: auto;
+    }
+
+    .rank {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .student-score {
+        margin-top: 10px;
+        font-size: 30px;
+        color: #333333;
+    }
+
+    .student-score1 {
+        margin-top: 10px;
+        font-size: 20px;
+        color: #666666;
+    }
+
+    .student-score2 {
+        font-size: 20px;
+        color: #666666;
+        margin: 20px;
+    }
+</style>
+</head>
+
+<body>
+
+<main id="main">
+
+    <section id="home" class="text-center" style="display: flex; justify-content: center; align-items: center; width: 100hv; height: 100hv;">
+        <div class="container d-flex justify-content-center align-items-center" style="flex-direction: column; margin-top: 30px; margin-bottom: 30px;" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="400">
+            <div class="col-md-12 float-end">
+                <a href="/home/"><button type="button" class="btn btn-custom2">返回</button></a>
+            </div>
+            <h2 class="mt-4 mb-4 fw-bold">榮譽榜</h2>
+            <div class="text-center">
+                <form method="get" action="">
+                    <label for="course_number">選擇課程：</label>
+                    <select id="course_number" name="course_number">
+                        <option value="">所有課程</option>
+                        {% for course in all_courses %}
+                            <option value="{{ course.coursenumber }}" {% if course.coursenumber == selected_course_number %}selected{% endif %}>{{ course.coursenumber }} - {{ course.coursename }}</option>
+                        {% endfor %}
+                    </select>
+                    <button type="submit" class="btn btn-custom1">篩選</button>
+                </form>
+            </div>
+                    
+            <div class="text-center">
+                {% if top_students_by_course %}
+                {% for course, student_info in top_students_by_course %}
+                <p class="coursename mt-4 mb-3 fw-bold">課程名稱：&nbsp;{{ course.coursenumber }} - {{ course.coursename }}</p>
+                <div class="d-flex flex-wrap">
+                    {% for rank, student in student_info %}
+                        {% if rank <= 3 %}
+                            <div class="student-info">
+                                {% load static %}
+                                <div class="row">
+                                    <div class="card">
+                                        <div class="text-center">
+                                            {% if rank == 1 %}
+                                                <img class="rank-icon1" src="{% static 'assets/img/gold-medal.png' %}" alt="第一名">
+                                            {% elif rank == 2 %}
+                                                <img class="rank-icon1" src="{% static 'assets/img/silver-medal.png' %}" alt="第二名">
+                                            {% elif rank == 3 %}
+                                                <img class="rank-icon1" src="{% static 'assets/img/bronze-medal.png' %}" alt="第三名">
+                                            {% endif %}
+                                            <p class="student-score fw-semibold">{{ student.name }}</p>
+                                            <p class="student-score1">分數：{{ student.score }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% else %}
+                            <div class="student-info">
+                                {% load static %}
+                                <div class="row">
+                                    <div class="rank">
+                                        {% if rank == 4 %}
+                                            <img class="rank-icon2" src="{% static 'assets/img/four.png' %}" alt="第四名">
+                                        {% elif rank == 5 %}
+                                            <img class="rank-icon2" src="{% static 'assets/img/five.png' %}" alt="第五名">
+                                        {% elif rank == 6 %}
+                                            <img class="rank-icon2" src="{% static 'assets/img/six.png' %}" alt="第六名">
+                                        {% elif rank == 7 %}
+                                            <img class="rank-icon2" src="{% static 'assets/img/seven.png' %}" alt="第七名">
+                                        {% elif rank == 8 %}
+                                            <img class="rank-icon2" src="{% static 'assets/img/eight.png' %}" alt="第八名">
+                                        {% elif rank == 9 %}
+                                            <img class="rank-icon2" src="{% static 'assets/img/nine.png' %}" alt="第九名">
+                                        {% elif rank == 10 %}
+                                            <img class="rank-icon2" src="{% static 'assets/img/ten.png' %}" alt="第十名">
+                                        {% endif %}
+                                        <span class="student-score2">{{ student.name }}&nbsp;-&nbsp;分數：{{ student.score }}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                
+                {% endfor %}
+                {% else %}
+                <p>沒有找到符合條件的學生。</p>
+                {% endif %}  
+            </div>
+        </div>
+    </section>
+    
+
+</main>
+
+{% endblock %}

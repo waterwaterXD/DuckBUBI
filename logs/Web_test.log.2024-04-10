@@ -1,0 +1,2203 @@
+04-10 11:14:24 uvicorn.access INFO     192.168.103.48:63089 - "GET /admin/ HTTP/1.1" 302
+04-10 11:14:25 uvicorn.access INFO     192.168.103.48:63089 - "GET /admin/login/?next=/admin/ HTTP/1.1" 200
+04-10 11:14:25 uvicorn.access INFO     192.168.103.48:63089 - "GET /static/admin/css/base.css HTTP/1.1" 304
+04-10 11:14:25 uvicorn.access INFO     192.168.103.48:63092 - "GET /static/admin/css/login.css HTTP/1.1" 304
+04-10 11:14:25 uvicorn.access INFO     192.168.103.48:63090 - "GET /static/admin/css/dark_mode.css HTTP/1.1" 304
+04-10 11:14:25 uvicorn.access INFO     192.168.103.48:63091 - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304
+04-10 11:14:25 uvicorn.access INFO     192.168.103.48:63093 - "GET /static/admin/css/responsive.css HTTP/1.1" 304
+04-10 11:14:25 uvicorn.access INFO     192.168.103.48:63094 - "GET /static/admin/js/theme.js HTTP/1.1" 304
+04-10 11:14:25 uvicorn.access INFO     192.168.103.48:63089 - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304
+04-10 11:14:49 uvicorn.access INFO     192.168.103.48:63104 - "POST /admin/login/?next=/admin/ HTTP/1.1" 302
+04-10 11:14:49 uvicorn.access INFO     192.168.103.48:63104 - "GET /admin/ HTTP/1.1" 200
+04-10 11:14:49 uvicorn.access INFO     192.168.103.48:63104 - "GET /static/admin/css/dashboard.css HTTP/1.1" 304
+04-10 11:14:49 uvicorn.access INFO     192.168.103.48:63106 - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304
+04-10 11:14:49 uvicorn.access INFO     192.168.103.48:63104 - "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304
+04-10 11:14:54 uvicorn.access INFO     192.168.103.48:63104 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 11:14:54 uvicorn.access INFO     192.168.103.48:63104 - "GET /static/admin/css/changelists.css HTTP/1.1" 304
+04-10 11:14:54 uvicorn.access INFO     192.168.103.48:63112 - "GET /static/admin/js/core.js HTTP/1.1" 304
+04-10 11:14:54 uvicorn.access INFO     192.168.103.48:63110 - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304
+04-10 11:14:54 uvicorn.access INFO     192.168.103.48:63111 - "GET /static/admin/js/jquery.init.js HTTP/1.1" 304
+04-10 11:14:54 uvicorn.access INFO     192.168.103.48:63113 - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304
+04-10 11:14:54 uvicorn.access INFO     192.168.103.48:63104 - "GET /static/admin/js/actions.js HTTP/1.1" 304
+04-10 11:14:54 uvicorn.access INFO     192.168.103.48:63106 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:14:54 uvicorn.access INFO     192.168.103.48:63112 - "GET /static/admin/js/urlify.js HTTP/1.1" 304
+04-10 11:14:54 uvicorn.access INFO     192.168.103.48:63111 - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304
+04-10 11:14:54 uvicorn.access INFO     192.168.103.48:63110 - "GET /static/admin/js/prepopulate.js HTTP/1.1" 304
+04-10 11:14:54 uvicorn.access INFO     192.168.103.48:63110 - "GET /static/admin/js/filters.js HTTP/1.1" 304
+04-10 11:14:54 uvicorn.access INFO     192.168.103.48:63110 - "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304
+04-10 11:14:59 uvicorn.access INFO     192.168.103.48:63127 - "GET /admin/scores/classmate/ HTTP/1.1" 200
+04-10 11:14:59 uvicorn.access INFO     192.168.103.48:63127 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:15:01 uvicorn.access INFO     192.168.103.48:63127 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 11:15:01 uvicorn.access INFO     192.168.103.48:63127 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:15:03 uvicorn.access INFO     192.168.103.48:63127 - "GET /admin/scores/course/add/ HTTP/1.1" 200
+04-10 11:15:03 uvicorn.access INFO     192.168.103.48:63136 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:15:03 uvicorn.access INFO     192.168.103.48:63138 - "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200
+04-10 11:15:03 uvicorn.access INFO     192.168.103.48:63127 - "GET /static/admin/css/forms.css HTTP/1.1" 200
+04-10 11:15:03 uvicorn.access INFO     192.168.103.48:63127 - "GET /static/admin/css/widgets.css HTTP/1.1" 200
+04-10 11:15:03 uvicorn.access INFO     192.168.103.48:63137 - "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200
+04-10 11:15:03 uvicorn.access INFO     192.168.103.48:63128 - "GET /static/admin/js/calendar.js HTTP/1.1" 200
+04-10 11:15:03 uvicorn.access INFO     192.168.103.48:63137 - "GET /static/admin/js/change_form.js HTTP/1.1" 200
+04-10 11:15:03 uvicorn.access INFO     192.168.103.48:63137 - "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200
+04-10 11:15:31 uvicorn.access INFO     192.168.103.48:63142 - "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200
+04-10 11:15:45 uvicorn.access INFO     192.168.103.48:63151 - "GET /admin/scores/classmate/ HTTP/1.1" 200
+04-10 11:15:45 uvicorn.access INFO     192.168.103.48:63151 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:15:47 uvicorn.access INFO     192.168.103.48:63151 - "GET /admin/scores/classmate/add/ HTTP/1.1" 200
+04-10 11:15:47 uvicorn.access INFO     192.168.103.48:63151 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:15:47 uvicorn.access INFO     192.168.103.48:63151 - "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200
+04-10 11:15:47 uvicorn.access INFO     192.168.103.48:63152 - "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200
+04-10 11:15:52 uvicorn.access INFO     192.168.103.48:63152 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 11:15:52 uvicorn.access INFO     192.168.103.48:63152 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:15:53 uvicorn.access INFO     192.168.103.48:63152 - "GET /admin/scores/course/add/ HTTP/1.1" 200
+04-10 11:15:53 uvicorn.access INFO     192.168.103.48:63152 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:16:31 uvicorn.access INFO     192.168.103.48:63153 - "GET /admin/scores/classmate/ HTTP/1.1" 200
+04-10 11:16:31 uvicorn.access INFO     192.168.103.48:63153 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:16:34 uvicorn.access INFO     192.168.103.48:63153 - "GET /admin/scores/classmate/add/ HTTP/1.1" 200
+04-10 11:16:34 uvicorn.access INFO     192.168.103.48:63153 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:17:56 uvicorn.access INFO     192.168.103.48:63163 - "POST /admin/scores/classmate/add/ HTTP/1.1" 200
+04-10 11:17:56 uvicorn.access INFO     192.168.103.48:63163 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:18:05 uvicorn.access INFO     192.168.103.48:63166 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 11:18:05 uvicorn.access INFO     192.168.103.48:63166 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:18:07 uvicorn.access INFO     192.168.103.48:63166 - "GET /admin/scores/course/add/ HTTP/1.1" 200
+04-10 11:18:07 uvicorn.access INFO     192.168.103.48:63166 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:18:48 uvicorn.access INFO     192.168.103.48:63168 - "POST /admin/scores/course/add/ HTTP/1.1" 302
+04-10 11:18:48 uvicorn.access INFO     192.168.103.48:63168 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 11:18:48 uvicorn.access INFO     192.168.103.48:63168 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:18:48 uvicorn.access INFO     192.168.103.48:63168 - "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200
+04-10 11:18:51 uvicorn.access INFO     192.168.103.48:63168 - "GET /admin/scores/classmate/ HTTP/1.1" 200
+04-10 11:18:51 uvicorn.access INFO     192.168.103.48:63168 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:18:52 uvicorn.access INFO     192.168.103.48:63168 - "GET /admin/scores/classmate/add/ HTTP/1.1" 200
+04-10 11:18:52 uvicorn.access INFO     192.168.103.48:63168 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:19:04 uvicorn.access INFO     192.168.103.48:63175 - "POST /admin/scores/classmate/add/ HTTP/1.1" 302
+04-10 11:19:04 uvicorn.access INFO     192.168.103.48:63175 - "GET /admin/scores/classmate/ HTTP/1.1" 200
+04-10 11:19:04 uvicorn.access INFO     192.168.103.48:63175 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:19:04 uvicorn.access INFO     192.168.103.48:63175 - "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304
+04-10 11:19:07 uvicorn.access INFO     192.168.103.48:63175 - "GET /scores/student-grades/ HTTP/1.1" 200
+04-10 11:19:07 uvicorn.access INFO     192.168.103.48:63175 - "GET /static/assets/css/style.css HTTP/1.1" 304
+04-10 11:21:56 uvicorn.error INFO     Shutting down
+04-10 11:21:56 uvicorn.error INFO     Finished server process [23260]
+04-10 11:22:02 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 11:22:03 uvicorn.error INFO     Started server process [26008]
+04-10 11:22:03 uvicorn.error INFO     Waiting for application startup.
+04-10 11:22:03 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 11:22:03 uvicorn.error INFO     Application startup complete.
+04-10 11:22:03 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 11:22:09 uvicorn.access INFO     192.168.103.48:63221 - "GET /scores/student-grades/ HTTP/1.1" 200
+04-10 11:23:44 uvicorn.access INFO     192.168.103.48:63234 - "GET /admin/scores/classmate/?o=5.1 HTTP/1.1" 200
+04-10 11:23:44 uvicorn.access INFO     192.168.103.48:63234 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:24:08 uvicorn.access INFO     192.168.103.48:63236 - "GET /home/ HTTP/1.1" 200
+04-10 11:24:12 uvicorn.access INFO     192.168.103.48:63236 - "GET /home/ HTTP/1.1" 200
+04-10 11:25:05 uvicorn.error INFO     Shutting down
+04-10 11:25:05 uvicorn.error INFO     Finished server process [26008]
+04-10 11:25:08 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 11:25:08 uvicorn.error INFO     Started server process [24768]
+04-10 11:25:08 uvicorn.error INFO     Waiting for application startup.
+04-10 11:25:08 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 11:25:08 uvicorn.error INFO     Application startup complete.
+04-10 11:25:08 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 11:25:14 uvicorn.access INFO     192.168.103.48:63282 - "GET /home/ HTTP/1.1" 200
+04-10 11:25:17 django.request ERROR    Internal Server Error: /scores/detail/
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\TSMC\TSMC\scores\views.py", line 30, in detail
+    return render(request, 'scores/detail.html', locals())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'course_image' attribute has no file associated with it.
+04-10 11:25:17 uvicorn.access INFO     192.168.103.48:63282 - "GET /scores/detail/ HTTP/1.1" 500
+04-10 11:25:37 uvicorn.access INFO     192.168.103.48:63283 - "GET /welcome/logout/ HTTP/1.1" 302
+04-10 11:25:37 uvicorn.access INFO     192.168.103.48:63283 - "GET /home/ HTTP/1.1" 200
+04-10 11:25:40 uvicorn.access INFO     192.168.103.48:63283 - "GET /welcome/login/ HTTP/1.1" 200
+04-10 11:25:46 uvicorn.access INFO     192.168.103.48:63287 - "GET /welcome/register/ HTTP/1.1" 200
+04-10 11:25:53 uvicorn.access INFO     192.168.103.48:63295 - "GET /welcome/login/ HTTP/1.1" 200
+04-10 11:26:04 uvicorn.access INFO     192.168.103.48:63297 - "POST /welcome/login/ HTTP/1.1" 200
+04-10 11:26:08 uvicorn.access INFO     192.168.103.48:63297 - "GET /admin/welcome/account/ HTTP/1.1" 302
+04-10 11:26:08 uvicorn.access INFO     192.168.103.48:63297 - "GET /admin/login/?next=/admin/welcome/account/ HTTP/1.1" 200
+04-10 11:26:17 uvicorn.access INFO     192.168.103.48:63299 - "POST /admin/login/?next=/admin/welcome/account/ HTTP/1.1" 302
+04-10 11:26:17 uvicorn.access INFO     192.168.103.48:63299 - "GET /admin/welcome/account/ HTTP/1.1" 200
+04-10 11:26:18 uvicorn.access INFO     192.168.103.48:63302 - "GET /static/admin/img/search.svg HTTP/1.1" 304
+04-10 11:26:18 uvicorn.access INFO     192.168.103.48:63299 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:26:28 uvicorn.access INFO     192.168.103.48:63309 - "GET /admin/welcome/account/11/change/ HTTP/1.1" 200
+04-10 11:26:28 uvicorn.access INFO     192.168.103.48:63309 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:26:40 uvicorn.access INFO     192.168.103.48:63310 - "GET /welcome/register/ HTTP/1.1" 302
+04-10 11:26:40 uvicorn.access INFO     192.168.103.48:63310 - "GET /home/ HTTP/1.1" 200
+04-10 11:27:04 uvicorn.access INFO     192.168.103.48:63318 - "GET /scores/student-grades/ HTTP/1.1" 200
+04-10 11:27:48 uvicorn.error INFO     Shutting down
+04-10 11:27:48 uvicorn.error INFO     Finished server process [24768]
+04-10 11:27:54 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 11:27:54 uvicorn.error INFO     Started server process [20868]
+04-10 11:27:54 uvicorn.error INFO     Waiting for application startup.
+04-10 11:27:54 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 11:27:54 uvicorn.error INFO     Application startup complete.
+04-10 11:27:54 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 11:27:59 uvicorn.access INFO     192.168.103.48:63331 - "GET /scores/student-grades/ HTTP/1.1" 200
+04-10 11:29:23 uvicorn.error INFO     Shutting down
+04-10 11:29:24 uvicorn.error INFO     Finished server process [20868]
+04-10 11:29:26 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 11:29:27 uvicorn.error INFO     Started server process [20932]
+04-10 11:29:27 uvicorn.error INFO     Waiting for application startup.
+04-10 11:29:27 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 11:29:27 uvicorn.error INFO     Application startup complete.
+04-10 11:29:27 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 11:29:29 uvicorn.access INFO     192.168.103.48:63355 - "GET /scores/student-grades/ HTTP/1.1" 200
+04-10 11:29:35 uvicorn.access INFO     192.168.103.48:63356 - "GET /admin/scores/classmate/ HTTP/1.1" 200
+04-10 11:29:35 uvicorn.access INFO     192.168.103.48:63356 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:29:39 uvicorn.access INFO     192.168.103.48:63356 - "GET /admin/scores/classmate/?o=5.1 HTTP/1.1" 200
+04-10 11:29:39 uvicorn.access INFO     192.168.103.48:63356 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:31:08 uvicorn.access INFO     192.168.103.48:63385 - "GET /scores/add/ HTTP/1.1" 200
+04-10 11:31:08 django.request WARNING  Not Found: /static/css/btn.css
+04-10 11:31:08 django.request WARNING  Not Found: /static/css/styles.css
+04-10 11:31:08 uvicorn.access INFO     192.168.103.48:63386 - "GET /static/css/btn.css HTTP/1.1" 404
+04-10 11:31:08 uvicorn.access INFO     192.168.103.48:63385 - "GET /static/css/styles.css HTTP/1.1" 404
+04-10 11:34:47 uvicorn.error INFO     Shutting down
+04-10 11:34:47 uvicorn.error INFO     Finished server process [20932]
+04-10 11:34:50 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 11:34:50 uvicorn.error INFO     Started server process [7328]
+04-10 11:34:50 uvicorn.error INFO     Waiting for application startup.
+04-10 11:34:50 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 11:34:50 uvicorn.error INFO     Application startup complete.
+04-10 11:34:50 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 11:34:57 uvicorn.access INFO     192.168.103.48:63409 - "GET /admin/welcome/account/ HTTP/1.1" 200
+04-10 11:34:57 uvicorn.access INFO     192.168.103.48:63409 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 11:35:12 uvicorn.access INFO     192.168.103.48:63410 - "GET /scores/student-grades/ HTTP/1.1" 200
+04-10 12:34:35 uvicorn.error INFO     Shutting down
+04-10 12:34:35 uvicorn.error INFO     Finished server process [7328]
+04-10 12:34:44 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 12:34:45 uvicorn.error INFO     Started server process [25472]
+04-10 12:34:45 uvicorn.error INFO     Waiting for application startup.
+04-10 12:34:45 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 12:34:45 uvicorn.error INFO     Application startup complete.
+04-10 12:34:45 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 12:34:52 uvicorn.access INFO     192.168.103.48:63809 - "GET /scores/student-grades/ HTTP/1.1" 200
+04-10 12:35:00 uvicorn.access INFO     192.168.103.48:63810 - "GET /scores/add/ HTTP/1.1" 200
+04-10 12:36:05 django.request ERROR    Internal Server Error: /scores/detail/
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\TSMC\TSMC\scores\views.py", line 30, in detail
+    return render(request, 'scores/detail.html', locals())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'course_image' attribute has no file associated with it.
+04-10 12:36:05 uvicorn.access INFO     192.168.103.48:63819 - "GET /scores/detail/ HTTP/1.1" 500
+04-10 12:38:06 uvicorn.access INFO     192.168.103.48:63830 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 12:38:06 uvicorn.access INFO     192.168.103.48:63830 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 12:38:11 uvicorn.access INFO     192.168.103.48:63830 - "GET /admin/scores/course/add/ HTTP/1.1" 200
+04-10 12:38:11 uvicorn.access INFO     192.168.103.48:63830 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 12:38:42 uvicorn.access INFO     192.168.103.48:63834 - "POST /admin/scores/course/add/ HTTP/1.1" 302
+04-10 12:38:42 uvicorn.access INFO     192.168.103.48:63834 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 12:38:42 uvicorn.access INFO     192.168.103.48:63834 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 12:38:50 django.request ERROR    Internal Server Error: /scores/detail/
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\TSMC\TSMC\scores\views.py", line 30, in detail
+    return render(request, 'scores/detail.html', locals())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'course_image' attribute has no file associated with it.
+04-10 12:38:50 uvicorn.access INFO     192.168.103.48:63838 - "GET /scores/detail/ HTTP/1.1" 500
+04-10 12:38:57 uvicorn.error INFO     Shutting down
+04-10 12:38:57 uvicorn.error INFO     Finished server process [25472]
+04-10 12:39:01 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 12:39:01 uvicorn.error INFO     Started server process [4112]
+04-10 12:39:01 uvicorn.error INFO     Waiting for application startup.
+04-10 12:39:01 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 12:39:01 uvicorn.error INFO     Application startup complete.
+04-10 12:39:01 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 12:39:03 django.request ERROR    Internal Server Error: /scores/detail/
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\TSMC\TSMC\scores\views.py", line 30, in detail
+    return render(request, 'scores/detail.html', locals())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'course_image' attribute has no file associated with it.
+04-10 12:39:03 uvicorn.access INFO     192.168.103.48:63845 - "GET /scores/detail/ HTTP/1.1" 500
+04-10 12:39:06 django.request ERROR    Internal Server Error: /scores/detail/
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\TSMC\TSMC\scores\views.py", line 30, in detail
+    return render(request, 'scores/detail.html', locals())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'course_image' attribute has no file associated with it.
+04-10 12:39:06 uvicorn.access INFO     192.168.103.48:63845 - "GET /scores/detail/ HTTP/1.1" 500
+04-10 12:39:17 uvicorn.access INFO     192.168.103.48:63846 - "GET /scores/add/ HTTP/1.1" 200
+04-10 12:39:46 uvicorn.access INFO     192.168.103.48:63852 - "POST /scores/add/ HTTP/1.1" 200
+04-10 12:39:57 uvicorn.access INFO     192.168.103.48:63853 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 12:39:57 uvicorn.access INFO     192.168.103.48:63853 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 12:40:10 uvicorn.access INFO     192.168.103.48:63857 - "POST /admin/scores/course/ HTTP/1.1" 200
+04-10 12:40:10 uvicorn.access INFO     192.168.103.48:63857 - "GET /static/admin/js/cancel.js HTTP/1.1" 200
+04-10 12:40:13 uvicorn.access INFO     192.168.103.48:63857 - "POST /admin/scores/course/ HTTP/1.1" 302
+04-10 12:40:13 uvicorn.access INFO     192.168.103.48:63857 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 12:40:13 uvicorn.access INFO     192.168.103.48:63857 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 12:40:21 uvicorn.access INFO     192.168.103.48:63859 - "GET /scores/detail/ HTTP/1.1" 200
+04-10 12:40:21 uvicorn.access INFO     192.168.103.48:63859 - "GET /media/images/%E6%B7%98%E6%B0%A3%E8%A5%BF%E8%A5%BF%E5%85%94_RMUBFby.png HTTP/1.1" 200
+04-10 12:40:54 uvicorn.access INFO     192.168.103.48:63860 - "POST /scores/delete/3/ HTTP/1.1" 302
+04-10 12:40:54 uvicorn.access INFO     192.168.103.48:63860 - "GET /scores/detail/ HTTP/1.1" 200
+04-10 12:41:24 uvicorn.access INFO     192.168.103.48:63862 - "POST /scores/add/ HTTP/1.1" 200
+04-10 12:41:27 django.request ERROR    Internal Server Error: /scores/detail/
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\TSMC\TSMC\scores\views.py", line 30, in detail
+    return render(request, 'scores/detail.html', locals())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'course_image' attribute has no file associated with it.
+04-10 12:41:27 uvicorn.access INFO     192.168.103.48:63862 - "GET /scores/detail/ HTTP/1.1" 500
+04-10 12:45:23 uvicorn.error INFO     Shutting down
+04-10 12:45:23 uvicorn.error INFO     Finished server process [4112]
+04-10 12:45:27 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 12:45:28 uvicorn.error INFO     Started server process [27280]
+04-10 12:45:28 uvicorn.error INFO     Waiting for application startup.
+04-10 12:45:28 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 12:45:28 uvicorn.error INFO     Application startup complete.
+04-10 12:45:28 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 12:46:05 uvicorn.access INFO     192.168.103.48:63909 - "POST /scores/add/ HTTP/1.1" 200
+04-10 12:46:07 django.request ERROR    Internal Server Error: /scores/detail/
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\TSMC\TSMC\scores\views.py", line 30, in detail
+    return render(request, 'scores/detail.html', locals())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'course_image' attribute has no file associated with it.
+04-10 12:46:07 uvicorn.access INFO     192.168.103.48:63909 - "GET /scores/detail/ HTTP/1.1" 500
+04-10 12:46:08 django.request ERROR    Internal Server Error: /scores/detail/
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\TSMC\TSMC\scores\views.py", line 30, in detail
+    return render(request, 'scores/detail.html', locals())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'course_image' attribute has no file associated with it.
+04-10 12:46:08 uvicorn.access INFO     192.168.103.48:63909 - "GET /scores/detail/ HTTP/1.1" 500
+04-10 12:46:14 uvicorn.error INFO     Shutting down
+04-10 12:46:14 uvicorn.error INFO     Finished server process [27280]
+04-10 12:46:18 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 12:46:19 uvicorn.error INFO     Started server process [21932]
+04-10 12:46:19 uvicorn.error INFO     Waiting for application startup.
+04-10 12:46:19 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 12:46:19 uvicorn.error INFO     Application startup complete.
+04-10 12:46:19 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 12:46:20 django.request ERROR    Internal Server Error: /scores/detail/
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\TSMC\TSMC\scores\views.py", line 30, in detail
+    return render(request, 'scores/detail.html', locals())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'course_image' attribute has no file associated with it.
+04-10 12:46:20 uvicorn.access INFO     192.168.103.48:63917 - "GET /scores/detail/ HTTP/1.1" 500
+04-10 12:46:26 uvicorn.access INFO     192.168.103.48:63919 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 12:46:26 uvicorn.access INFO     192.168.103.48:63919 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 12:46:33 uvicorn.access INFO     192.168.103.48:63920 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 12:46:33 uvicorn.access INFO     192.168.103.48:63920 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 12:46:39 uvicorn.access INFO     192.168.103.48:63922 - "GET /admin/scores/course/add/ HTTP/1.1" 200
+04-10 12:46:39 uvicorn.access INFO     192.168.103.48:63922 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 12:46:49 uvicorn.access INFO     192.168.103.48:63923 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 12:46:49 uvicorn.access INFO     192.168.103.48:63923 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 12:46:54 uvicorn.access INFO     192.168.103.48:63925 - "POST /admin/scores/course/ HTTP/1.1" 200
+04-10 12:46:56 uvicorn.access INFO     192.168.103.48:63925 - "POST /admin/scores/course/ HTTP/1.1" 302
+04-10 12:46:56 uvicorn.access INFO     192.168.103.48:63925 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 12:46:56 uvicorn.access INFO     192.168.103.48:63925 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 12:47:00 uvicorn.access INFO     192.168.103.48:63925 - "GET /scores/detail/ HTTP/1.1" 200
+04-10 12:47:00 uvicorn.access INFO     192.168.103.48:63925 - "GET /media/images/%E6%B7%98%E6%B0%A3%E8%A5%BF%E8%A5%BF%E5%85%94_n7echQA.png HTTP/1.1" 200
+04-10 12:51:40 uvicorn.error INFO     Shutting down
+04-10 12:51:40 uvicorn.error INFO     Finished server process [21932]
+04-10 12:51:42 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 12:51:43 uvicorn.error INFO     Started server process [21888]
+04-10 12:51:43 uvicorn.error INFO     Waiting for application startup.
+04-10 12:51:43 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 12:51:43 uvicorn.error INFO     Application startup complete.
+04-10 12:51:43 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 12:51:48 uvicorn.access INFO     192.168.103.48:63948 - "GET /scores/detail/ HTTP/1.1" 200
+04-10 12:51:48 uvicorn.access INFO     192.168.103.48:63948 - "GET /media/images/%E6%B7%98%E6%B0%A3%E8%A5%BF%E8%A5%BF%E5%85%94_n7echQA.png HTTP/1.1" 304
+04-10 13:01:13 uvicorn.error INFO     Shutting down
+04-10 13:01:13 uvicorn.error INFO     Finished server process [21888]
+04-10 13:01:17 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 13:01:17 uvicorn.error INFO     Started server process [25060]
+04-10 13:01:17 uvicorn.error INFO     Waiting for application startup.
+04-10 13:01:17 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 13:01:17 uvicorn.error INFO     Application startup complete.
+04-10 13:01:17 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 13:01:20 uvicorn.access INFO     192.168.103.48:63991 - "GET /scores/detail/ HTTP/1.1" 200
+04-10 13:01:20 uvicorn.access INFO     192.168.103.48:63991 - "GET /media/images/%E6%B7%98%E6%B0%A3%E8%A5%BF%E8%A5%BF%E5%85%94_n7echQA.png HTTP/1.1" 304
+04-10 13:03:32 uvicorn.error INFO     Shutting down
+04-10 13:03:32 uvicorn.error INFO     Finished server process [25060]
+04-10 13:03:35 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 13:03:36 uvicorn.error INFO     Started server process [22768]
+04-10 13:03:36 uvicorn.error INFO     Waiting for application startup.
+04-10 13:03:36 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 13:03:36 uvicorn.error INFO     Application startup complete.
+04-10 13:03:36 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 13:03:41 uvicorn.access INFO     192.168.103.48:64031 - "GET /scores/detail/ HTTP/1.1" 200
+04-10 13:03:41 uvicorn.access INFO     192.168.103.48:64031 - "GET /media/images/%E6%B7%98%E6%B0%A3%E8%A5%BF%E8%A5%BF%E5%85%94_n7echQA.png HTTP/1.1" 304
+04-10 13:05:11 uvicorn.error INFO     Shutting down
+04-10 13:05:11 uvicorn.error INFO     Finished server process [22768]
+04-10 13:05:14 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 13:05:14 uvicorn.error INFO     Started server process [18396]
+04-10 13:05:14 uvicorn.error INFO     Waiting for application startup.
+04-10 13:05:14 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 13:05:14 uvicorn.error INFO     Application startup complete.
+04-10 13:05:14 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 13:05:19 uvicorn.access INFO     192.168.103.48:64047 - "GET /scores/detail/ HTTP/1.1" 200
+04-10 13:06:36 uvicorn.error INFO     Shutting down
+04-10 13:06:36 uvicorn.error INFO     Finished server process [18396]
+04-10 13:06:42 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 13:06:42 uvicorn.error INFO     Started server process [18204]
+04-10 13:06:42 uvicorn.error INFO     Waiting for application startup.
+04-10 13:06:42 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 13:06:42 uvicorn.error INFO     Application startup complete.
+04-10 13:06:42 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 13:06:44 uvicorn.access INFO     192.168.103.48:64055 - "GET /scores/detail/ HTTP/1.1" 200
+04-10 13:06:44 uvicorn.access INFO     192.168.103.48:64055 - "GET /media/images/%E6%B7%98%E6%B0%A3%E8%A5%BF%E8%A5%BF%E5%85%94_n7echQA.png HTTP/1.1" 304
+04-10 13:11:34 uvicorn.error INFO     Shutting down
+04-10 13:11:35 uvicorn.error INFO     Finished server process [18204]
+04-10 13:11:37 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 13:11:38 uvicorn.error INFO     Started server process [24120]
+04-10 13:11:38 uvicorn.error INFO     Waiting for application startup.
+04-10 13:11:38 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 13:11:38 uvicorn.error INFO     Application startup complete.
+04-10 13:11:38 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 13:11:46 django.request ERROR    Internal Server Error: /scores/course-list/
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\TSMC\TSMC\scores\views.py", line 30, in detail
+    return render(request, 'scores/detail.html', locals())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: scores/detail.html
+04-10 13:11:46 uvicorn.access INFO     192.168.103.48:64108 - "GET /scores/course-list/ HTTP/1.1" 500
+04-10 13:14:06 django.request ERROR    Internal Server Error: /scores/course-list/
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\TSMC\TSMC\scores\views.py", line 30, in detail
+    return render(request, 'scores/detail.html', locals())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: scores/detail.html
+04-10 13:14:06 uvicorn.access INFO     192.168.103.48:64132 - "GET /scores/course-list/ HTTP/1.1" 500
+04-10 13:14:33 uvicorn.error INFO     Shutting down
+04-10 13:14:33 uvicorn.error INFO     Finished server process [24120]
+04-10 13:14:36 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 13:14:37 uvicorn.error INFO     Started server process [27352]
+04-10 13:14:37 uvicorn.error INFO     Waiting for application startup.
+04-10 13:14:37 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 13:14:37 uvicorn.error INFO     Application startup complete.
+04-10 13:14:37 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 13:14:39 django.request ERROR    Internal Server Error: /scores/course-list/
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\TSMC\TSMC\scores\views.py", line 30, in detail
+    return render(request, 'scores/detail.html', locals())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: scores/detail.html
+04-10 13:14:39 uvicorn.access INFO     192.168.103.48:64143 - "GET /scores/course-list/ HTTP/1.1" 500
+04-10 13:14:40 django.request ERROR    Internal Server Error: /scores/course-list/
+Traceback (most recent call last):
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\TSMC\TSMC\scores\views.py", line 30, in detail
+    return render(request, 'scores/detail.html', locals())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lu\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: scores/detail.html
+04-10 13:14:40 uvicorn.access INFO     192.168.103.48:64143 - "GET /scores/course-list/ HTTP/1.1" 500
+04-10 13:15:51 uvicorn.error INFO     Shutting down
+04-10 13:15:51 uvicorn.error INFO     Finished server process [27352]
+04-10 13:15:54 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 13:15:55 uvicorn.error INFO     Started server process [25564]
+04-10 13:15:55 uvicorn.error INFO     Waiting for application startup.
+04-10 13:15:55 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 13:15:55 uvicorn.error INFO     Application startup complete.
+04-10 13:15:55 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 13:15:57 uvicorn.access INFO     192.168.103.48:64155 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 13:15:57 uvicorn.access INFO     192.168.103.48:64155 - "GET /media/images/%E6%B7%98%E6%B0%A3%E8%A5%BF%E8%A5%BF%E5%85%94_n7echQA.png HTTP/1.1" 304
+04-10 13:20:51 django.request WARNING  Not Found: /scores/delete/5/
+04-10 13:20:51 uvicorn.access INFO     192.168.103.48:64178 - "POST /scores/delete/5/ HTTP/1.1" 404
+04-10 13:22:12 uvicorn.error INFO     Shutting down
+04-10 13:22:12 uvicorn.error INFO     Finished server process [25564]
+04-10 13:22:15 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 13:22:15 uvicorn.error INFO     Started server process [6096]
+04-10 13:22:15 uvicorn.error INFO     Waiting for application startup.
+04-10 13:22:15 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 13:22:15 uvicorn.error INFO     Application startup complete.
+04-10 13:22:15 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 13:22:19 django.request WARNING  Not Found: /scores/delete/5/
+04-10 13:22:19 uvicorn.access INFO     192.168.103.48:64201 - "POST /scores/delete/5/ HTTP/1.1" 404
+04-10 13:22:24 django.request WARNING  Not Found: /scores/delete/5/
+04-10 13:22:24 uvicorn.access INFO     192.168.103.48:64201 - "POST /scores/delete/5/ HTTP/1.1" 404
+04-10 13:23:36 uvicorn.access INFO     192.168.103.48:64207 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 13:24:04 uvicorn.access INFO     192.168.103.48:64208 - "GET /scores/add/ HTTP/1.1" 200
+04-10 13:24:04 uvicorn.access INFO     192.168.103.48:64208 - "GET /scores/add/ HTTP/1.1" 200
+04-10 13:24:11 uvicorn.access INFO     192.168.103.48:64223 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 13:24:12 uvicorn.access INFO     192.168.103.48:64223 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 13:24:43 uvicorn.access INFO     192.168.103.48:64224 - "POST /scores/add/ HTTP/1.1" 200
+04-10 13:24:44 uvicorn.access INFO     192.168.103.48:64224 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 13:24:44 uvicorn.access INFO     192.168.103.48:64224 - "GET /media/images/1.png HTTP/1.1" 200
+04-10 13:24:54 uvicorn.access INFO     192.168.103.48:64227 - "POST /scores/delete/6/ HTTP/1.1" 302
+04-10 13:24:54 uvicorn.access INFO     192.168.103.48:64227 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 13:27:35 uvicorn.error INFO     Shutting down
+04-10 13:27:35 uvicorn.error INFO     Finished server process [6096]
+04-10 13:27:42 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 13:27:42 uvicorn.error INFO     Started server process [1272]
+04-10 13:27:42 uvicorn.error INFO     Waiting for application startup.
+04-10 13:27:42 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 13:27:42 uvicorn.error INFO     Application startup complete.
+04-10 13:27:42 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 13:27:45 uvicorn.access INFO     192.168.103.48:64258 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 13:35:04 uvicorn.error INFO     Shutting down
+04-10 13:35:04 uvicorn.error INFO     Finished server process [1272]
+04-10 13:35:07 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 13:35:07 uvicorn.error INFO     Started server process [25316]
+04-10 13:35:07 uvicorn.error INFO     Waiting for application startup.
+04-10 13:35:07 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 13:35:07 uvicorn.error INFO     Application startup complete.
+04-10 13:35:07 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 13:35:09 uvicorn.access INFO     192.168.103.48:64352 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 13:35:24 uvicorn.access INFO     192.168.103.48:64358 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 13:35:25 uvicorn.access INFO     192.168.103.48:64361 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 13:35:28 uvicorn.access INFO     192.168.103.48:64361 - "GET /home/ HTTP/1.1" 200
+04-10 13:35:30 uvicorn.access INFO     192.168.103.48:64361 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 13:36:21 uvicorn.error INFO     Shutting down
+04-10 13:36:21 uvicorn.error INFO     Finished server process [25316]
+04-10 13:36:24 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 13:36:25 uvicorn.error INFO     Started server process [14284]
+04-10 13:36:25 uvicorn.error INFO     Waiting for application startup.
+04-10 13:36:25 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 13:36:25 uvicorn.error INFO     Application startup complete.
+04-10 13:36:25 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 13:36:27 uvicorn.access INFO     192.168.103.48:64374 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 13:36:31 uvicorn.access INFO     192.168.103.48:64374 - "GET /home/ HTTP/1.1" 200
+04-10 13:36:33 uvicorn.access INFO     192.168.103.48:64374 - "GET /home/ HTTP/1.1" 200
+04-10 13:36:48 uvicorn.access INFO     192.168.103.48:64381 - "GET /admin/auth/user/ HTTP/1.1" 200
+04-10 13:36:48 uvicorn.access INFO     192.168.103.48:64381 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 13:36:48 uvicorn.access INFO     192.168.103.48:64382 - "GET /static/admin/img/icon-no.svg HTTP/1.1" 200
+04-10 13:36:55 uvicorn.access INFO     192.168.103.48:64383 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 13:38:00 uvicorn.error INFO     Shutting down
+04-10 13:38:00 uvicorn.error INFO     Finished server process [14284]
+04-10 13:38:04 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 13:38:04 uvicorn.error INFO     Started server process [12092]
+04-10 13:38:04 uvicorn.error INFO     Waiting for application startup.
+04-10 13:38:04 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 13:38:04 uvicorn.error INFO     Application startup complete.
+04-10 13:38:04 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 13:38:14 uvicorn.access INFO     192.168.103.48:64398 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 13:38:33 django.request WARNING  Not Found: /scores/score_find/
+04-10 13:38:33 uvicorn.access INFO     192.168.103.48:64403 - "GET /scores/score_find/ HTTP/1.1" 404
+04-10 13:38:50 uvicorn.error INFO     Shutting down
+04-10 13:38:50 uvicorn.error INFO     Finished server process [12092]
+04-10 13:38:54 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 13:38:54 uvicorn.error INFO     Started server process [23348]
+04-10 13:38:54 uvicorn.error INFO     Waiting for application startup.
+04-10 13:38:54 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 13:38:54 uvicorn.error INFO     Application startup complete.
+04-10 13:38:54 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 13:38:58 django.request WARNING  Not Found: /scores/score_find/
+04-10 13:38:58 uvicorn.access INFO     192.168.103.48:64412 - "GET /scores/score_find/ HTTP/1.1" 404
+04-10 13:39:00 django.request WARNING  Not Found: /scores/score_find/
+04-10 13:39:00 uvicorn.access INFO     192.168.103.48:64412 - "GET /scores/score_find/ HTTP/1.1" 404
+04-10 13:39:01 django.request WARNING  Not Found: /scores/score_find/
+04-10 13:39:01 uvicorn.access INFO     192.168.103.48:64412 - "GET /scores/score_find/ HTTP/1.1" 404
+04-10 13:39:03 django.request WARNING  Not Found: /scores/score_find/
+04-10 13:39:03 uvicorn.access INFO     192.168.103.48:64412 - "GET /scores/score_find/ HTTP/1.1" 404
+04-10 13:39:06 uvicorn.access INFO     192.168.103.48:64415 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 13:39:07 django.request WARNING  Not Found: /scores/score_find/
+04-10 13:39:07 uvicorn.access INFO     192.168.103.48:64415 - "GET /scores/score_find/ HTTP/1.1" 404
+04-10 13:45:11 uvicorn.error INFO     Shutting down
+04-10 13:45:11 uvicorn.error INFO     Finished server process [23348]
+04-10 13:45:15 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 13:45:15 uvicorn.error INFO     Started server process [20144]
+04-10 13:45:15 uvicorn.error INFO     Waiting for application startup.
+04-10 13:45:15 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 13:45:15 uvicorn.error INFO     Application startup complete.
+04-10 13:45:15 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 13:45:18 django.request WARNING  Not Found: /scores/score_find/
+04-10 13:45:18 uvicorn.access INFO     192.168.103.48:64520 - "GET /scores/score_find/ HTTP/1.1" 404
+04-10 13:45:19 django.request WARNING  Not Found: /scores/score_find/
+04-10 13:45:19 uvicorn.access INFO     192.168.103.48:64520 - "GET /scores/score_find/ HTTP/1.1" 404
+04-10 13:46:10 django.request WARNING  Not Found: /scores/score_find/
+04-10 13:46:10 uvicorn.access INFO     192.168.103.48:64533 - "GET /scores/score_find/ HTTP/1.1" 404
+04-10 13:46:38 uvicorn.error INFO     Shutting down
+04-10 13:46:38 uvicorn.error INFO     Finished server process [20144]
+04-10 13:46:41 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 13:46:41 uvicorn.error INFO     Started server process [11976]
+04-10 13:46:41 uvicorn.error INFO     Waiting for application startup.
+04-10 13:46:41 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 13:46:41 uvicorn.error INFO     Application startup complete.
+04-10 13:46:41 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 13:46:44 uvicorn.access INFO     192.168.103.48:64544 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 14:05:32 uvicorn.error INFO     Shutting down
+04-10 14:05:33 uvicorn.error INFO     Finished server process [11976]
+04-10 14:05:35 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 14:05:36 uvicorn.error INFO     Started server process [16248]
+04-10 14:05:36 uvicorn.error INFO     Waiting for application startup.
+04-10 14:05:36 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 14:05:36 uvicorn.error INFO     Application startup complete.
+04-10 14:05:36 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 14:05:38 uvicorn.access INFO     192.168.103.48:64670 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 14:12:07 uvicorn.access INFO     192.168.103.48:64731 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 14:12:07 uvicorn.access INFO     192.168.103.48:64731 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 14:12:08 uvicorn.access INFO     192.168.103.48:64731 - "GET /admin/scores/classmate/ HTTP/1.1" 200
+04-10 14:12:09 uvicorn.access INFO     192.168.103.48:64731 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 14:13:44 uvicorn.error INFO     Shutting down
+04-10 14:13:44 uvicorn.error INFO     Finished server process [16248]
+04-10 14:13:46 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 14:13:47 uvicorn.error INFO     Started server process [25316]
+04-10 14:13:47 uvicorn.error INFO     Waiting for application startup.
+04-10 14:13:47 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 14:13:47 uvicorn.error INFO     Application startup complete.
+04-10 14:13:47 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 14:13:54 uvicorn.access INFO     192.168.103.48:64755 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 14:15:30 uvicorn.error INFO     Shutting down
+04-10 14:15:30 uvicorn.error INFO     Finished server process [25316]
+04-10 14:15:33 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 14:15:33 uvicorn.error INFO     Started server process [26672]
+04-10 14:15:33 uvicorn.error INFO     Waiting for application startup.
+04-10 14:15:33 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 14:15:33 uvicorn.error INFO     Application startup complete.
+04-10 14:15:33 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 14:15:36 uvicorn.access INFO     192.168.103.48:64772 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 14:18:12 uvicorn.error INFO     Shutting down
+04-10 14:18:12 uvicorn.error INFO     Finished server process [26672]
+04-10 14:18:14 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 14:18:14 uvicorn.error INFO     Started server process [17864]
+04-10 14:18:14 uvicorn.error INFO     Waiting for application startup.
+04-10 14:18:14 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 14:18:14 uvicorn.error INFO     Application startup complete.
+04-10 14:18:14 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 14:18:17 uvicorn.access INFO     192.168.103.48:64805 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 14:18:52 uvicorn.error INFO     Shutting down
+04-10 14:18:52 uvicorn.error INFO     Finished server process [17864]
+04-10 14:18:54 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+04-10 14:18:55 uvicorn.error INFO     Started server process [13820]
+04-10 14:18:55 uvicorn.error INFO     Waiting for application startup.
+04-10 14:18:55 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 14:18:55 uvicorn.error INFO     Application startup complete.
+04-10 14:18:55 uvicorn.error INFO     Uvicorn running on http://192.168.103.48:8701 (Press CTRL+C to quit)
+04-10 14:18:58 uvicorn.access INFO     192.168.103.48:64813 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 15:55:05 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 15:55:06 uvicorn.error INFO     Started server process [2740]
+04-10 15:55:06 uvicorn.error INFO     Waiting for application startup.
+04-10 15:55:06 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 15:55:06 uvicorn.error INFO     Application startup complete.
+04-10 15:55:06 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 15:55:06 django.request ERROR    Internal Server Error: /scores/student-grades/
+Traceback (most recent call last):
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\fields\__init__.py", line 2053, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'SimpleLazyObject'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "E:\ANAconda\envs\Django_1\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "E:\python_project\Django\Test1\TSMC\TSMC\scores\views.py", line 7, in student_scorefind
+    classmates = Classmate.objects.filter(name=request.user)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\sql\query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\sql\query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\fields\related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\fields\__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x00000228BFBF21C0>>.
+04-10 15:55:06 uvicorn.access INFO     192.168.103.46:50452 - "GET /scores/student-grades/ HTTP/1.1" 500
+04-10 15:55:06 django.request WARNING  Not Found: /favicon.ico
+04-10 15:55:06 uvicorn.access INFO     192.168.103.46:50452 - "GET /favicon.ico HTTP/1.1" 404
+04-10 15:55:30 uvicorn.access INFO     192.168.103.46:50453 - "GET /home/ HTTP/1.1" 200
+04-10 15:55:31 uvicorn.access INFO     192.168.103.46:50453 - "GET /home/ HTTP/1.1" 200
+04-10 15:55:33 uvicorn.access INFO     192.168.103.46:50453 - "GET /welcome/login/ HTTP/1.1" 200
+04-10 15:55:34 uvicorn.access INFO     192.168.103.46:50453 - "GET /welcome/login/ HTTP/1.1" 200
+04-10 15:55:37 uvicorn.access INFO     192.168.103.46:50453 - "POST /welcome/login/ HTTP/1.1" 302
+04-10 15:55:37 uvicorn.access INFO     192.168.103.46:50453 - "GET /home/ HTTP/1.1" 200
+04-10 15:55:38 uvicorn.access INFO     192.168.103.46:50453 - "GET /home/ HTTP/1.1" 200
+04-10 15:55:40 uvicorn.access INFO     192.168.103.46:50453 - "GET /admin/auth/user/ HTTP/1.1" 200
+04-10 15:55:40 uvicorn.access INFO     192.168.103.46:50453 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 15:55:42 uvicorn.access INFO     192.168.103.46:50453 - "GET /admin/scores/classmate/ HTTP/1.1" 200
+04-10 15:55:42 uvicorn.access INFO     192.168.103.46:50453 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 15:55:43 uvicorn.access INFO     192.168.103.46:50453 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 15:55:43 uvicorn.access INFO     192.168.103.46:50453 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 15:55:44 uvicorn.access INFO     192.168.103.46:50453 - "GET /admin/scores/classmate/ HTTP/1.1" 200
+04-10 15:55:44 uvicorn.access INFO     192.168.103.46:50453 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 15:55:49 uvicorn.access INFO     192.168.103.46:50453 - "POST /admin/scores/classmate/ HTTP/1.1" 200
+04-10 15:55:50 uvicorn.access INFO     192.168.103.46:50453 - "POST /admin/scores/classmate/ HTTP/1.1" 302
+04-10 15:55:50 uvicorn.access INFO     192.168.103.46:50453 - "GET /admin/scores/classmate/ HTTP/1.1" 200
+04-10 15:55:50 uvicorn.access INFO     192.168.103.46:50453 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 15:55:51 uvicorn.access INFO     192.168.103.46:50453 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 15:55:51 uvicorn.access INFO     192.168.103.46:50453 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 15:55:52 uvicorn.access INFO     192.168.103.46:50453 - "GET /admin/scores/classmate/ HTTP/1.1" 200
+04-10 15:55:52 uvicorn.access INFO     192.168.103.46:50453 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 15:56:02 uvicorn.access INFO     192.168.103.46:50454 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 15:56:02 uvicorn.access INFO     192.168.103.46:50454 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 15:56:03 uvicorn.access INFO     192.168.103.46:50454 - "GET /admin/scores/course/add/ HTTP/1.1" 200
+04-10 15:56:03 uvicorn.access INFO     192.168.103.46:50454 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 15:56:19 uvicorn.access INFO     192.168.103.46:50462 - "GET /admin/scores/course/add/ HTTP/1.1" 200
+04-10 15:56:19 uvicorn.access INFO     192.168.103.46:50462 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 15:56:31 uvicorn.access INFO     192.168.103.46:50463 - "GET /scores/add/ HTTP/1.1" 200
+04-10 15:56:31 uvicorn.access INFO     192.168.103.46:50463 - "GET /scores/add/ HTTP/1.1" 200
+04-10 15:56:50 uvicorn.error INFO     Shutting down
+04-10 15:56:50 uvicorn.error INFO     Finished server process [2740]
+04-10 15:59:55 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 15:59:55 uvicorn.error INFO     Started server process [7700]
+04-10 15:59:55 uvicorn.error INFO     Waiting for application startup.
+04-10 15:59:55 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 15:59:55 uvicorn.error INFO     Application startup complete.
+04-10 15:59:55 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 15:59:58 uvicorn.access INFO     192.168.103.46:50470 - "GET /scores/add/ HTTP/1.1" 200
+04-10 15:59:58 uvicorn.access INFO     192.168.103.46:50470 - "GET /scores/add/ HTTP/1.1" 200
+04-10 16:00:07 uvicorn.access INFO     192.168.103.46:50471 - "GET /admin/scores/course/add/ HTTP/1.1" 200
+04-10 16:00:11 uvicorn.error INFO     Shutting down
+04-10 16:00:12 uvicorn.error INFO     Finished server process [7700]
+04-10 16:01:02 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 16:01:02 uvicorn.error INFO     Started server process [9492]
+04-10 16:01:02 uvicorn.error INFO     Waiting for application startup.
+04-10 16:01:02 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 16:01:02 uvicorn.error INFO     Application startup complete.
+04-10 16:01:02 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 16:01:04 uvicorn.access INFO     192.168.103.46:50480 - "GET /scores/add/ HTTP/1.1" 200
+04-10 16:01:05 uvicorn.access INFO     192.168.103.46:50480 - "GET /scores/add/ HTTP/1.1" 200
+04-10 16:01:09 uvicorn.error INFO     Shutting down
+04-10 16:01:10 uvicorn.error INFO     Finished server process [9492]
+04-10 16:01:50 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 16:01:50 uvicorn.error INFO     Started server process [18072]
+04-10 16:01:50 uvicorn.error INFO     Waiting for application startup.
+04-10 16:01:50 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 16:01:50 uvicorn.error INFO     Application startup complete.
+04-10 16:01:50 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 16:01:50 uvicorn.access INFO     192.168.103.46:50493 - "GET /scores/add/ HTTP/1.1" 200
+04-10 16:01:50 uvicorn.access INFO     192.168.103.46:50493 - "GET /scores/add/ HTTP/1.1" 200
+04-10 16:02:20 uvicorn.access INFO     192.168.103.46:50491 - "POST /scores/add/ HTTP/1.1" 200
+04-10 16:02:20 uvicorn.access INFO     192.168.103.46:50491 - "GET /scores/add/ HTTP/1.1" 200
+04-10 16:03:33 uvicorn.access INFO     192.168.103.46:50501 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 16:03:33 uvicorn.access INFO     192.168.103.46:50502 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 16:03:33 uvicorn.access INFO     192.168.103.46:50501 - "GET /media/images/dice_Color.png HTTP/1.1" 200
+04-10 16:05:25 uvicorn.error INFO     Shutting down
+04-10 16:05:25 uvicorn.error INFO     Finished server process [18072]
+04-10 16:05:27 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 16:05:27 uvicorn.error INFO     Started server process [7996]
+04-10 16:05:27 uvicorn.error INFO     Waiting for application startup.
+04-10 16:05:27 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 16:05:27 uvicorn.error INFO     Application startup complete.
+04-10 16:05:27 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 16:05:30 uvicorn.access INFO     192.168.103.46:50506 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 16:05:30 uvicorn.access INFO     192.168.103.46:50506 - "GET /media/images/dice_Color.png HTTP/1.1" 304
+04-10 16:05:30 uvicorn.access INFO     192.168.103.46:50506 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 16:05:35 uvicorn.access INFO     192.168.103.46:50506 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 16:05:35 uvicorn.access INFO     192.168.103.46:50506 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 16:05:38 uvicorn.access INFO     192.168.103.46:50506 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:05:38 uvicorn.access INFO     192.168.103.46:50506 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:20:07 uvicorn.error INFO     Shutting down
+04-10 16:20:07 uvicorn.error INFO     Finished server process [7996]
+04-10 16:20:08 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 16:20:08 uvicorn.error INFO     Started server process [10904]
+04-10 16:20:08 uvicorn.error INFO     Waiting for application startup.
+04-10 16:20:08 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 16:20:08 uvicorn.error INFO     Application startup complete.
+04-10 16:20:08 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 16:20:15 uvicorn.access INFO     192.168.103.46:50564 - "GET /home/ HTTP/1.1" 200
+04-10 16:20:15 uvicorn.access INFO     192.168.103.46:50564 - "GET /home/ HTTP/1.1" 200
+04-10 16:20:17 uvicorn.access INFO     192.168.103.46:50564 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 16:20:17 uvicorn.access INFO     192.168.103.46:50564 - "GET /media/images/dice_Color.png HTTP/1.1" 304
+04-10 16:20:17 uvicorn.access INFO     192.168.103.46:50564 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 16:20:23 django.request WARNING  Not Found: /scores/add.html/
+04-10 16:20:23 uvicorn.access INFO     192.168.103.46:50565 - "GET /scores/add.html/ HTTP/1.1" 404
+04-10 16:20:34 uvicorn.access INFO     192.168.103.46:50569 - "GET /scores/add/ HTTP/1.1" 200
+04-10 16:20:34 uvicorn.access INFO     192.168.103.46:50569 - "GET /scores/add/ HTTP/1.1" 200
+04-10 16:20:44 uvicorn.access INFO     192.168.103.46:50571 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 16:20:44 uvicorn.access INFO     192.168.103.46:50571 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 16:20:46 uvicorn.access INFO     192.168.103.46:50571 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:20:47 uvicorn.access INFO     192.168.103.46:50571 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:21:24 uvicorn.access INFO     192.168.103.46:50572 - "GET /scores/add/ HTTP/1.1" 200
+04-10 16:21:24 uvicorn.access INFO     192.168.103.46:50572 - "GET /scores/add/ HTTP/1.1" 200
+04-10 16:22:10 uvicorn.error INFO     Shutting down
+04-10 16:22:10 uvicorn.error INFO     Finished server process [10904]
+04-10 16:33:23 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 16:33:24 uvicorn.error INFO     Started server process [5116]
+04-10 16:33:24 uvicorn.error INFO     Waiting for application startup.
+04-10 16:33:24 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 16:33:24 uvicorn.error INFO     Application startup complete.
+04-10 16:33:24 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 16:33:44 uvicorn.access INFO     192.168.103.46:50594 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:33:44 uvicorn.access INFO     192.168.103.46:50594 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:35:27 uvicorn.error INFO     Shutting down
+04-10 16:35:27 uvicorn.error INFO     Finished server process [5116]
+04-10 16:35:28 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 16:35:28 uvicorn.error INFO     Started server process [9356]
+04-10 16:35:28 uvicorn.error INFO     Waiting for application startup.
+04-10 16:35:28 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 16:35:28 uvicorn.error INFO     Application startup complete.
+04-10 16:35:28 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 16:35:30 uvicorn.access INFO     192.168.103.46:50600 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:35:30 uvicorn.access INFO     192.168.103.46:50600 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:36:19 uvicorn.access INFO     192.168.103.46:50601 - "GET /home/ HTTP/1.1" 200
+04-10 16:36:19 uvicorn.access INFO     192.168.103.46:50601 - "GET /home/ HTTP/1.1" 200
+04-10 16:36:21 uvicorn.access INFO     192.168.103.46:50601 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 16:36:21 uvicorn.access INFO     192.168.103.46:50601 - "GET /media/images/dice_Color.png HTTP/1.1" 304
+04-10 16:36:21 uvicorn.access INFO     192.168.103.46:50601 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 16:36:25 uvicorn.access INFO     192.168.103.46:50601 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:36:25 uvicorn.access INFO     192.168.103.46:50601 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:38:24 uvicorn.error INFO     Shutting down
+04-10 16:38:24 uvicorn.error INFO     Finished server process [9356]
+04-10 16:38:25 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 16:38:25 uvicorn.error INFO     Started server process [7004]
+04-10 16:38:25 uvicorn.error INFO     Waiting for application startup.
+04-10 16:38:25 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 16:38:25 uvicorn.error INFO     Application startup complete.
+04-10 16:38:25 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 16:38:27 uvicorn.access INFO     192.168.103.46:50608 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:38:29 uvicorn.access INFO     192.168.103.46:50608 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:38:29 uvicorn.access INFO     192.168.103.46:50609 - "GET /scores/bar/ HTTP/1.1" 200
+04-10 16:39:37 uvicorn.error INFO     Shutting down
+04-10 16:39:37 uvicorn.error INFO     Finished server process [7004]
+04-10 16:39:37 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 16:39:38 uvicorn.error INFO     Started server process [9172]
+04-10 16:39:38 uvicorn.error INFO     Waiting for application startup.
+04-10 16:39:38 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 16:39:38 uvicorn.error INFO     Application startup complete.
+04-10 16:39:38 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 16:39:39 uvicorn.access INFO     192.168.103.46:50615 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:39:40 uvicorn.access INFO     192.168.103.46:50615 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:39:40 uvicorn.access INFO     192.168.103.46:50615 - "GET /scores/bar/ HTTP/1.1" 200
+04-10 16:40:25 uvicorn.error INFO     Shutting down
+04-10 16:40:25 uvicorn.error INFO     Finished server process [9172]
+04-10 16:40:26 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 16:40:26 uvicorn.error INFO     Started server process [7744]
+04-10 16:40:26 uvicorn.error INFO     Waiting for application startup.
+04-10 16:40:26 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 16:40:26 uvicorn.error INFO     Application startup complete.
+04-10 16:40:26 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 16:40:28 uvicorn.access INFO     192.168.103.46:50620 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:40:29 uvicorn.access INFO     192.168.103.46:50621 - "GET /scores/bar/ HTTP/1.1" 200
+04-10 16:40:29 uvicorn.access INFO     192.168.103.46:50620 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:46:41 uvicorn.error INFO     Shutting down
+04-10 16:46:41 uvicorn.error INFO     Finished server process [7744]
+04-10 16:46:42 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 16:46:42 uvicorn.error INFO     Started server process [11000]
+04-10 16:46:42 uvicorn.error INFO     Waiting for application startup.
+04-10 16:46:42 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 16:46:42 uvicorn.error INFO     Application startup complete.
+04-10 16:46:42 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 16:46:44 uvicorn.access INFO     192.168.103.46:50630 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:46:45 uvicorn.access INFO     192.168.103.46:50631 - "GET /scores/bar/ HTTP/1.1" 200
+04-10 16:46:45 uvicorn.access INFO     192.168.103.46:50630 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:47:09 uvicorn.access INFO     192.168.103.46:50637 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:47:09 uvicorn.access INFO     192.168.103.46:50637 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:47:09 uvicorn.access INFO     192.168.103.46:50638 - "GET /scores/bar/ HTTP/1.1" 200
+04-10 16:48:41 uvicorn.error INFO     Shutting down
+04-10 16:48:41 uvicorn.error INFO     Finished server process [11000]
+04-10 16:48:43 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 16:48:43 uvicorn.error INFO     Started server process [976]
+04-10 16:48:43 uvicorn.error INFO     Waiting for application startup.
+04-10 16:48:43 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 16:48:43 uvicorn.error INFO     Application startup complete.
+04-10 16:48:43 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 16:48:45 uvicorn.access INFO     192.168.103.46:50645 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:48:46 uvicorn.access INFO     192.168.103.46:50646 - "GET /scores/bar/ HTTP/1.1" 200
+04-10 16:48:46 uvicorn.access INFO     192.168.103.46:50645 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 16:58:37 uvicorn.error INFO     Shutting down
+04-10 16:58:37 uvicorn.error INFO     Finished server process [976]
+04-10 17:34:18 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 17:34:18 uvicorn.error INFO     Started server process [1632]
+04-10 17:34:18 uvicorn.error INFO     Waiting for application startup.
+04-10 17:34:18 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 17:34:18 uvicorn.error INFO     Application startup complete.
+04-10 17:34:18 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 17:34:20 django.request ERROR    Internal Server Error: /scores/score_find/
+Traceback (most recent call last):
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "E:\ANAconda\envs\Django_1\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "E:\python_project\Django\Test1\TSMC\TSMC\scores\views.py", line 30, in admin_coursefind
+    return render(request, 'scores/score_find.html', context)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_score_find' not found. 'admin_score_find' is not a valid view function or pattern name.
+04-10 17:34:20 uvicorn.access INFO     192.168.103.46:50809 - "GET /scores/score_find/ HTTP/1.1" 500
+04-10 17:35:46 uvicorn.error INFO     Shutting down
+04-10 17:35:46 uvicorn.error INFO     Finished server process [1632]
+04-10 17:35:52 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 17:35:53 uvicorn.error INFO     Started server process [2956]
+04-10 17:35:53 uvicorn.error INFO     Waiting for application startup.
+04-10 17:35:53 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 17:35:53 uvicorn.error INFO     Application startup complete.
+04-10 17:35:53 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 17:35:55 uvicorn.access INFO     192.168.103.46:50814 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 17:35:55 uvicorn.access INFO     192.168.103.46:50815 - "GET /scores/bar/ HTTP/1.1" 200
+04-10 17:35:55 uvicorn.access INFO     192.168.103.46:50814 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 17:36:09 uvicorn.access INFO     192.168.103.46:50820 - "GET /admin/ HTTP/1.1" 200
+04-10 17:36:09 uvicorn.access INFO     192.168.103.46:50820 - "GET /static/admin/css/dashboard.css HTTP/1.1" 200
+04-10 17:36:10 uvicorn.access INFO     192.168.103.46:50820 - "GET /admin/scores/classmate/ HTTP/1.1" 200
+04-10 17:36:11 uvicorn.access INFO     192.168.103.46:50820 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 17:36:11 uvicorn.access INFO     192.168.103.46:50820 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 17:36:11 uvicorn.access INFO     192.168.103.46:50820 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 17:36:21 uvicorn.access INFO     192.168.103.46:50821 - "POST /admin/scores/course/ HTTP/1.1" 200
+04-10 17:36:22 uvicorn.access INFO     192.168.103.46:50821 - "POST /admin/scores/course/ HTTP/1.1" 302
+04-10 17:36:22 uvicorn.access INFO     192.168.103.46:50821 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 17:36:22 uvicorn.access INFO     192.168.103.46:50821 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 17:36:28 uvicorn.access INFO     192.168.103.46:50822 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 17:36:29 uvicorn.access INFO     192.168.103.46:50824 - "GET /scores/bar/ HTTP/1.1" 200
+04-10 17:36:29 uvicorn.access INFO     192.168.103.46:50822 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 17:36:39 uvicorn.access INFO     192.168.103.46:50825 - "GET /admin/scores/course/add/ HTTP/1.1" 200
+04-10 17:36:39 uvicorn.access INFO     192.168.103.46:50825 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 17:36:45 uvicorn.access INFO     192.168.103.46:50826 - "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200
+04-10 17:36:50 uvicorn.access INFO     192.168.103.46:50828 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 17:36:50 uvicorn.access INFO     192.168.103.46:50828 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 17:36:52 django.request WARNING  Not Found: /scores/add.html/
+04-10 17:36:52 uvicorn.access INFO     192.168.103.46:50828 - "GET /scores/add.html/ HTTP/1.1" 404
+04-10 17:36:59 uvicorn.access INFO     192.168.103.46:50829 - "GET /scores/add/ HTTP/1.1" 200
+04-10 17:36:59 uvicorn.access INFO     192.168.103.46:50829 - "GET /scores/add/ HTTP/1.1" 200
+04-10 17:37:15 uvicorn.error INFO     Shutting down
+04-10 17:37:15 uvicorn.error INFO     Finished server process [2956]
+04-10 17:38:04 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 17:38:04 uvicorn.error INFO     Started server process [11168]
+04-10 17:38:04 uvicorn.error INFO     Waiting for application startup.
+04-10 17:38:04 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 17:38:04 uvicorn.error INFO     Application startup complete.
+04-10 17:38:04 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 17:38:14 uvicorn.access INFO     192.168.103.46:50839 - "POST /scores/add/ HTTP/1.1" 200
+04-10 17:38:14 uvicorn.access INFO     192.168.103.46:50839 - "GET /scores/add/ HTTP/1.1" 200
+04-10 17:38:16 uvicorn.access INFO     192.168.103.46:50839 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 17:38:16 uvicorn.access INFO     192.168.103.46:50839 - "GET /scores/course-list/ HTTP/1.1" 200
+04-10 17:39:00 uvicorn.access INFO     192.168.103.46:50840 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 17:39:01 uvicorn.access INFO     192.168.103.46:50840 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 17:39:01 uvicorn.access INFO     192.168.103.46:50841 - "GET /scores/bar/ HTTP/1.1" 200
+04-10 17:45:00 uvicorn.error INFO     Shutting down
+04-10 17:45:00 uvicorn.error INFO     Finished server process [11168]
+04-10 17:45:03 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 17:45:03 uvicorn.error INFO     Started server process [8488]
+04-10 17:45:03 uvicorn.error INFO     Waiting for application startup.
+04-10 17:45:03 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 17:45:03 uvicorn.error INFO     Application startup complete.
+04-10 17:45:03 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 17:45:07 django.request ERROR    Internal Server Error: /scores/score_find/
+Traceback (most recent call last):
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "E:\ANAconda\envs\Django_1\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "E:\python_project\Django\Test1\TSMC\TSMC\scores\views.py", line 34, in admin_coursefind
+    return render(request, 'scores/score_find.html', context)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_score_find' with no arguments not found. 1 pattern(s) tried: ['scores/score_find/(?P<course>[^/]+)\\Z']
+04-10 17:45:07 uvicorn.access INFO     192.168.103.46:50856 - "GET /scores/score_find/ HTTP/1.1" 500
+04-10 17:46:05 uvicorn.error INFO     Shutting down
+04-10 17:46:06 uvicorn.error INFO     Finished server process [8488]
+04-10 17:46:07 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 17:46:07 uvicorn.error INFO     Started server process [16580]
+04-10 17:46:07 uvicorn.error INFO     Waiting for application startup.
+04-10 17:46:07 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 17:46:07 uvicorn.error INFO     Application startup complete.
+04-10 17:46:07 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 17:46:09 uvicorn.access INFO     192.168.103.46:50868 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 17:46:10 uvicorn.access INFO     192.168.103.46:50868 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 17:46:10 uvicorn.access INFO     192.168.103.46:50869 - "GET /scores/bar/ HTTP/1.1" 200
+04-10 17:46:14 uvicorn.access INFO     192.168.103.46:50869 - "GET /scores/score_find/?coursenumber=124 HTTP/1.1" 200
+04-10 17:46:15 uvicorn.access INFO     192.168.103.46:50868 - "GET /scores/bar/ HTTP/1.1" 200
+04-10 17:46:15 uvicorn.access INFO     192.168.103.46:50869 - "GET /scores/score_find/?coursenumber=124 HTTP/1.1" 200
+04-10 17:46:18 uvicorn.access INFO     192.168.103.46:50869 - "GET /scores/score_find/?coursenumber=124 HTTP/1.1" 200
+04-10 17:46:19 uvicorn.access INFO     192.168.103.46:50868 - "GET /scores/bar/ HTTP/1.1" 200
+04-10 17:46:19 uvicorn.access INFO     192.168.103.46:50869 - "GET /scores/score_find/?coursenumber=124 HTTP/1.1" 200
+04-10 17:47:08 uvicorn.error INFO     Shutting down
+04-10 17:47:08 uvicorn.error INFO     Finished server process [16580]
+04-10 17:47:09 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 17:47:09 uvicorn.error INFO     Started server process [12340]
+04-10 17:47:09 uvicorn.error INFO     Waiting for application startup.
+04-10 17:47:09 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 17:47:09 uvicorn.error INFO     Application startup complete.
+04-10 17:47:09 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 17:47:12 uvicorn.access INFO     192.168.103.46:50876 - "GET /scores/score_find/?coursenumber=124 HTTP/1.1" 200
+04-10 17:47:12 uvicorn.access INFO     192.168.103.46:50877 - "GET /scores/bar/ HTTP/1.1" 200
+04-10 17:47:12 uvicorn.access INFO     192.168.103.46:50876 - "GET /scores/score_find/?coursenumber=124 HTTP/1.1" 200
+04-10 17:47:14 django.request ERROR    Internal Server Error: /scores/admin_score_find/
+Traceback (most recent call last):
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "E:\ANAconda\envs\Django_1\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+TypeError: admin_scorefind() missing 1 required positional argument: 'course'
+04-10 17:47:14 uvicorn.access INFO     192.168.103.46:50876 - "GET /scores/admin_score_find/?coursenumber=124 HTTP/1.1" 500
+04-10 17:47:39 django.request ERROR    Internal Server Error: /scores/admin_score_find/
+Traceback (most recent call last):
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "E:\ANAconda\envs\Django_1\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+TypeError: admin_scorefind() missing 1 required positional argument: 'course'
+04-10 17:47:39 uvicorn.access INFO     192.168.103.46:50880 - "GET /scores/admin_score_find/?coursenumber=124 HTTP/1.1" 500
+04-10 17:47:42 uvicorn.error INFO     Shutting down
+04-10 17:47:42 uvicorn.error INFO     Finished server process [12340]
+04-10 17:47:42 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 17:47:43 uvicorn.error INFO     Started server process [5468]
+04-10 17:47:43 uvicorn.error INFO     Waiting for application startup.
+04-10 17:47:43 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 17:47:43 uvicorn.error INFO     Application startup complete.
+04-10 17:47:43 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 17:47:44 django.request ERROR    Internal Server Error: /scores/admin_score_find/
+Traceback (most recent call last):
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "E:\ANAconda\envs\Django_1\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "E:\python_project\Django\Test1\TSMC\TSMC\scores\views.py", line 16, in admin_scorefind
+    classmates = Classmate.objects.filter(coursenumber__coursenumber=course_number)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\sql\query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\sql\query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\sql\query.py", line 1427, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\sql\query.py", line 1237, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\sql\query.py", line 1725, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'coursenumber' into field. Choices are: classdate, classnumber, classnumber_id, id, name, name_id, score, status
+04-10 17:47:44 uvicorn.access INFO     192.168.103.46:50884 - "GET /scores/admin_score_find/?coursenumber=124 HTTP/1.1" 500
+04-10 17:48:19 uvicorn.error INFO     Shutting down
+04-10 17:48:19 uvicorn.error INFO     Finished server process [5468]
+04-10 17:48:20 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 17:48:20 uvicorn.error INFO     Started server process [3704]
+04-10 17:48:20 uvicorn.error INFO     Waiting for application startup.
+04-10 17:48:20 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 17:48:20 uvicorn.error INFO     Application startup complete.
+04-10 17:48:20 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 17:48:22 django.request ERROR    Internal Server Error: /scores/admin_score_find/
+Traceback (most recent call last):
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "E:\ANAconda\envs\Django_1\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "E:\python_project\Django\Test1\TSMC\TSMC\scores\views.py", line 16, in admin_scorefind
+    classmates = Classmate.objects.filter(coursenumber=course_number)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\sql\query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\sql\query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\sql\query.py", line 1427, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\sql\query.py", line 1237, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "E:\ANAconda\envs\Django_1\lib\site-packages\django\db\models\sql\query.py", line 1725, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'coursenumber' into field. Choices are: classdate, classnumber, classnumber_id, id, name, name_id, score, status
+04-10 17:48:22 uvicorn.access INFO     192.168.103.46:50890 - "GET /scores/admin_score_find/?coursenumber=124 HTTP/1.1" 500
+04-10 17:49:01 uvicorn.error INFO     Shutting down
+04-10 17:49:01 uvicorn.error INFO     Finished server process [3704]
+04-10 17:49:02 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 17:49:02 uvicorn.error INFO     Started server process [536]
+04-10 17:49:02 uvicorn.error INFO     Waiting for application startup.
+04-10 17:49:02 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 17:49:02 uvicorn.error INFO     Application startup complete.
+04-10 17:49:02 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 17:49:05 uvicorn.access INFO     192.168.103.46:50895 - "GET /scores/admin_score_find/?coursenumber=124 HTTP/1.1" 200
+04-10 17:49:05 uvicorn.access INFO     192.168.103.46:50895 - "GET /scores/admin_score_find/?coursenumber=124 HTTP/1.1" 200
+04-10 17:50:11 uvicorn.error INFO     Shutting down
+04-10 17:50:11 uvicorn.error INFO     Finished server process [536]
+04-10 17:50:12 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 17:50:12 uvicorn.error INFO     Started server process [10420]
+04-10 17:50:12 uvicorn.error INFO     Waiting for application startup.
+04-10 17:50:12 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 17:50:12 uvicorn.error INFO     Application startup complete.
+04-10 17:50:12 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 17:50:16 uvicorn.access INFO     192.168.103.46:50902 - "GET /scores/admin_score_find/?coursenumber=124 HTTP/1.1" 200
+04-10 17:50:16 uvicorn.access INFO     192.168.103.46:50902 - "GET /scores/admin_score_find/?coursenumber=124 HTTP/1.1" 200
+04-10 17:50:25 uvicorn.access INFO     192.168.103.46:50903 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 17:50:26 uvicorn.access INFO     192.168.103.46:50904 - "GET /scores/bar/ HTTP/1.1" 200
+04-10 17:50:26 uvicorn.access INFO     192.168.103.46:50903 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 17:51:09 uvicorn.error INFO     Shutting down
+04-10 17:51:09 uvicorn.error INFO     Finished server process [10420]
+04-10 17:51:11 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 17:51:11 uvicorn.error INFO     Started server process [7888]
+04-10 17:51:11 uvicorn.error INFO     Waiting for application startup.
+04-10 17:51:11 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 17:51:11 uvicorn.error INFO     Application startup complete.
+04-10 17:51:11 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 17:51:15 uvicorn.access INFO     192.168.103.46:50911 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 17:51:15 uvicorn.access INFO     192.168.103.46:50912 - "GET /scores/bar/ HTTP/1.1" 200
+04-10 17:51:15 uvicorn.access INFO     192.168.103.46:50911 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 17:51:37 uvicorn.error INFO     Shutting down
+04-10 17:51:37 uvicorn.error INFO     Finished server process [7888]
+04-10 17:51:38 uvicorn.error INFO     Will watch for changes in these directories: ['E:\\python_project\\Django\\Test1\\TSMC\\TSMC']
+04-10 17:51:38 uvicorn.error INFO     Started server process [17896]
+04-10 17:51:38 uvicorn.error INFO     Waiting for application startup.
+04-10 17:51:38 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+04-10 17:51:38 uvicorn.error INFO     Application startup complete.
+04-10 17:51:38 uvicorn.error INFO     Uvicorn running on http://192.168.103.46:8701 (Press CTRL+C to quit)
+04-10 17:51:41 uvicorn.access INFO     192.168.103.46:50915 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 17:51:42 uvicorn.access INFO     192.168.103.46:50916 - "GET /scores/bar/ HTTP/1.1" 200
+04-10 17:51:42 uvicorn.access INFO     192.168.103.46:50915 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 17:51:47 uvicorn.access INFO     192.168.103.46:50915 - "GET /scores/admin_score_find/?coursenumber=124 HTTP/1.1" 200
+04-10 17:51:47 uvicorn.access INFO     192.168.103.46:50915 - "GET /scores/admin_score_find/?coursenumber=124 HTTP/1.1" 200
+04-10 17:58:44 uvicorn.access INFO     192.168.103.46:51049 - "GET /admin/ HTTP/1.1" 200
+04-10 17:58:46 uvicorn.access INFO     192.168.103.46:51049 - "GET /admin/scores/classmate/ HTTP/1.1" 200
+04-10 17:58:46 uvicorn.access INFO     192.168.103.46:51049 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 17:58:48 uvicorn.access INFO     192.168.103.46:51049 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 17:58:48 uvicorn.access INFO     192.168.103.46:51049 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 17:58:49 uvicorn.access INFO     192.168.103.46:51049 - "GET /admin/scores/classmate/ HTTP/1.1" 200
+04-10 17:58:49 uvicorn.access INFO     192.168.103.46:51049 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 17:58:50 uvicorn.access INFO     192.168.103.46:51049 - "GET /admin/scores/classmate/add/ HTTP/1.1" 200
+04-10 17:58:50 uvicorn.access INFO     192.168.103.46:51049 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 17:59:01 uvicorn.access INFO     192.168.103.46:51050 - "POST /admin/scores/classmate/add/ HTTP/1.1" 302
+04-10 17:59:01 uvicorn.access INFO     192.168.103.46:51050 - "GET /admin/scores/classmate/ HTTP/1.1" 200
+04-10 17:59:01 uvicorn.access INFO     192.168.103.46:51050 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 17:59:07 uvicorn.access INFO     192.168.103.46:51057 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 17:59:07 uvicorn.access INFO     192.168.103.46:51057 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 17:59:09 uvicorn.access INFO     192.168.103.46:51057 - "GET /admin/scores/course/124/change/ HTTP/1.1" 200
+04-10 17:59:09 uvicorn.access INFO     192.168.103.46:51057 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 17:59:12 uvicorn.access INFO     192.168.103.46:51057 - "POST /admin/scores/course/124/change/ HTTP/1.1" 200
+04-10 17:59:13 uvicorn.access INFO     192.168.103.46:51057 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 17:59:24 uvicorn.access INFO     192.168.103.46:51064 - "POST /admin/scores/course/124/change/ HTTP/1.1" 302
+04-10 17:59:24 uvicorn.access INFO     192.168.103.46:51064 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 17:59:24 uvicorn.access INFO     192.168.103.46:51064 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 17:59:38 uvicorn.access INFO     192.168.103.46:51068 - "GET /admin/scores/course/124/change/ HTTP/1.1" 200
+04-10 17:59:38 uvicorn.access INFO     192.168.103.46:51068 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 17:59:41 uvicorn.access INFO     192.168.103.46:51068 - "POST /admin/scores/course/124/change/ HTTP/1.1" 302
+04-10 17:59:41 uvicorn.access INFO     192.168.103.46:51068 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 17:59:42 uvicorn.access INFO     192.168.103.46:51068 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 17:59:50 uvicorn.access INFO     192.168.103.46:51076 - "GET /admin/scores/course/124/change/ HTTP/1.1" 200
+04-10 17:59:50 uvicorn.access INFO     192.168.103.46:51076 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 17:59:54 uvicorn.access INFO     192.168.103.46:51076 - "POST /admin/scores/course/124/change/ HTTP/1.1" 302
+04-10 17:59:54 uvicorn.access INFO     192.168.103.46:51076 - "GET /admin/scores/course/ HTTP/1.1" 200
+04-10 17:59:54 uvicorn.access INFO     192.168.103.46:51076 - "GET /admin/jsi18n/ HTTP/1.1" 200
+04-10 18:00:03 uvicorn.access INFO     192.168.103.46:51077 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 18:00:04 uvicorn.access INFO     192.168.103.46:51077 - "GET /scores/score_find/ HTTP/1.1" 200
+04-10 18:00:04 uvicorn.access INFO     192.168.103.46:51078 - "GET /scores/bar/ HTTP/1.1" 200
+04-10 18:00:52 uvicorn.error INFO     Shutting down
+04-10 18:00:52 uvicorn.error INFO     Finished server process [17896]

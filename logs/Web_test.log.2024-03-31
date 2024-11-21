@@ -1,0 +1,8 @@
+03-31 22:57:56 uvicorn.error INFO     Shutting down
+03-31 22:57:56 uvicorn.error INFO     Finished server process [21320]
+03-31 22:58:19 uvicorn.error INFO     Will watch for changes in these directories: ['D:\\TSMC\\TSMC']
+03-31 22:58:19 uvicorn.error INFO     Started server process [21844]
+03-31 22:58:19 uvicorn.error INFO     Waiting for application startup.
+03-31 22:58:19 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+03-31 22:58:19 uvicorn.error INFO     Application startup complete.
+03-31 22:58:19 uvicorn.error ERROR    could not bind on any address out of [('192.168.103.48', 8701)]

@@ -1,0 +1,808 @@
+08-15 09:44:23 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 09:44:23 uvicorn.error INFO     Started server process [19092]
+08-15 09:44:23 uvicorn.error INFO     Waiting for application startup.
+08-15 09:44:23 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 09:44:23 uvicorn.error INFO     Application startup complete.
+08-15 09:44:23 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 09:44:35 uvicorn.access INFO     26.37.7.101:51197 - "GET / HTTP/1.1" 302
+08-15 09:44:35 uvicorn.access INFO     26.37.7.101:51197 - "GET /home/ HTTP/1.1" 200
+08-15 09:44:35 uvicorn.access INFO     26.37.7.101:51197 - "GET /static/assets/img/fishman.png HTTP/1.1" 304
+08-15 09:44:35 uvicorn.access INFO     26.37.7.101:51198 - "GET /static/assets/img/background.jpg HTTP/1.1" 304
+08-15 09:44:35 django.request WARNING  Not Found: /favicon.ico
+08-15 09:44:35 uvicorn.access INFO     26.37.7.101:51198 - "GET /favicon.ico HTTP/1.1" 404
+08-15 09:46:19 uvicorn.error INFO     Shutting down
+08-15 09:46:20 uvicorn.error INFO     Finished server process [19092]
+08-15 09:46:20 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 09:46:21 uvicorn.error INFO     Started server process [23828]
+08-15 09:46:21 uvicorn.error INFO     Waiting for application startup.
+08-15 09:46:21 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 09:46:21 uvicorn.error INFO     Application startup complete.
+08-15 09:46:21 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 09:46:24 uvicorn.access INFO     26.37.7.101:51341 - "GET /home/ HTTP/1.1" 200
+08-15 09:46:28 uvicorn.access INFO     26.37.7.101:51341 - "GET /home/ HTTP/1.1" 200
+08-15 09:46:28 uvicorn.access INFO     26.37.7.101:51341 - "GET /home/ HTTP/1.1" 200
+08-15 09:46:30 uvicorn.access INFO     26.37.7.101:51341 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 09:48:13 uvicorn.error INFO     Shutting down
+08-15 09:48:13 uvicorn.error INFO     Finished server process [23828]
+08-15 09:48:14 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 09:48:14 uvicorn.error INFO     Started server process [16392]
+08-15 09:48:14 uvicorn.error INFO     Waiting for application startup.
+08-15 09:48:14 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 09:48:14 uvicorn.error INFO     Application startup complete.
+08-15 09:48:14 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 09:48:17 uvicorn.access INFO     26.37.7.101:51370 - "GET /home/ HTTP/1.1" 200
+08-15 09:48:17 uvicorn.access INFO     26.37.7.101:51370 - "GET /static/assets/img/output.gif HTTP/1.1" 200
+08-15 09:49:00 uvicorn.access INFO     26.37.7.101:51371 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 09:49:45 uvicorn.access INFO     26.37.7.101:51417 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 09:50:54 uvicorn.error INFO     Shutting down
+08-15 09:50:54 uvicorn.error INFO     Finished server process [16392]
+08-15 09:50:55 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 09:50:56 uvicorn.error INFO     Started server process [12836]
+08-15 09:50:56 uvicorn.error INFO     Waiting for application startup.
+08-15 09:50:56 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 09:50:56 uvicorn.error INFO     Application startup complete.
+08-15 09:50:56 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 09:50:58 uvicorn.access INFO     26.37.7.101:51444 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 09:51:00 uvicorn.access INFO     26.37.7.101:51444 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 09:51:07 uvicorn.error INFO     Shutting down
+08-15 09:51:07 uvicorn.error INFO     Finished server process [12836]
+08-15 09:51:08 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 09:51:08 uvicorn.error INFO     Started server process [26800]
+08-15 09:51:08 uvicorn.error INFO     Waiting for application startup.
+08-15 09:51:08 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 09:51:08 uvicorn.error INFO     Application startup complete.
+08-15 09:51:08 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 09:51:11 uvicorn.access INFO     26.37.7.101:51451 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 09:51:15 uvicorn.access INFO     26.37.7.101:51451 - "GET /welcome/register HTTP/1.1" 301
+08-15 09:51:15 uvicorn.access INFO     26.37.7.101:51451 - "GET /welcome/register/ HTTP/1.1" 200
+08-15 09:51:52 uvicorn.error INFO     Shutting down
+08-15 09:51:52 uvicorn.error INFO     Finished server process [26800]
+08-15 09:51:53 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 09:51:53 uvicorn.error INFO     Started server process [20128]
+08-15 09:51:53 uvicorn.error INFO     Waiting for application startup.
+08-15 09:51:53 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 09:51:53 uvicorn.error INFO     Application startup complete.
+08-15 09:51:53 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 09:51:55 uvicorn.access INFO     26.37.7.101:51459 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 09:52:41 uvicorn.error INFO     Shutting down
+08-15 09:52:41 uvicorn.error INFO     Finished server process [20128]
+08-15 09:52:42 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 09:52:42 uvicorn.error INFO     Started server process [27532]
+08-15 09:52:42 uvicorn.error INFO     Waiting for application startup.
+08-15 09:52:42 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 09:52:42 uvicorn.error INFO     Application startup complete.
+08-15 09:52:42 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 09:52:44 uvicorn.access INFO     26.37.7.101:51465 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 09:56:53 uvicorn.error INFO     Shutting down
+08-15 09:56:53 uvicorn.error INFO     Finished server process [27532]
+08-15 09:56:54 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 09:56:54 uvicorn.error INFO     Started server process [7756]
+08-15 09:56:54 uvicorn.error INFO     Waiting for application startup.
+08-15 09:56:54 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 09:56:54 uvicorn.error INFO     Application startup complete.
+08-15 09:56:54 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 09:56:56 uvicorn.access INFO     26.37.7.101:51502 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 09:57:07 uvicorn.access INFO     26.37.7.101:51503 - "POST /welcome/login/ HTTP/1.1" 302
+08-15 09:57:07 uvicorn.access INFO     26.37.7.101:51503 - "GET /home/ HTTP/1.1" 200
+08-15 09:57:13 uvicorn.access INFO     26.37.7.101:51507 - "GET /welcome/logout/ HTTP/1.1" 302
+08-15 09:57:13 uvicorn.access INFO     26.37.7.101:51507 - "GET /home/ HTTP/1.1" 200
+08-15 09:57:13 uvicorn.access INFO     26.37.7.101:51507 - "GET /static/assets/img/output.gif HTTP/1.1" 304
+08-15 09:57:15 uvicorn.access INFO     26.37.7.101:51507 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 09:57:18 uvicorn.access INFO     26.37.7.101:51507 - "POST /welcome/login/ HTTP/1.1" 302
+08-15 09:57:18 uvicorn.access INFO     26.37.7.101:51507 - "GET /home/ HTTP/1.1" 200
+08-15 09:58:30 uvicorn.error INFO     Shutting down
+08-15 09:58:30 uvicorn.error INFO     Finished server process [7756]
+08-15 09:58:31 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 09:58:31 uvicorn.error INFO     Started server process [14160]
+08-15 09:58:31 uvicorn.error INFO     Waiting for application startup.
+08-15 09:58:31 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 09:58:31 uvicorn.error INFO     Application startup complete.
+08-15 09:58:31 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 09:58:33 uvicorn.access INFO     26.37.7.101:51540 - "GET /home/ HTTP/1.1" 200
+08-15 09:58:35 uvicorn.access INFO     26.37.7.101:51540 - "GET /welcome/logout/ HTTP/1.1" 302
+08-15 09:58:35 uvicorn.access INFO     26.37.7.101:51540 - "GET /home/ HTTP/1.1" 200
+08-15 09:58:35 uvicorn.access INFO     26.37.7.101:51540 - "GET /static/assets/img/output.gif HTTP/1.1" 304
+08-15 09:58:36 uvicorn.access INFO     26.37.7.101:51540 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 09:58:57 uvicorn.error INFO     Shutting down
+08-15 09:58:57 uvicorn.error INFO     Finished server process [14160]
+08-15 09:58:58 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 09:58:58 uvicorn.error INFO     Started server process [26668]
+08-15 09:58:58 uvicorn.error INFO     Waiting for application startup.
+08-15 09:58:58 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 09:58:58 uvicorn.error INFO     Application startup complete.
+08-15 09:58:58 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 09:59:00 uvicorn.access INFO     26.37.7.101:51551 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 09:59:17 uvicorn.error INFO     Shutting down
+08-15 09:59:17 uvicorn.error INFO     Finished server process [26668]
+08-15 09:59:17 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 09:59:18 uvicorn.error INFO     Started server process [19468]
+08-15 09:59:18 uvicorn.error INFO     Waiting for application startup.
+08-15 09:59:18 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 09:59:18 uvicorn.error INFO     Application startup complete.
+08-15 09:59:18 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 09:59:19 uvicorn.access INFO     26.37.7.101:51559 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 09:59:39 uvicorn.error INFO     Shutting down
+08-15 09:59:39 uvicorn.error INFO     Finished server process [19468]
+08-15 09:59:40 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 09:59:40 uvicorn.error INFO     Started server process [4184]
+08-15 09:59:40 uvicorn.error INFO     Waiting for application startup.
+08-15 09:59:40 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 09:59:40 uvicorn.error INFO     Application startup complete.
+08-15 09:59:40 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 09:59:42 uvicorn.access INFO     26.37.7.101:51568 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 09:59:57 uvicorn.error INFO     Shutting down
+08-15 09:59:57 uvicorn.error INFO     Finished server process [4184]
+08-15 09:59:58 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 09:59:58 uvicorn.error INFO     Started server process [13724]
+08-15 09:59:58 uvicorn.error INFO     Waiting for application startup.
+08-15 09:59:58 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 09:59:58 uvicorn.error INFO     Application startup complete.
+08-15 09:59:58 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 10:00:01 uvicorn.access INFO     26.37.7.101:51577 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 10:00:18 uvicorn.error INFO     Shutting down
+08-15 10:00:18 uvicorn.error INFO     Finished server process [13724]
+08-15 10:00:18 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 10:00:19 uvicorn.error INFO     Started server process [7064]
+08-15 10:00:19 uvicorn.error INFO     Waiting for application startup.
+08-15 10:00:19 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 10:00:19 uvicorn.error INFO     Application startup complete.
+08-15 10:00:19 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 10:00:20 uvicorn.access INFO     26.37.7.101:51584 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 10:00:30 uvicorn.error INFO     Shutting down
+08-15 10:00:30 uvicorn.error INFO     Finished server process [7064]
+08-15 10:00:31 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 10:00:31 uvicorn.error INFO     Started server process [8388]
+08-15 10:00:31 uvicorn.error INFO     Waiting for application startup.
+08-15 10:00:31 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 10:00:31 uvicorn.error INFO     Application startup complete.
+08-15 10:00:31 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 10:00:33 uvicorn.access INFO     26.37.7.101:51589 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 10:00:39 uvicorn.access INFO     26.37.7.101:51590 - "POST /welcome/login/ HTTP/1.1" 302
+08-15 10:00:39 uvicorn.access INFO     26.37.7.101:51590 - "GET /home/ HTTP/1.1" 200
+08-15 10:01:01 uvicorn.error INFO     Shutting down
+08-15 10:01:01 uvicorn.error INFO     Finished server process [8388]
+08-15 10:01:02 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 10:01:02 uvicorn.error INFO     Started server process [16936]
+08-15 10:01:02 uvicorn.error INFO     Waiting for application startup.
+08-15 10:01:02 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 10:01:02 uvicorn.error INFO     Application startup complete.
+08-15 10:01:02 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 10:01:04 uvicorn.access INFO     26.37.7.101:51596 - "GET /home/ HTTP/1.1" 200
+08-15 10:01:05 uvicorn.access INFO     26.37.7.101:51596 - "GET /welcome/logout/ HTTP/1.1" 302
+08-15 10:01:05 uvicorn.access INFO     26.37.7.101:51596 - "GET /home/ HTTP/1.1" 200
+08-15 10:01:05 uvicorn.access INFO     26.37.7.101:51596 - "GET /static/assets/img/output.gif HTTP/1.1" 304
+08-15 10:01:07 uvicorn.access INFO     26.37.7.101:51596 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 10:01:11 uvicorn.access INFO     26.37.7.101:51596 - "POST /welcome/login/ HTTP/1.1" 302
+08-15 10:01:11 uvicorn.access INFO     26.37.7.101:51596 - "GET /home/ HTTP/1.1" 200
+08-15 10:13:03 uvicorn.access INFO     26.37.7.101:51641 - "GET /home/contact/ HTTP/1.1" 200
+08-15 10:14:35 django.request WARNING  Not Found: /hopital
+08-15 10:14:35 uvicorn.access INFO     26.37.7.101:51651 - "GET /hopital HTTP/1.1" 404
+08-15 10:18:27 uvicorn.access INFO     26.37.7.101:51674 - "GET /home/aboutus/ HTTP/1.1" 200
+08-15 10:18:30 uvicorn.access INFO     26.37.7.101:51674 - "GET /home/aboutus/ HTTP/1.1" 200
+08-15 10:18:31 uvicorn.access INFO     26.37.7.101:51674 - "GET /home/aboutus/ HTTP/1.1" 200
+08-15 10:18:32 uvicorn.access INFO     26.37.7.101:51674 - "GET /home/aboutus/ HTTP/1.1" 200
+08-15 10:20:02 django.request WARNING  Not Found: /home/hopital/
+08-15 10:20:02 uvicorn.access INFO     26.37.7.101:51689 - "GET /home/hopital/ HTTP/1.1" 404
+08-15 10:20:06 django.request WARNING  Not Found: /hopital/
+08-15 10:20:06 uvicorn.access INFO     26.37.7.101:51689 - "GET /hopital/ HTTP/1.1" 404
+08-15 10:20:08 django.request WARNING  Not Found: /hopital
+08-15 10:20:08 uvicorn.access INFO     26.37.7.101:51689 - "GET /hopital HTTP/1.1" 404
+08-15 10:21:56 django.request WARNING  Not Found: /home/hopital/
+08-15 10:21:56 uvicorn.access INFO     26.37.7.101:51705 - "GET /home/hopital/ HTTP/1.1" 404
+08-15 10:21:58 uvicorn.error INFO     Shutting down
+08-15 10:21:58 uvicorn.error INFO     Finished server process [16936]
+08-15 10:21:59 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 10:21:59 uvicorn.error INFO     Started server process [4288]
+08-15 10:21:59 uvicorn.error INFO     Waiting for application startup.
+08-15 10:21:59 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 10:21:59 uvicorn.error INFO     Application startup complete.
+08-15 10:21:59 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 10:22:01 django.request ERROR    Internal Server Error: /home/hopital/
+Traceback (most recent call last):
+  File "C:\Users\user\Envs\django\lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\user\Envs\django\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\user\Envs\django\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\user\Envs\django\lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\user\Envs\django\lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\django_test\Duckbubi\home\views.py", line 59, in hopital
+    return render(request, 'home/hopital.html', )
+  File "C:\Users\user\Envs\django\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\user\Envs\django\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\user\Envs\django\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home/hopital.html
+08-15 10:22:01 uvicorn.access INFO     26.37.7.101:51709 - "GET /home/hopital/ HTTP/1.1" 500
+08-15 10:22:29 uvicorn.error INFO     Shutting down
+08-15 10:22:29 uvicorn.error INFO     Finished server process [4288]
+08-15 10:22:30 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 10:22:30 uvicorn.error INFO     Started server process [15404]
+08-15 10:22:30 uvicorn.error INFO     Waiting for application startup.
+08-15 10:22:30 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 10:22:30 uvicorn.error INFO     Application startup complete.
+08-15 10:22:30 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 10:22:33 django.request WARNING  Not Found: /home/hopital/
+08-15 10:22:33 uvicorn.access INFO     26.37.7.101:51722 - "GET /home/hopital/ HTTP/1.1" 404
+08-15 10:22:34 django.request WARNING  Not Found: /home/hopital/
+08-15 10:22:34 uvicorn.access INFO     26.37.7.101:51722 - "GET /home/hopital/ HTTP/1.1" 404
+08-15 10:22:42 uvicorn.access INFO     26.37.7.101:51723 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 10:51:06 uvicorn.error INFO     Shutting down
+08-15 10:51:06 uvicorn.error INFO     Finished server process [15404]
+08-15 10:51:07 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 10:51:08 uvicorn.error INFO     Started server process [20764]
+08-15 10:51:08 uvicorn.error INFO     Waiting for application startup.
+08-15 10:51:08 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 10:51:08 uvicorn.error INFO     Application startup complete.
+08-15 10:51:08 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 10:51:10 uvicorn.access INFO     26.37.7.101:52040 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 10:55:12 uvicorn.error INFO     Shutting down
+08-15 10:55:12 uvicorn.error INFO     Finished server process [20764]
+08-15 10:55:13 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 10:55:13 uvicorn.error INFO     Started server process [8008]
+08-15 10:55:13 uvicorn.error INFO     Waiting for application startup.
+08-15 10:55:13 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 10:55:13 uvicorn.error INFO     Application startup complete.
+08-15 10:55:13 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 10:55:16 uvicorn.access INFO     26.37.7.101:52154 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 10:55:18 django.request WARNING  Not Found: /get_locations/
+08-15 10:55:18 uvicorn.access INFO     26.37.7.101:52154 - "GET /get_locations/ HTTP/1.1" 404
+08-15 11:00:18 django.request WARNING  Not Found: /get_locations/
+08-15 11:00:18 uvicorn.access INFO     26.37.7.101:52300 - "GET /get_locations/ HTTP/1.1" 404
+08-15 11:00:37 uvicorn.access INFO     26.37.7.101:52301 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 11:01:23 uvicorn.error INFO     Shutting down
+08-15 11:01:24 uvicorn.error INFO     Finished server process [8008]
+08-15 11:01:24 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 11:01:25 uvicorn.error INFO     Started server process [12224]
+08-15 11:01:25 uvicorn.error INFO     Waiting for application startup.
+08-15 11:01:25 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 11:01:25 uvicorn.error INFO     Application startup complete.
+08-15 11:01:25 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 11:01:27 uvicorn.access INFO     26.37.7.101:52338 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 11:01:27 uvicorn.access INFO     26.37.7.101:52338 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 11:03:28 uvicorn.error INFO     Shutting down
+08-15 11:03:28 uvicorn.error INFO     Finished server process [12224]
+08-15 11:03:29 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 11:03:29 uvicorn.error INFO     Started server process [22072]
+08-15 11:03:29 uvicorn.error INFO     Waiting for application startup.
+08-15 11:03:29 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 11:03:29 uvicorn.error INFO     Application startup complete.
+08-15 11:03:29 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 11:03:31 uvicorn.access INFO     26.37.7.101:52407 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 11:03:31 uvicorn.access INFO     26.37.7.101:52407 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 11:03:35 django.request WARNING  Not Found: /home/search_clinics/
+08-15 11:03:35 uvicorn.access INFO     26.37.7.101:52407 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 404
+08-15 11:03:36 django.request WARNING  Not Found: /home/search_clinics/
+08-15 11:03:36 uvicorn.access INFO     26.37.7.101:52407 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 404
+08-15 11:15:39 uvicorn.error INFO     Shutting down
+08-15 11:15:39 uvicorn.error INFO     Finished server process [22072]
+08-15 11:15:40 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 11:15:41 uvicorn.error INFO     Started server process [25076]
+08-15 11:15:41 uvicorn.error INFO     Waiting for application startup.
+08-15 11:15:41 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 11:15:41 uvicorn.error INFO     Application startup complete.
+08-15 11:15:41 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 11:15:43 uvicorn.access INFO     26.37.7.101:52873 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 11:15:43 uvicorn.access INFO     26.37.7.101:52873 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 11:15:46 uvicorn.access INFO     26.37.7.101:52873 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E7%87%95%E5%B7%A2%E5%8D%80 HTTP/1.1" 200
+08-15 11:15:49 uvicorn.access INFO     26.37.7.101:52873 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 11:15:57 uvicorn.access INFO     26.37.7.101:52874 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E5%B7%A6%E7%87%9F%E5%8D%80 HTTP/1.1" 200
+08-15 11:16:07 uvicorn.access INFO     26.37.7.101:52890 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 11:19:52 uvicorn.error INFO     Shutting down
+08-15 11:19:52 uvicorn.error INFO     Finished server process [25076]
+08-15 11:19:53 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 11:19:53 uvicorn.error INFO     Started server process [9624]
+08-15 11:19:53 uvicorn.error INFO     Waiting for application startup.
+08-15 11:19:53 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 11:19:53 uvicorn.error INFO     Application startup complete.
+08-15 11:19:53 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 11:19:56 uvicorn.access INFO     26.37.7.101:53021 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 11:19:56 uvicorn.access INFO     26.37.7.101:53021 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 11:20:00 uvicorn.access INFO     26.37.7.101:53021 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 11:27:22 uvicorn.error INFO     Shutting down
+08-15 11:27:22 uvicorn.error INFO     Finished server process [9624]
+08-15 11:27:23 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 11:27:23 uvicorn.error INFO     Started server process [8076]
+08-15 11:27:23 uvicorn.error INFO     Waiting for application startup.
+08-15 11:27:23 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 11:27:23 uvicorn.error INFO     Application startup complete.
+08-15 11:27:23 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 11:27:25 uvicorn.access INFO     26.37.7.101:53274 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 11:27:25 uvicorn.access INFO     26.37.7.101:53274 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 11:27:30 uvicorn.access INFO     26.37.7.101:53274 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 12:34:10 uvicorn.error INFO     Shutting down
+08-15 12:34:10 uvicorn.error INFO     Finished server process [8076]
+08-15 12:34:10 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 12:34:11 uvicorn.error INFO     Started server process [21084]
+08-15 12:34:11 uvicorn.error INFO     Waiting for application startup.
+08-15 12:34:11 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 12:34:11 uvicorn.error INFO     Application startup complete.
+08-15 12:34:11 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 12:34:20 uvicorn.access INFO     26.37.7.101:54099 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 12:34:20 uvicorn.access INFO     26.37.7.101:54099 - "GET /static/assets/img/fishman.png HTTP/1.1" 304
+08-15 12:34:20 uvicorn.access INFO     26.37.7.101:54100 - "GET /static/assets/img/background.jpg HTTP/1.1" 304
+08-15 12:34:20 uvicorn.access INFO     26.37.7.101:54099 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 12:34:24 uvicorn.access INFO     26.37.7.101:54099 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 12:39:19 uvicorn.error INFO     Shutting down
+08-15 12:39:19 uvicorn.error INFO     Finished server process [21084]
+08-15 12:39:20 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 12:39:20 uvicorn.error INFO     Started server process [25244]
+08-15 12:39:20 uvicorn.error INFO     Waiting for application startup.
+08-15 12:39:20 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 12:39:20 uvicorn.error INFO     Application startup complete.
+08-15 12:39:20 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 12:39:23 uvicorn.access INFO     26.37.7.101:54229 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 12:39:23 uvicorn.access INFO     26.37.7.101:54229 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 12:39:27 uvicorn.access INFO     26.37.7.101:54229 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E7%87%95%E5%B7%A2%E5%8D%80 HTTP/1.1" 200
+08-15 12:39:29 uvicorn.access INFO     26.37.7.101:54229 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 12:47:41 uvicorn.error INFO     Shutting down
+08-15 12:47:41 uvicorn.error INFO     Finished server process [25244]
+08-15 12:47:42 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 12:47:42 uvicorn.error INFO     Started server process [27848]
+08-15 12:47:42 uvicorn.error INFO     Waiting for application startup.
+08-15 12:47:42 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 12:47:42 uvicorn.error INFO     Application startup complete.
+08-15 12:47:42 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 12:47:46 uvicorn.access INFO     26.37.7.101:54387 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 12:47:46 uvicorn.access INFO     26.37.7.101:54387 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 12:47:50 uvicorn.access INFO     26.37.7.101:54387 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 12:48:05 uvicorn.access INFO     26.37.7.101:54388 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 12:50:34 uvicorn.error INFO     Shutting down
+08-15 12:50:34 uvicorn.error INFO     Finished server process [27848]
+08-15 12:50:34 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 12:50:35 uvicorn.error INFO     Started server process [1496]
+08-15 12:50:35 uvicorn.error INFO     Waiting for application startup.
+08-15 12:50:35 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 12:50:35 uvicorn.error INFO     Application startup complete.
+08-15 12:50:35 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 12:50:38 uvicorn.access INFO     26.37.7.101:54419 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 12:50:38 uvicorn.access INFO     26.37.7.101:54419 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 12:50:42 uvicorn.access INFO     26.37.7.101:54419 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 12:50:42 django.request WARNING  Not Found: /home/hospital/undefined
+08-15 12:50:42 uvicorn.access INFO     26.37.7.101:54419 - "GET /home/hospital/undefined HTTP/1.1" 404
+08-15 12:51:27 uvicorn.access INFO     26.37.7.101:54420 - "GET /admin/ HTTP/1.1" 200
+08-15 12:51:29 uvicorn.access INFO     26.37.7.101:54420 - "GET /admin/hospital/hospital/ HTTP/1.1" 200
+08-15 12:51:29 uvicorn.access INFO     26.37.7.101:54420 - "GET /admin/jsi18n/ HTTP/1.1" 200
+08-15 12:51:34 uvicorn.access INFO     26.37.7.101:54420 - "GET /admin/hospital/hospital/7/change/ HTTP/1.1" 200
+08-15 12:51:34 uvicorn.access INFO     26.37.7.101:54420 - "GET /admin/jsi18n/ HTTP/1.1" 200
+08-15 12:53:48 uvicorn.error INFO     Shutting down
+08-15 12:53:48 uvicorn.error INFO     Finished server process [1496]
+08-15 12:53:49 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 12:53:49 uvicorn.error INFO     Started server process [21804]
+08-15 12:53:49 uvicorn.error INFO     Waiting for application startup.
+08-15 12:53:49 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 12:53:49 uvicorn.error INFO     Application startup complete.
+08-15 12:53:49 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 12:53:52 uvicorn.access INFO     26.37.7.101:54461 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 12:53:52 uvicorn.access INFO     26.37.7.101:54461 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 12:53:55 uvicorn.access INFO     26.37.7.101:54461 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 12:53:55 uvicorn.access INFO     26.37.7.101:54461 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 12:53:56 uvicorn.access INFO     26.37.7.101:54461 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 12:53:57 uvicorn.access INFO     26.37.7.101:54461 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 12:54:02 uvicorn.access INFO     26.37.7.101:54462 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 12:54:28 uvicorn.error INFO     Shutting down
+08-15 12:54:28 uvicorn.error INFO     Finished server process [21804]
+08-15 12:54:29 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 12:54:29 uvicorn.error INFO     Started server process [6064]
+08-15 12:54:29 uvicorn.error INFO     Waiting for application startup.
+08-15 12:54:29 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 12:54:29 uvicorn.error INFO     Application startup complete.
+08-15 12:54:29 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 12:54:30 uvicorn.access INFO     26.37.7.101:54480 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 12:54:31 uvicorn.access INFO     26.37.7.101:54480 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 12:54:34 uvicorn.access INFO     26.37.7.101:54480 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 12:55:08 uvicorn.error INFO     Shutting down
+08-15 12:55:08 uvicorn.error INFO     Finished server process [6064]
+08-15 12:59:47 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 12:59:47 uvicorn.error INFO     Started server process [3552]
+08-15 12:59:47 uvicorn.error INFO     Waiting for application startup.
+08-15 12:59:47 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 12:59:47 uvicorn.error INFO     Application startup complete.
+08-15 12:59:47 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 12:59:55 uvicorn.access INFO     26.37.7.101:54697 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 12:59:55 uvicorn.access INFO     26.37.7.101:54697 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 12:59:58 uvicorn.access INFO     26.37.7.101:54697 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 13:00:35 uvicorn.error INFO     Shutting down
+08-15 13:00:35 uvicorn.error INFO     Finished server process [3552]
+08-15 13:00:35 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 13:00:36 uvicorn.error INFO     Started server process [9044]
+08-15 13:00:36 uvicorn.error INFO     Waiting for application startup.
+08-15 13:00:36 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 13:00:36 uvicorn.error INFO     Application startup complete.
+08-15 13:00:36 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 13:00:39 uvicorn.access INFO     26.37.7.101:54733 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:00:39 uvicorn.access INFO     26.37.7.101:54733 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:00:42 uvicorn.access INFO     26.37.7.101:54733 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 13:01:23 uvicorn.error INFO     Shutting down
+08-15 13:01:23 uvicorn.error INFO     Finished server process [9044]
+08-15 13:01:24 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 13:01:24 uvicorn.error INFO     Started server process [12020]
+08-15 13:01:24 uvicorn.error INFO     Waiting for application startup.
+08-15 13:01:24 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 13:01:24 uvicorn.error INFO     Application startup complete.
+08-15 13:01:24 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 13:01:27 uvicorn.access INFO     26.37.7.101:54763 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:01:27 uvicorn.access INFO     26.37.7.101:54763 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:01:30 uvicorn.access INFO     26.37.7.101:54763 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 13:01:50 uvicorn.error INFO     Shutting down
+08-15 13:01:50 uvicorn.error INFO     Finished server process [12020]
+08-15 13:01:51 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 13:01:51 uvicorn.error INFO     Started server process [16280]
+08-15 13:01:51 uvicorn.error INFO     Waiting for application startup.
+08-15 13:01:51 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 13:01:51 uvicorn.error INFO     Application startup complete.
+08-15 13:01:51 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 13:01:54 uvicorn.access INFO     26.37.7.101:54788 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:01:54 uvicorn.access INFO     26.37.7.101:54788 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:01:57 uvicorn.access INFO     26.37.7.101:54788 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 13:01:57 uvicorn.access INFO     26.37.7.101:54788 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 13:01:58 uvicorn.access INFO     26.37.7.101:54788 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 13:01:58 uvicorn.access INFO     26.37.7.101:54788 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 13:01:58 uvicorn.access INFO     26.37.7.101:54788 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 13:01:58 uvicorn.access INFO     26.37.7.101:54788 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 13:02:07 uvicorn.error INFO     Shutting down
+08-15 13:02:07 uvicorn.error INFO     Finished server process [16280]
+08-15 13:02:08 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 13:02:08 uvicorn.error INFO     Started server process [14704]
+08-15 13:02:08 uvicorn.error INFO     Waiting for application startup.
+08-15 13:02:08 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 13:02:08 uvicorn.error INFO     Application startup complete.
+08-15 13:02:08 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 13:02:11 uvicorn.access INFO     26.37.7.101:54805 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:02:11 uvicorn.access INFO     26.37.7.101:54805 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:02:13 uvicorn.access INFO     26.37.7.101:54805 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E7%87%95%E5%B7%A2%E5%8D%80 HTTP/1.1" 200
+08-15 13:02:13 django.request WARNING  Not Found: /home/hospital/undefined
+08-15 13:02:13 uvicorn.access INFO     26.37.7.101:54805 - "GET /home/hospital/undefined HTTP/1.1" 404
+08-15 13:02:45 uvicorn.error INFO     Shutting down
+08-15 13:02:45 uvicorn.error INFO     Finished server process [14704]
+08-15 13:02:46 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 13:02:46 uvicorn.error INFO     Started server process [12132]
+08-15 13:02:46 uvicorn.error INFO     Waiting for application startup.
+08-15 13:02:46 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 13:02:46 uvicorn.error INFO     Application startup complete.
+08-15 13:02:46 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 13:02:48 uvicorn.access INFO     26.37.7.101:54833 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:02:48 uvicorn.access INFO     26.37.7.101:54833 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:02:52 uvicorn.access INFO     26.37.7.101:54833 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E7%87%95%E5%B7%A2%E5%8D%80 HTTP/1.1" 200
+08-15 13:04:59 uvicorn.error INFO     Shutting down
+08-15 13:04:59 uvicorn.error INFO     Finished server process [12132]
+08-15 13:05:00 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 13:05:00 uvicorn.error INFO     Started server process [28004]
+08-15 13:05:00 uvicorn.error INFO     Waiting for application startup.
+08-15 13:05:00 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 13:05:00 uvicorn.error INFO     Application startup complete.
+08-15 13:05:00 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 13:05:02 uvicorn.access INFO     26.37.7.101:54908 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:05:02 uvicorn.access INFO     26.37.7.101:54908 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:05:05 uvicorn.access INFO     26.37.7.101:54908 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E7%87%95%E5%B7%A2%E5%8D%80 HTTP/1.1" 200
+08-15 13:05:05 uvicorn.access INFO     26.37.7.101:54908 - "GET /media/hospital_photos/%E7%BE%A9%E5%A4%A7%E9%86%AB%E9%99%A2.jpg HTTP/1.1" 200
+08-15 13:05:13 uvicorn.access INFO     26.37.7.101:54909 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 13:05:13 uvicorn.access INFO     26.37.7.101:54920 - "GET /media/hospital_photos/%E7%B6%AD%E4%BD%B3%E8%BA%AB%E5%BF%83%E8%A8%BA%E6%89%80.png HTTP/1.1" 200
+08-15 13:05:13 uvicorn.access INFO     26.37.7.101:54909 - "GET /media/hospital_photos/%E6%A5%A0%E6%A2%93%E5%BF%83%E5%AF%AC%E8%A8%BA%E6%89%80.jpg HTTP/1.1" 200
+08-15 13:05:13 uvicorn.access INFO     26.37.7.101:54917 - "GET /media/hospital_photos/%E9%83%AD%E7%8E%89%E6%9F%B1%E8%A8%BA%E6%89%80.jpg HTTP/1.1" 200
+08-15 13:05:13 uvicorn.access INFO     26.37.7.101:54918 - "GET /media/hospital_photos/%E6%BE%84%E6%B2%B3%E5%BF%83%E7%90%86%E8%AB%AE%E5%95%86%E6%89%80.jpg HTTP/1.1" 200
+08-15 13:05:13 uvicorn.access INFO     26.37.7.101:54919 - "GET /media/hospital_photos/%E5%BF%83%E6%AC%A3.JPG HTTP/1.1" 200
+08-15 13:11:22 uvicorn.error INFO     Shutting down
+08-15 13:11:22 uvicorn.error INFO     Finished server process [28004]
+08-15 13:11:23 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 13:11:23 uvicorn.error INFO     Started server process [28232]
+08-15 13:11:23 uvicorn.error INFO     Waiting for application startup.
+08-15 13:11:23 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 13:11:23 uvicorn.error INFO     Application startup complete.
+08-15 13:11:23 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 13:11:26 uvicorn.access INFO     26.37.7.101:54974 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:11:26 uvicorn.access INFO     26.37.7.101:54974 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:11:29 uvicorn.access INFO     26.37.7.101:54974 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E7%87%95%E5%B7%A2%E5%8D%80 HTTP/1.1" 200
+08-15 13:11:35 uvicorn.access INFO     26.37.7.101:54975 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 13:12:10 uvicorn.error INFO     Shutting down
+08-15 13:12:10 uvicorn.error INFO     Finished server process [28232]
+08-15 13:12:11 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 13:12:11 uvicorn.error INFO     Started server process [22716]
+08-15 13:12:11 uvicorn.error INFO     Waiting for application startup.
+08-15 13:12:11 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 13:12:11 uvicorn.error INFO     Application startup complete.
+08-15 13:12:11 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 13:12:14 uvicorn.access INFO     26.37.7.101:54988 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:12:14 uvicorn.access INFO     26.37.7.101:54988 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:12:18 uvicorn.access INFO     26.37.7.101:54988 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 13:12:27 uvicorn.access INFO     26.37.7.101:54989 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:12:27 uvicorn.access INFO     26.37.7.101:54989 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:12:27 uvicorn.access INFO     26.37.7.101:54989 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:12:28 uvicorn.access INFO     26.37.7.101:54989 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:14:35 uvicorn.error INFO     Shutting down
+08-15 13:14:35 uvicorn.error INFO     Finished server process [22716]
+08-15 13:14:36 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 13:14:36 uvicorn.error INFO     Started server process [14892]
+08-15 13:14:36 uvicorn.error INFO     Waiting for application startup.
+08-15 13:14:36 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 13:14:36 uvicorn.error INFO     Application startup complete.
+08-15 13:14:36 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 13:14:39 uvicorn.access INFO     26.37.7.101:55013 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:14:39 uvicorn.access INFO     26.37.7.101:55013 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:14:43 uvicorn.access INFO     26.37.7.101:55013 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 13:15:24 uvicorn.error INFO     Shutting down
+08-15 13:15:24 uvicorn.error INFO     Finished server process [14892]
+08-15 13:15:24 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 13:15:25 uvicorn.error INFO     Started server process [17444]
+08-15 13:15:25 uvicorn.error INFO     Waiting for application startup.
+08-15 13:15:25 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 13:15:25 uvicorn.error INFO     Application startup complete.
+08-15 13:15:25 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 13:15:27 uvicorn.access INFO     26.37.7.101:55020 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:15:27 uvicorn.access INFO     26.37.7.101:55020 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:15:31 uvicorn.access INFO     26.37.7.101:55020 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E7%87%95%E5%B7%A2%E5%8D%80 HTTP/1.1" 200
+08-15 13:16:02 uvicorn.access INFO     26.37.7.101:55021 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 13:19:05 uvicorn.error INFO     Shutting down
+08-15 13:19:05 uvicorn.error INFO     Finished server process [17444]
+08-15 13:19:07 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 13:19:08 uvicorn.error INFO     Started server process [28440]
+08-15 13:19:08 uvicorn.error INFO     Waiting for application startup.
+08-15 13:19:08 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 13:19:08 uvicorn.error INFO     Application startup complete.
+08-15 13:19:08 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 13:19:10 uvicorn.access INFO     26.37.7.101:55048 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:19:10 uvicorn.access INFO     26.37.7.101:55048 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:19:10 uvicorn.access INFO     26.37.7.101:55048 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:19:10 uvicorn.access INFO     26.37.7.101:55048 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:19:14 uvicorn.access INFO     26.37.7.101:55048 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E7%87%95%E5%B7%A2%E5%8D%80 HTTP/1.1" 200
+08-15 13:20:17 uvicorn.error INFO     Shutting down
+08-15 13:20:18 uvicorn.error INFO     Finished server process [28440]
+08-15 13:20:18 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 13:20:19 uvicorn.error INFO     Started server process [22904]
+08-15 13:20:19 uvicorn.error INFO     Waiting for application startup.
+08-15 13:20:19 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 13:20:19 uvicorn.error INFO     Application startup complete.
+08-15 13:20:19 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 13:20:21 uvicorn.access INFO     26.37.7.101:55081 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:20:21 uvicorn.access INFO     26.37.7.101:55081 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:20:24 uvicorn.access INFO     26.37.7.101:55081 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E7%87%95%E5%B7%A2%E5%8D%80 HTTP/1.1" 200
+08-15 13:21:12 uvicorn.error INFO     Shutting down
+08-15 13:21:12 uvicorn.error INFO     Finished server process [22904]
+08-15 13:21:13 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 13:21:13 uvicorn.error INFO     Started server process [21924]
+08-15 13:21:13 uvicorn.error INFO     Waiting for application startup.
+08-15 13:21:13 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 13:21:13 uvicorn.error INFO     Application startup complete.
+08-15 13:21:13 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 13:21:15 uvicorn.access INFO     26.37.7.101:55104 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:21:15 uvicorn.access INFO     26.37.7.101:55104 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:21:18 uvicorn.access INFO     26.37.7.101:55104 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E7%87%95%E5%B7%A2%E5%8D%80 HTTP/1.1" 200
+08-15 13:24:00 uvicorn.error INFO     Shutting down
+08-15 13:24:00 uvicorn.error INFO     Finished server process [21924]
+08-15 13:24:01 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 13:24:01 uvicorn.error INFO     Started server process [18588]
+08-15 13:24:01 uvicorn.error INFO     Waiting for application startup.
+08-15 13:24:01 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 13:24:01 uvicorn.error INFO     Application startup complete.
+08-15 13:24:01 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 13:24:03 uvicorn.access INFO     26.37.7.101:55134 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:24:03 uvicorn.access INFO     26.37.7.101:55134 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:24:07 uvicorn.access INFO     26.37.7.101:55134 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E7%87%95%E5%B7%A2%E5%8D%80 HTTP/1.1" 200
+08-15 13:26:15 uvicorn.error INFO     Shutting down
+08-15 13:26:16 uvicorn.error INFO     Finished server process [18588]
+08-15 13:26:16 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 13:26:17 uvicorn.error INFO     Started server process [12840]
+08-15 13:26:17 uvicorn.error INFO     Waiting for application startup.
+08-15 13:26:17 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 13:26:17 uvicorn.error INFO     Application startup complete.
+08-15 13:26:17 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 13:26:18 uvicorn.access INFO     26.37.7.101:55148 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:26:18 uvicorn.access INFO     26.37.7.101:55148 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:26:22 uvicorn.access INFO     26.37.7.101:55148 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E7%87%95%E5%B7%A2%E5%8D%80 HTTP/1.1" 200
+08-15 13:28:05 uvicorn.error INFO     Shutting down
+08-15 13:28:05 uvicorn.error INFO     Finished server process [12840]
+08-15 13:28:54 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 13:28:55 uvicorn.error INFO     Started server process [26988]
+08-15 13:28:55 uvicorn.error INFO     Waiting for application startup.
+08-15 13:28:55 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 13:28:55 uvicorn.error INFO     Application startup complete.
+08-15 13:28:55 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 13:28:56 uvicorn.access INFO     26.37.7.101:55162 - "GET /welcome/logout/ HTTP/1.1" 302
+08-15 13:28:56 uvicorn.access INFO     26.37.7.101:55162 - "GET /home/ HTTP/1.1" 200
+08-15 13:28:57 uvicorn.access INFO     26.37.7.101:55162 - "GET /static/assets/img/output.gif HTTP/1.1" 304
+08-15 13:29:23 uvicorn.error INFO     Shutting down
+08-15 13:29:23 uvicorn.error INFO     Finished server process [26988]
+08-15 13:29:24 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 13:29:24 uvicorn.error INFO     Started server process [6076]
+08-15 13:29:24 uvicorn.error INFO     Waiting for application startup.
+08-15 13:29:24 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 13:29:24 uvicorn.error INFO     Application startup complete.
+08-15 13:29:24 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 13:29:26 uvicorn.access INFO     26.37.7.101:55184 - "GET /home/ HTTP/1.1" 200
+08-15 13:29:28 uvicorn.access INFO     26.37.7.101:55184 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 13:29:30 uvicorn.access INFO     26.37.7.101:55184 - "POST /welcome/login/ HTTP/1.1" 302
+08-15 13:29:30 uvicorn.access INFO     26.37.7.101:55184 - "GET /home/ HTTP/1.1" 200
+08-15 13:29:33 uvicorn.access INFO     26.37.7.101:55184 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:29:33 uvicorn.access INFO     26.37.7.101:55184 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:29:35 uvicorn.access INFO     26.37.7.101:55184 - "GET /welcome/logout/ HTTP/1.1" 302
+08-15 13:29:35 uvicorn.access INFO     26.37.7.101:55184 - "GET /home/ HTTP/1.1" 200
+08-15 13:31:32 uvicorn.access INFO     26.37.7.101:55194 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 13:31:35 uvicorn.access INFO     26.37.7.101:55194 - "POST /welcome/login/ HTTP/1.1" 302
+08-15 13:31:35 uvicorn.access INFO     26.37.7.101:55194 - "GET /home/ HTTP/1.1" 200
+08-15 13:31:38 uvicorn.access INFO     26.37.7.101:55194 - "GET /home/ HTTP/1.1" 200
+08-15 13:31:40 uvicorn.access INFO     26.37.7.101:55194 - "GET /home/contact/ HTTP/1.1" 200
+08-15 13:31:49 uvicorn.access INFO     26.37.7.101:55195 - "GET /home/aboutus/ HTTP/1.1" 200
+08-15 13:31:55 uvicorn.access INFO     26.37.7.101:55198 - "GET /home/chatroom HTTP/1.1" 301
+08-15 13:31:55 uvicorn.access INFO     26.37.7.101:55198 - "GET /home/chatroom/ HTTP/1.1" 200
+08-15 13:31:55 uvicorn.access INFO     26.37.7.101:55198 - "GET /home/chatroom/ HTTP/1.1" 200
+08-15 13:31:56 uvicorn.access INFO     26.37.7.101:55198 - "GET /home/ HTTP/1.1" 200
+08-15 13:31:58 uvicorn.access INFO     26.37.7.101:55198 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 13:31:58 uvicorn.access INFO     26.37.7.101:55198 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 13:32:03 uvicorn.access INFO     26.37.7.101:55200 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E6%A5%A0%E6%A2%93%E5%8D%80 HTTP/1.1" 200
+08-15 13:34:09 uvicorn.access INFO     26.37.7.101:55224 - "GET /home/ebook/ HTTP/1.1" 200
+08-15 13:34:09 uvicorn.access INFO     26.37.7.101:55224 - "GET /static/assets/img/nlp.png HTTP/1.1" 304
+08-15 13:34:59 uvicorn.error INFO     Shutting down
+08-15 13:34:59 uvicorn.error INFO     Finished server process [6076]
+08-15 15:17:20 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 15:17:20 uvicorn.error INFO     Started server process [12592]
+08-15 15:17:20 uvicorn.error INFO     Waiting for application startup.
+08-15 15:17:20 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 15:17:20 uvicorn.error INFO     Application startup complete.
+08-15 15:17:20 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 15:17:23 uvicorn.access INFO     26.37.7.101:55565 - "GET /home/ebook/ HTTP/1.1" 200
+08-15 15:17:23 uvicorn.access INFO     26.37.7.101:55565 - "GET /static/assets/img/fishman.png HTTP/1.1" 304
+08-15 15:17:23 uvicorn.access INFO     26.37.7.101:55566 - "GET /static/assets/img/background.jpg HTTP/1.1" 304
+08-15 15:17:24 uvicorn.access INFO     26.37.7.101:55566 - "GET /home/ebook/ HTTP/1.1" 200
+08-15 15:17:26 uvicorn.access INFO     26.37.7.101:55566 - "GET /home/aboutus/ HTTP/1.1" 200
+08-15 15:17:26 uvicorn.access INFO     26.37.7.101:55566 - "GET /static/assets/img/output.gif HTTP/1.1" 304
+08-15 15:18:03 uvicorn.access INFO     26.37.7.101:55568 - "GET /home/chatroom/ HTTP/1.1" 200
+08-15 15:18:03 uvicorn.access INFO     26.37.7.101:55568 - "GET /home/chatroom/ HTTP/1.1" 200
+08-15 15:18:05 uvicorn.access INFO     26.37.7.101:55568 - "GET /home/ HTTP/1.1" 200
+08-15 15:18:09 uvicorn.access INFO     26.37.7.101:55568 - "GET /home/chatroom/ HTTP/1.1" 200
+08-15 15:18:09 uvicorn.access INFO     26.37.7.101:55568 - "GET /home/chatroom/ HTTP/1.1" 200
+08-15 15:18:24 uvicorn.access INFO     26.37.7.101:55575 - "GET /home/chatroom/ HTTP/1.1" 200
+08-15 15:18:24 uvicorn.access INFO     26.37.7.101:55575 - "GET /home/chatroom/ HTTP/1.1" 200
+08-15 15:21:16 uvicorn.error INFO     Shutting down
+08-15 15:21:17 uvicorn.error INFO     Finished server process [12592]
+08-15 15:21:17 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 15:21:18 uvicorn.error INFO     Started server process [22392]
+08-15 15:21:18 uvicorn.error INFO     Waiting for application startup.
+08-15 15:21:18 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 15:21:18 uvicorn.error INFO     Application startup complete.
+08-15 15:21:18 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 15:21:21 uvicorn.access INFO     26.37.7.101:55642 - "GET /home/ HTTP/1.1" 200
+08-15 15:21:21 uvicorn.access INFO     26.37.7.101:55642 - "GET /home/ HTTP/1.1" 200
+08-15 15:21:22 uvicorn.access INFO     26.37.7.101:55642 - "GET /home/video/ HTTP/1.1" 200
+08-15 15:21:32 uvicorn.access INFO     26.37.7.101:55643 - "GET /home/ HTTP/1.1" 200
+08-15 15:21:34 uvicorn.access INFO     26.37.7.101:55643 - "GET /home/video/ HTTP/1.1" 200
+08-15 15:22:20 uvicorn.error INFO     Shutting down
+08-15 15:22:21 uvicorn.error INFO     Finished server process [22392]
+08-15 15:22:21 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 15:22:21 uvicorn.error INFO     Started server process [29916]
+08-15 15:22:21 uvicorn.error INFO     Waiting for application startup.
+08-15 15:22:21 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 15:22:21 uvicorn.error INFO     Application startup complete.
+08-15 15:22:21 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 15:22:25 uvicorn.access INFO     26.37.7.101:55668 - "GET /home/ HTTP/1.1" 200
+08-15 15:22:25 uvicorn.access INFO     26.37.7.101:55668 - "GET /home/video/ HTTP/1.1" 200
+08-15 15:22:37 uvicorn.error INFO     Shutting down
+08-15 15:22:37 uvicorn.error INFO     Finished server process [29916]
+08-15 15:22:37 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 15:22:38 uvicorn.error INFO     Started server process [21312]
+08-15 15:22:38 uvicorn.error INFO     Waiting for application startup.
+08-15 15:22:38 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 15:22:38 uvicorn.error INFO     Application startup complete.
+08-15 15:22:38 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 15:22:40 uvicorn.access INFO     26.37.7.101:55673 - "GET /home/ HTTP/1.1" 200
+08-15 15:22:41 uvicorn.access INFO     26.37.7.101:55673 - "GET /home/video/ HTTP/1.1" 200
+08-15 15:22:45 uvicorn.access INFO     26.37.7.101:55673 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 15:22:45 uvicorn.access INFO     26.37.7.101:55673 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 15:22:51 uvicorn.access INFO     26.37.7.101:55674 - "GET /home/aboutus/ HTTP/1.1" 200
+08-15 15:24:23 uvicorn.error INFO     Shutting down
+08-15 15:24:23 uvicorn.error INFO     Finished server process [21312]
+08-15 15:24:24 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 15:24:24 uvicorn.error INFO     Started server process [13840]
+08-15 15:24:24 uvicorn.error INFO     Waiting for application startup.
+08-15 15:24:24 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 15:24:24 uvicorn.error INFO     Application startup complete.
+08-15 15:24:24 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 15:24:26 uvicorn.access INFO     26.37.7.101:55695 - "GET /home/aboutus/ HTTP/1.1" 200
+08-15 15:24:32 uvicorn.error INFO     Shutting down
+08-15 15:24:32 uvicorn.error INFO     Finished server process [13840]
+08-15 15:24:33 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 15:24:33 uvicorn.error INFO     Started server process [14884]
+08-15 15:24:33 uvicorn.error INFO     Waiting for application startup.
+08-15 15:24:33 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 15:24:33 uvicorn.error INFO     Application startup complete.
+08-15 15:24:33 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 15:24:34 uvicorn.access INFO     26.37.7.101:55700 - "GET /home/aboutus/ HTTP/1.1" 200
+08-15 15:24:37 uvicorn.access INFO     26.37.7.101:55700 - "GET /home/ HTTP/1.1" 200
+08-15 15:24:38 uvicorn.access INFO     26.37.7.101:55700 - "GET /home/video/ HTTP/1.1" 200
+08-15 16:26:42 uvicorn.access INFO     26.37.7.101:55949 - "GET /home/hospital/ HTTP/1.1" 200
+08-15 16:26:42 uvicorn.access INFO     26.37.7.101:55949 - "GET /home/get_locations/ HTTP/1.1" 200
+08-15 16:26:42 uvicorn.access INFO     26.37.7.101:55949 - "GET /home/ebook/ HTTP/1.1" 200
+08-15 16:26:42 uvicorn.access INFO     26.37.7.101:55949 - "GET /static/assets/img/nlp.png HTTP/1.1" 304
+08-15 16:26:49 uvicorn.access INFO     26.37.7.101:55950 - "GET /home/ HTTP/1.1" 200
+08-15 16:26:50 uvicorn.access INFO     26.37.7.101:55950 - "GET /home/video/ HTTP/1.1" 200
+08-15 16:26:50 uvicorn.access INFO     26.37.7.101:55950 - "GET /static/assets/img/output.gif HTTP/1.1" 304
+08-15 16:29:46 uvicorn.error INFO     Shutting down
+08-15 16:29:46 uvicorn.error INFO     Finished server process [14884]
+08-15 16:29:47 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 16:29:47 uvicorn.error INFO     Started server process [19624]
+08-15 16:29:47 uvicorn.error INFO     Waiting for application startup.
+08-15 16:29:47 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 16:29:47 uvicorn.error INFO     Application startup complete.
+08-15 16:29:47 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 16:30:12 uvicorn.error INFO     Shutting down
+08-15 16:30:12 uvicorn.error INFO     Finished server process [19624]
+08-15 16:30:13 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 16:30:13 uvicorn.error INFO     Started server process [6132]
+08-15 16:30:13 uvicorn.error INFO     Waiting for application startup.
+08-15 16:30:13 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 16:30:13 uvicorn.error INFO     Application startup complete.
+08-15 16:30:13 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 16:30:16 uvicorn.access INFO     26.37.7.101:56030 - "GET /home/video/ HTTP/1.1" 200
+08-15 16:30:16 django.request WARNING  Not Found: /static/assets/img/depression_thumbnail.jpg
+08-15 16:30:16 django.request WARNING  Not Found: /static/assets/img/nlp_thumbnail.jpg
+08-15 16:30:16 uvicorn.access INFO     26.37.7.101:56030 - "GET /static/assets/img/depression_thumbnail.jpg HTTP/1.1" 404
+08-15 16:30:16 uvicorn.access INFO     26.37.7.101:56031 - "GET /static/assets/img/nlp_thumbnail.jpg HTTP/1.1" 404
+08-15 16:31:22 uvicorn.error INFO     Shutting down
+08-15 16:31:22 uvicorn.error INFO     Finished server process [6132]
+08-15 16:31:23 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 16:31:23 uvicorn.error INFO     Started server process [17700]
+08-15 16:31:23 uvicorn.error INFO     Waiting for application startup.
+08-15 16:31:23 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 16:31:23 uvicorn.error INFO     Application startup complete.
+08-15 16:31:23 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 16:31:25 uvicorn.access INFO     26.37.7.101:56036 - "GET /home/video/ HTTP/1.1" 200
+08-15 16:31:25 django.request WARNING  Not Found: /static/assets/img/depression_thumbnail.jpg
+08-15 16:31:25 django.request WARNING  Not Found: /static/assets/img/nlp_thumbnail.jpg
+08-15 16:31:25 uvicorn.access INFO     26.37.7.101:56036 - "GET /static/assets/img/depression_thumbnail.jpg HTTP/1.1" 404
+08-15 16:31:25 uvicorn.access INFO     26.37.7.101:56037 - "GET /static/assets/img/nlp_thumbnail.jpg HTTP/1.1" 404
+08-15 16:42:57 uvicorn.error INFO     Shutting down
+08-15 16:42:57 uvicorn.error INFO     Finished server process [17700]
+08-15 16:42:58 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 16:42:58 uvicorn.error INFO     Started server process [19828]
+08-15 16:42:58 uvicorn.error INFO     Waiting for application startup.
+08-15 16:42:58 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 16:42:58 uvicorn.error INFO     Application startup complete.
+08-15 16:42:58 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 16:43:01 uvicorn.access INFO     26.37.7.101:56068 - "GET /home/video/ HTTP/1.1" 200
+08-15 16:43:01 django.request WARNING  Not Found: /static/assets/img/video1.png
+08-15 16:43:01 django.request WARNING  Not Found: /static/assets/img/video2.png
+08-15 16:43:01 uvicorn.access INFO     26.37.7.101:56068 - "GET /static/assets/img/video1.png HTTP/1.1" 404
+08-15 16:43:01 uvicorn.access INFO     26.37.7.101:56069 - "GET /static/assets/img/video2.png HTTP/1.1" 404
+08-15 16:47:48 uvicorn.error INFO     Shutting down
+08-15 16:47:48 uvicorn.error INFO     Finished server process [19828]
+08-15 16:47:49 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 16:47:49 uvicorn.error INFO     Started server process [14748]
+08-15 16:47:49 uvicorn.error INFO     Waiting for application startup.
+08-15 16:47:49 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 16:47:49 uvicorn.error INFO     Application startup complete.
+08-15 16:47:49 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 16:47:52 uvicorn.access INFO     26.37.7.101:56099 - "GET /home/video/ HTTP/1.1" 200
+08-15 16:47:52 uvicorn.access INFO     26.37.7.101:56100 - "GET /static/assets/img/%E8%87%AA%E7%84%B6%E8%AA%9E%E8%A8%80%E8%99%95%E7%90%86.png HTTP/1.1" 200
+08-15 16:47:52 uvicorn.access INFO     26.37.7.101:56099 - "GET /static/assets/img/%E6%86%82%E9%AC%B1%E7%97%87.png HTTP/1.1" 200
+08-15 16:48:59 uvicorn.access INFO     26.37.7.101:56104 - "GET /home/video/ HTTP/1.1" 200
+08-15 16:48:59 uvicorn.access INFO     26.37.7.101:56104 - "GET /static/assets/img/%E6%86%82%E9%AC%B1%E7%97%87.png HTTP/1.1" 304
+08-15 16:48:59 uvicorn.access INFO     26.37.7.101:56105 - "GET /static/assets/img/%E8%87%AA%E7%84%B6%E8%AA%9E%E8%A8%80%E8%99%95%E7%90%86.png HTTP/1.1" 304
+08-15 16:49:12 uvicorn.access INFO     26.37.7.101:56107 - "GET /home/contact/ HTTP/1.1" 200
+08-15 16:49:13 uvicorn.access INFO     26.37.7.101:56107 - "GET /home/aboutus/ HTTP/1.1" 200
+08-15 16:49:17 uvicorn.access INFO     26.37.7.101:56107 - "GET /home/ HTTP/1.1" 200
+08-15 16:49:18 uvicorn.access INFO     26.37.7.101:56107 - "GET /home/video/ HTTP/1.1" 200
+08-15 16:49:18 uvicorn.access INFO     26.37.7.101:56108 - "GET /static/assets/img/%E8%87%AA%E7%84%B6%E8%AA%9E%E8%A8%80%E8%99%95%E7%90%86.png HTTP/1.1" 304
+08-15 16:49:18 uvicorn.access INFO     26.37.7.101:56107 - "GET /static/assets/img/%E6%86%82%E9%AC%B1%E7%97%87.png HTTP/1.1" 304
+08-15 16:50:08 uvicorn.error INFO     Shutting down
+08-15 16:50:08 uvicorn.error INFO     Finished server process [14748]
+08-15 16:50:09 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-15 16:50:09 uvicorn.error INFO     Started server process [20720]
+08-15 16:50:09 uvicorn.error INFO     Waiting for application startup.
+08-15 16:50:09 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-15 16:50:09 uvicorn.error INFO     Application startup complete.
+08-15 16:50:09 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-15 16:50:12 uvicorn.access INFO     26.37.7.101:56114 - "GET /home/video/ HTTP/1.1" 200
+08-15 16:50:12 uvicorn.access INFO     26.37.7.101:56114 - "GET /static/assets/img/%E6%86%82%E9%AC%B1%E7%97%87.png HTTP/1.1" 304
+08-15 16:50:12 uvicorn.access INFO     26.37.7.101:56115 - "GET /static/assets/img/%E8%87%AA%E7%84%B6%E8%AA%9E%E8%A8%80%E8%99%95%E7%90%86.png HTTP/1.1" 304
+08-15 16:50:15 uvicorn.access INFO     26.37.7.101:56115 - "GET /home/ HTTP/1.1" 200
+08-15 16:50:18 uvicorn.access INFO     26.37.7.101:56115 - "GET /welcome/logout/ HTTP/1.1" 302
+08-15 16:50:18 uvicorn.access INFO     26.37.7.101:56115 - "GET /home/ HTTP/1.1" 200
+08-15 16:50:19 uvicorn.access INFO     26.37.7.101:56115 - "GET /welcome/login/ HTTP/1.1" 200
+08-15 16:51:28 uvicorn.error INFO     Shutting down
+08-15 16:51:28 uvicorn.error INFO     Finished server process [20720]

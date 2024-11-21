@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>註冊 - Duck不必</title>
+    <!-- 引入思源黑體 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        #main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('/static/assets/img/background.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            color: #ffffff;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .overlay h2 {
+            color: #00aaff;
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            animation: slideInDown 1s ease-out;
+        }
+
+        .form-outline {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            font-size: 18px;
+            padding-bottom: 5px;
+            font-weight: 500;
+            display: block;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px solid #d5d5d5;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        .btn-custom1 {
+            border-radius: 25px;
+            width: 330px;
+            height: 40px;
+            color: #fff;
+            border: 1px solid #707070;
+            background-color: #707070;
+            transition: background-color 0.5s;
+            cursor: pointer;
+        }
+
+        .btn-custom1:hover {
+            background-color: #444444;
+            border: 1px solid #444444;
+        }
+
+        .text-center p {
+            margin-top: 20px;
+        }
+
+        .text-center a {
+            color: #00aaff;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .text-center a:hover {
+            text-decoration: underline;
+        }
+
+        /* 動畫效果 */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideInDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div class="overlay">
+            <h2 class="fw-bold mb-5">註冊</h2>
+            <form method="post" action="" id="registerForm">
+                {% csrf_token %}
+                <div class="form-outline">
+                    <label class="form-label" for="username">帳號</label>
+                    <input type="text" id="username" class="form-control" name="username" placeholder="請輸入您的帳號" required>
+                </div>
+
+                <div class="form-outline">
+                    <label class="form-label" for="password">密碼</label>
+                    <input type="password" id="password" class="form-control" name="password" placeholder="請輸入您的密碼" required>
+                </div>
+
+                <div class="form-outline">
+                    <label class="form-label" for="password_check">再次確認密碼</label>
+                    <input type="password" id="password_check" class="form-control" name="password_check" placeholder="請再次輸入您的密碼" required>
+                </div>
+
+                <div class="form-outline">
+                    <label class="form-label" for="email">電子信箱</label>
+                    <input type="email" id="email" class="form-control" name="email" placeholder="請輸入您的電子信箱（非必要）">
+                </div>
+
+                <input type="submit" value="註冊" name="submit" class="btn-custom1 mx-auto">
+            </form>
+
+            <div class="text-center mt-3">
+                <p>已經有帳號了嗎？ 點選 <a href="../login">登入</a>。</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

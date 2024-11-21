@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>電子書</title>
+    <!-- 引入思源黑體 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-image: url('/static/assets/img/background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+        }
+
+        #sidebar {
+            width: 250px;
+            background-color: #2d2d2d;
+            color: #ffffff;
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        #sidebar a {
+            color: #ffffff;
+            text-decoration: none;
+            display: block;
+            padding: 10px 0;
+            font-weight: 600;
+        }
+
+        #sidebar a:hover {
+            background-color: #3d3d3d;
+            padding-left: 10px;
+            transition: 0.3s;
+        }
+
+        #sidebar .profile {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        #sidebar .profile img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        #content {
+            margin-left: 250px;
+            padding: 40px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+            min-height: 100vh;
+            box-sizing: border-box;
+            width: calc(100% - 250px);
+            border-radius: 8px;
+            overflow-y: auto;
+            opacity: 0;  /* 初始時隱藏 */
+            transform: translateY(100px);  /* 初始位置在下方 */
+            animation: slideUp 1s ease-out forwards;  /* 添加動畫 */
+        }
+
+        @keyframes slideUp {
+            to {
+                opacity: 1;  /* 結束時完全顯示 */
+                transform: translateY(0);  /* 結束時位置回到原位 */
+            }
+        }
+
+        h1, h2 {
+            color: #00aaff;
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        p {
+            line-height: 1.8;
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .section-title {
+            font-size: 28px;
+            margin-top: 30px;
+            color: #FFA500;
+            text-decoration: underline;
+            font-weight: 700;
+        }
+
+        .ai-description {
+            margin-top: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-container {
+            text-align: center; /* 將圖片置中對齊 */
+            margin-top: 20px; /* 如果需要，可以調整頂部間距 */
+        }
+
+        .image-container img {
+            max-width: 100%; /* 使圖片在小屏幕上自適應 */
+            height: auto; /* 保持圖片的原始比例 */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            #content {
+                margin-left: 0;
+                padding: 20px;
+            }
+            #sidebar {
+                width: 100%;
+                position: relative;
+            }
+        }
+
+        .logout-btn button {
+            background-color: #f05454;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .logout-btn button:hover {
+            background-color: #d94343;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .logout-btn button:active {
+            background-color: #c53030;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transform: translateY(0);
+        }
+
+        .application-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .application-table thead {
+            background-color: #00aaff;
+        }
+
+        .application-table th, .application-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .application-table th {
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .application-table tbody tr:hover {
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .styled-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 18px;
+            text-align: left;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .styled-table thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .styled-table th,
+        .styled-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .styled-table tbody tr {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .styled-table tbody tr:nth-of-type(even) {
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .styled-table tbody tr:hover {
+            background-color: rgba(255, 255, 255, 0.15);
+            cursor: pointer;
+        }
+
+        .styled-table tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
+
+        .styled-table th {
+            font-size: 20px;
+        }
+
+        .styled-table td {
+            font-size: 18px;
+        }
+
+        .future-trends {
+            margin: 20px 0;
+            padding-left: 20px;
+            list-style-type: decimal;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        .future-trends li {
+            margin-bottom: 10px;
+        }
+
+        .future-trends li strong {
+            color: #FFA500; /* 强调部分文字的颜色 */
+        }
+
+        .trend-conclusion {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #FF4500;
+            font-weight: bold;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <div class="profile">
+            <img src="/static/assets/img/fishman.png" style="height: 100px;width: 100px;" alt="Profile Photo">
+        </div>
+        <h2>Duck不必</h2>
+        <nav>
+            <a href="/home/">首頁</a>
+            <a href="/home/questionnaire/">憂鬱量表</a>
+            <a href="/home/contact/">聯絡資訊</a>
+            <a href="/home/depression/">小遊戲-對抗憂鬱症</a>
+            <a href="/home/aboutus/">關於我們</a>
+            <a href="http://127.0.0.1:5000">魚民聊天機器人</a>
+            <a href="/home/hospital/">瀏覽診所資訊</a>
+            <a href="/home/ebook/">電子書</a>
+            <a href="/home/video/">影片介紹</a>
+        </nav>
+        <div class="logout-btn">
+            <h4 style="color: #f1f1f1;">您好{{request.user}} </h4>
+            <a href="/welcome/logout/">
+                <button type="button">登出</button>
+            </a>
+        </div>
+    </div>
+
+    <div id="content">
+        <div class="ai-description">
+            <h2 class="section-title">簡介-什麼是AI聊天機器人</h2>
+            <p>AI聊天機器人是使用人工智慧技術來模仿人類對話的程式。它們利用自然語言處理和機器學習來分析和回應使用者的輸入。這些機器人可以用於客戶服務、虛擬助手、教育、娛樂和社交等場合，能回答問題、提供資訊、執行任務和進行情感交流。它們可在網頁、移動應用和社交媒體上運行，以滿足不同用戶的需求。AI聊天機器人的目標是提供自然的對話體驗，使使用者能輕鬆交流並獲得所需的幫助。隨著不斷學習，它們會變得更智能</p>
+             <!-- 將圖片包裝在一個容器中，並使用CSS置中 -->
+            <div class="image-container">
+                <img src="/static/assets/img/nlp.png" style="height: 400px;width: 700px;">
+            </div>
+        </div>
+
+        <div class="ai-description">
+            <h2 class="section-title">聊天機器人的應用領域</h2>
+            <p>AI 聊天機器人在各個領域都有廣泛應用，例如客服、自動化助手、健康管理等。</p>
+            <table class="application-table">
+                <thead>
+                    <tr>
+                        <th>應用領域</th>
+                        <th>詳細說明</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>客服和支持</td>
+                        <td>許多公司使用聊天機器人來提供 24/7 的客戶服務和支持，這些機器人可以回答常見問題，提供建議和指導，解決客戶的需求。</td>
+                    </tr>
+                    <tr>
+                        <td>銷售和行銷</td>
+                        <td>聊天機器人可以用於銷售和行銷目的，例如推廣特定產品、回答潛在客戶的問題，甚至完成銷售交易。</td>
+                    </tr>
+                    <tr>
+                        <td>教育和培訓</td>
+                        <td>在教育領域，聊天機器人可以作為個性化學習工具，回答學生的問題，提供教育資源，並提供即時回饋。</td>
+                    </tr>
+                    <tr>
+                        <td>健康管理</td>
+                        <td>聊天機器人可以用於提供健康建議、監測用戶的健康狀況，甚至提供心理支持。</td>
+                    </tr>
+                    <tr>
+                        <td>旅遊和餐飲</td>
+                        <td>在旅遊和餐飲業，聊天機器人可以用於預訂酒店、訂餐和提供旅遊建議。</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="ai-description">
+            <h2 class="section-title">聊天機器人的優缺點</h2>
+            <p>AI 聊天機器人基於機器學習和深度學習技術，通過分析大量數據來理解語言的模式，並生成符合上下文的回應。</p>
+            
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>優點</th>
+                        <th>缺點</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>24小時可用性</td>
+                        <td>理解限制</td>
+                    </tr>
+                    <tr>
+                        <td>自動化和效率</td>
+                        <td>缺乏情感和人性化</td>
+                    </tr>
+                    <tr>
+                        <td>個性化體驗</td>
+                        <td>技術限制</td>
+                    </tr>
+                    <tr>
+                        <td>擴展性</td>
+                        <td>隱私和安全問題</td>
+                    </tr>
+                    <tr>
+                        <td>即時回饋</td>
+                        <td>需求依賴</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="ai-description">
+            <h2 class="section-title">未來趨勢發展</h2>
+            <ol class="future-trends">
+                <li><strong>更智慧的對話處理：</strong>更好地理解用戶意圖和情境，實現自然流暢的對話。</li>
+                <li><strong>情感識別：</strong>加強情感識別和理解，提供人性化的交互體驗。</li>
+                <li><strong>多模態交互：</strong>融合文本、語音和圖像等多種方式進行交互。</li>
+                <li><strong>個性化服務：</strong>根據用戶偏好和歷史資料提供定制化服務。</li>
+                <li><strong>跨領域應用：</strong>應用於醫療、金融、教育等多個領域，與其他技術系統緊密集成。</li>
+                <li><strong>自主學習：</strong>具備自主學習能力，通過用戶交互和反饋持續改進。</li>
+            </ol>
+            <p class="trend-conclusion">這些趨勢將使 AI 聊天機器人更智能、更實用、更人性化。</p>
+        </div>
+    </div>
+</body>
+</html>

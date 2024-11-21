@@ -1,0 +1,148 @@
+{% extends "base_generic.html" %}
+
+{% block title %}
+<title>分析圖表</title>
+{% endblock %}
+
+{% block content %}
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            position: relative;
+        }
+        
+        nav ul li a::after {
+            content: "";
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 0.125em;
+            background-color: #cd0000;
+            transition: width 0.5s;
+        }
+
+        nav ul li a:hover::after {
+            width: 100%;
+        }
+
+        a {
+            color: #444444;
+        }
+
+        a.logout-link:hover {
+            font-weight: bold;
+            color: #cd0000;
+        }
+
+        a:hover {
+        color: #222222; /* 设置链接的悬停颜色 */
+        }
+
+        .btn-custom1 {
+            font-size: 14px;
+            float: right;
+            border-radius: 25px;
+            width: 70px;
+            color: #cd0000;
+            border: 1px solid #cd0000; /* 初始的灰色边框 */
+            background-color: #fff; /* 按钮的初始背景色 */
+            transition: background-color 0.5s; /* 添加过渡效果 */
+        }
+    
+        .btn-custom1:hover {
+            color: #fff;
+            background-color: #cd0000;
+            border: 1px solid #cd0000;
+        }
+
+        #bar-container {
+            display: flex;
+            justify-content: center; /* 水平居中内容 */
+            align-items: center; /* 垂直居中内容 */
+        }
+
+        .bar {
+            border: 1px solid #70707050;
+            border-radius: 20px;
+            padding-top: 35px;
+            padding-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main id="main">
+        <nav id="header" class="flex-shrink-0 p-3" style="width: 280px; height: 100%;">
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <a href="/home/" class="logo">Training Center</a>
+            </div>
+            <hr style="color: #909090;">
+            <ul class="list-unstyled">
+                <li>
+                    <a class="nav-link scrollto" href="/home/">首頁</a>
+                </li>
+                <li>
+                    <a class="nav-link scrollto" href="../course-list/">課程管理</a>
+                </li>
+                <li>
+                    <a class="nav-link scrollto" href="../score_find/">成績查詢</a>
+                </li>
+                <li>
+                    <a class="nav-link scrollto" href="/admin/auth/user/">帳號管理</a>
+                </li>
+                <li>
+                    <a class="nav-link scrollto" href="/question/question_list/">問卷系統</a>
+                </li>
+            </ul>
+            <hr style="color: #909090;">
+            {% if request.user.is_authenticated %}
+            <a class="nav-link scrollto" href="">{{request.user}}</a>
+            {% endif %}
+            <a class="nav-link scrollto" href="/welcome/logout/">登出</a>
+        </nav>
+    
+        <section id="home" class="text-center" style="display: flex; justify-content: center; align-items: center; width: 100hv; height: 100hv; margin-left: 280px;">
+            <div class="container align-items-center" style="flex-direction: column; max-width: 80%; margin-top: 40px; margin-bottom: 40px;" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="400">
+                {% load static %}
+                <a href="../score_find/"><button class="btn btn-custom1">返回</button></a>
+                <h3 class="mt-5 mb-4 fw-bold">分析圖表</h3>
+                <p class="text-start">目前課程編號為：{{ number }}</p>
+                <div id="bar-container" class="bar row">
+                    <p class="fs-5" style="font-size: 24px; font-weight: 500;">課程平均分數</p>
+                    <div id="chartContainer" style="width: 1000px; height: 550px; margin-top: 10px;">
+                    </div>
+                </div>
+                <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+                <script src="https://assets.pyecharts.org/assets/echarts.min.js"></script>                                        
+                <script>
+                    var chart = echarts.init(document.getElementById('chartContainer'));
+                    $(function () {
+                        fetchData();
+                    });
+                
+                    function fetchData() {
+                        var course_number = "{{ number }}"; // 获取课程编号
+                        $.ajax({
+                            type: "GET",
+                            url: "/scores/bar/",
+                            data: {coursenumber: course_number}, // 将课程编号作为参数传递给后端视图
+                            dataType: 'json',
+                            success: function (result) {
+                                console.log(JSON.stringify(result))
+                                console.log("Success! Received data:", result.data);
+                                var dataObject = JSON.parse(result.data);
+                                chart.setOption(dataObject); // 打印 result.data 到控制台
+                            }
+                        });
+                    }
+                </script>
+            </div>
+        </section>
+    </main>
+{% endblock %}

@@ -1,0 +1,63 @@
+11-13 10:38:45 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+11-13 10:38:46 uvicorn.error INFO     Started server process [13068]
+11-13 10:38:46 uvicorn.error INFO     Waiting for application startup.
+11-13 10:38:46 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+11-13 10:38:46 uvicorn.error INFO     Application startup complete.
+11-13 10:38:46 uvicorn.error INFO     Uvicorn running on http://172.28.0.78:80 (Press CTRL+C to quit)
+11-13 10:38:49 uvicorn.access INFO     172.28.0.78:55212 - "GET / HTTP/1.1" 302
+11-13 10:38:49 uvicorn.access INFO     172.28.0.78:55212 - "GET /home/ HTTP/1.1" 200
+11-13 10:38:49 uvicorn.access INFO     172.28.0.78:55212 - "GET /static/assets/img/output.gif HTTP/1.1" 200
+11-13 10:38:50 uvicorn.access INFO     172.28.0.78:55212 - "GET /static/assets/img/background.jpg HTTP/1.1" 200
+11-13 10:38:50 django.request WARNING  Not Found: /favicon.ico
+11-13 10:38:50 uvicorn.access INFO     172.28.0.78:55212 - "GET /favicon.ico HTTP/1.1" 404
+11-13 14:03:42 uvicorn.access INFO     172.28.0.78:56068 - "GET /welcome/login/ HTTP/1.1" 200
+11-13 14:03:54 uvicorn.access INFO     172.28.0.78:56071 - "GET /welcome/register HTTP/1.1" 301
+11-13 14:03:54 uvicorn.access INFO     172.28.0.78:56071 - "GET /welcome/register/ HTTP/1.1" 200
+11-13 14:03:54 uvicorn.access INFO     172.28.0.78:56076 - "GET /static/assets/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200
+11-13 14:03:54 uvicorn.access INFO     172.28.0.78:56075 - "GET /static/assets/vendor/boxicons/css/boxicons.min.css HTTP/1.1" 200
+11-13 14:03:54 uvicorn.access INFO     172.28.0.78:56073 - "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200
+11-13 14:03:54 uvicorn.access INFO     172.28.0.78:56074 - "GET /static/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200
+11-13 14:03:54 uvicorn.access INFO     172.28.0.78:56072 - "GET /static/assets/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200
+11-13 14:03:54 uvicorn.access INFO     172.28.0.78:56071 - "GET /static/assets/vendor/aos/aos.css HTTP/1.1" 200
+11-13 14:03:54 uvicorn.access INFO     172.28.0.78:56075 - "GET /static/assets/css/style.css HTTP/1.1" 200
+11-13 14:03:54 uvicorn.access INFO     172.28.0.78:56076 - "GET /static/assets/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200
+11-13 14:03:54 uvicorn.access INFO     172.28.0.78:56074 - "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200
+11-13 14:03:54 uvicorn.access INFO     172.28.0.78:56073 - "GET /static/assets/vendor/aos/aos.js HTTP/1.1" 200
+11-13 14:03:54 uvicorn.access INFO     172.28.0.78:56076 - "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200
+11-13 14:03:55 uvicorn.access INFO     172.28.0.78:56071 - "GET /static/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200
+11-13 14:03:55 uvicorn.access INFO     172.28.0.78:56072 - "GET /static/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200
+11-13 14:03:55 uvicorn.access INFO     172.28.0.78:56074 - "GET /static/assets/js/main.js HTTP/1.1" 200
+11-13 14:03:55 uvicorn.access INFO     172.28.0.78:56075 - "GET /static/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200
+11-13 14:03:55 uvicorn.access INFO     172.28.0.78:56075 - "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?24e3eb84d0bcaf83d77f904c78ac1f47 HTTP/1.1" 200
+11-13 14:04:07 uvicorn.access INFO     172.28.0.78:56081 - "POST /welcome/login/ HTTP/1.1" 302
+11-13 14:04:07 uvicorn.access INFO     172.28.0.78:56081 - "GET /home/ HTTP/1.1" 200
+11-13 14:04:07 uvicorn.access INFO     172.28.0.78:56081 - "GET /static/assets/img/fishman.png HTTP/1.1" 200
+11-13 14:04:20 uvicorn.access INFO     172.28.0.78:56083 - "GET /welcome/register/ HTTP/1.1" 302
+11-13 14:04:20 uvicorn.access INFO     172.28.0.78:56083 - "GET /home/ HTTP/1.1" 200
+11-13 14:04:22 uvicorn.access INFO     172.28.0.78:56083 - "GET /welcome/logout/ HTTP/1.1" 302
+11-13 14:04:22 uvicorn.access INFO     172.28.0.78:56083 - "GET /home/ HTTP/1.1" 200
+11-13 14:04:24 uvicorn.access INFO     172.28.0.78:56083 - "GET /welcome/login/ HTTP/1.1" 200
+11-13 14:04:25 uvicorn.access INFO     172.28.0.78:56083 - "GET /welcome/register/ HTTP/1.1" 200
+11-13 14:04:34 uvicorn.access INFO     172.28.0.78:56084 - "POST /welcome/login/ HTTP/1.1" 302
+11-13 14:04:34 uvicorn.access INFO     172.28.0.78:56084 - "GET /home/ HTTP/1.1" 200
+11-13 14:04:39 uvicorn.access INFO     172.28.0.78:56084 - "GET /home/ HTTP/1.1" 200
+11-13 14:04:39 uvicorn.access INFO     172.28.0.78:56084 - "GET /home/questionnaire/ HTTP/1.1" 200
+11-13 14:04:52 uvicorn.access INFO     172.28.0.78:56090 - "GET /home/contact/ HTTP/1.1" 200
+11-13 14:05:15 uvicorn.access INFO     172.28.0.78:56099 - "GET /home/depression/ HTTP/1.1" 200
+11-13 14:05:15 uvicorn.access INFO     172.28.0.78:56099 - "GET /static/assets/img/%E9%AD%94%E7%8E%8B%E5%9F%8E.jpg HTTP/1.1" 200
+11-13 14:05:15 uvicorn.access INFO     172.28.0.78:56100 - "GET /static/assets/img/%E9%99%B0%E6%9A%97%E6%A3%AE%E6%9E%97.jpg HTTP/1.1" 200
+11-13 14:05:15 uvicorn.access INFO     172.28.0.78:56103 - "GET /static/assets/img/%E7%B5%90%E5%B1%80.jpg HTTP/1.1" 200
+11-13 14:05:15 uvicorn.access INFO     172.28.0.78:56101 - "GET /static/assets/img/%E6%88%B0%E9%AC%A5%E5%A0%B4%E6%99%AF.png HTTP/1.1" 200
+11-13 14:05:15 uvicorn.access INFO     172.28.0.78:56102 - "GET /static/assets/img/%E5%BF%83%E9%9D%88%E8%BF%B7%E5%AE%AE.png HTTP/1.1" 200
+11-13 14:05:29 uvicorn.access INFO     172.28.0.78:56106 - "GET /home/aboutus/ HTTP/1.1" 200
+11-13 14:09:46 uvicorn.access INFO     172.28.0.78:56266 - "GET /home/hospital/ HTTP/1.1" 200
+11-13 14:09:47 uvicorn.access INFO     172.28.0.78:56266 - "GET /home/get_locations/ HTTP/1.1" 200
+11-13 14:09:54 uvicorn.access INFO     172.28.0.78:56268 - "GET /home/search_clinics/?county=%E9%AB%98%E9%9B%84%E5%B8%82&district=%E5%B7%A6%E7%87%9F%E5%8D%80 HTTP/1.1" 200
+11-13 14:09:54 uvicorn.access INFO     172.28.0.78:56268 - "GET /media/hospital_photos/%E5%9B%9E%E7%94%98%E5%BF%83%E7%90%86%E8%AB%AE%E5%95%86%E6%89%80.jpg HTTP/1.1" 200
+11-13 14:10:12 uvicorn.access INFO     172.28.0.78:56273 - "GET /home/ebook/ HTTP/1.1" 200
+11-13 14:10:12 uvicorn.access INFO     172.28.0.78:56273 - "GET /static/assets/img/nlp.png HTTP/1.1" 200
+11-13 14:10:20 uvicorn.access INFO     172.28.0.78:56275 - "GET /home/video/ HTTP/1.1" 200
+11-13 14:10:21 uvicorn.access INFO     172.28.0.78:56276 - "GET /static/assets/img/%E8%87%AA%E7%84%B6%E8%AA%9E%E8%A8%80%E8%99%95%E7%90%86.png HTTP/1.1" 200
+11-13 14:10:21 uvicorn.access INFO     172.28.0.78:56275 - "GET /static/assets/img/%E6%86%82%E9%AC%B1%E7%97%87.png HTTP/1.1" 200
+11-13 15:37:04 uvicorn.error INFO     Shutting down
+11-13 15:37:04 uvicorn.error INFO     Finished server process [13068]

@@ -1,0 +1,26 @@
+08-06 13:54:21 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-06 13:54:22 uvicorn.error INFO     Started server process [4136]
+08-06 13:54:22 uvicorn.error INFO     Waiting for application startup.
+08-06 13:54:22 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-06 13:54:22 uvicorn.error INFO     Application startup complete.
+08-06 13:54:22 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-06 13:54:34 uvicorn.access INFO     26.37.7.101:62090 - "GET / HTTP/1.1" 302
+08-06 13:54:34 uvicorn.access INFO     26.37.7.101:62090 - "GET /home/ HTTP/1.1" 200
+08-06 13:54:34 django.request WARNING  Not Found: /favicon.ico
+08-06 13:54:34 uvicorn.access INFO     26.37.7.101:62090 - "GET /favicon.ico HTTP/1.1" 404
+08-06 13:54:37 uvicorn.access INFO     26.37.7.101:62090 - "GET /home/ HTTP/1.1" 200
+08-06 13:54:42 uvicorn.error INFO     Shutting down
+08-06 13:54:42 uvicorn.error INFO     Finished server process [4136]
+08-06 13:58:35 uvicorn.error INFO     Will watch for changes in these directories: ['C:\\django_test\\Duckbubi']
+08-06 13:58:36 uvicorn.error INFO     Started server process [8844]
+08-06 13:58:36 uvicorn.error INFO     Waiting for application startup.
+08-06 13:58:36 uvicorn.error INFO     ASGI 'lifespan' protocol appears unsupported.
+08-06 13:58:36 uvicorn.error INFO     Application startup complete.
+08-06 13:58:36 uvicorn.error INFO     Uvicorn running on http://26.37.7.101:80 (Press CTRL+C to quit)
+08-06 13:58:40 uvicorn.access INFO     26.37.7.101:62393 - "GET / HTTP/1.1" 302
+08-06 13:58:40 uvicorn.access INFO     26.37.7.101:62393 - "GET /home/ HTTP/1.1" 200
+08-06 13:58:43 uvicorn.access INFO     26.37.7.101:62397 - "GET /static/assets/vendor/swiper/swiper-bundle.min.js.map HTTP/1.1" 200
+08-06 13:58:43 uvicorn.access INFO     26.37.7.101:62393 - "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200
+08-06 13:58:43 uvicorn.access INFO     26.37.7.101:62398 - "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200
+08-06 13:58:59 uvicorn.error INFO     Shutting down
+08-06 13:58:59 uvicorn.error INFO     Finished server process [8844]

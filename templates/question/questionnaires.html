@@ -1,0 +1,251 @@
+{% extends "base_generic.html" %}
+
+{% block title %}
+<title>{{ title }}</title>
+{% endblock %}
+
+{% block content %}
+
+    <style>
+        .card {
+            padding: 30px 30px 30px 30px;
+        }
+
+        input[type="text"] {
+            border: none;
+            border-bottom: 2px solid #d5d5d5;
+            padding: 10px 10px 10px 10px;
+            height: 50px;
+            width: 400px;
+            box-sizing: border-box;
+            transition: border-bottom-color 0.5s;
+        }
+
+        input[type="text"]:focus {
+            border-bottom-color: #cd0000;
+            outline: none;
+        }
+
+        span{
+            padding-left: 5px;
+            font-size: 20px;
+        }
+
+        .q-counter {
+            font-size: 24px;
+            font-weight: 800;
+        }
+
+        .q-text {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .choice-text {
+            padding-left: 5px;
+            font-size: 20px;
+        }
+
+        .btn-custom1 {
+            font-size: 24px;
+            border-radius: 10px;
+            width: 300px;
+            color: #ffffff;
+            border: 1px solid #707070;
+            background-color: #707070;
+            transition: background-color 0.5s;
+        }
+    
+        .btn-custom1:hover {
+            color: #ffffff;
+            background-color: #444444;
+            border: 1px solid #444444;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="page-header text-center" style="margin-top: 60px; margin-bottom: 40px;">
+            <h1 class="fw-bold">{{ title }}</h1>
+        </div>
+
+        <form id="QuestionnairesForm" action="{% url 'question:vote' %}" method="post">
+            {% csrf_token %}
+            <div class="card col-12">
+                <h2 class="fw-bold"  style="margin-bottom: 40px;">基本資料</h2>
+                    <div>
+                        <h4 style="margin-bottom: 10px;">性別</h4>
+                        <label>
+                            <input type="radio" name="gender" class="" value="男"/>
+                            <span>男</span>
+                        </label>
+            
+                        <label style="margin-left: 15px;">
+                            <input type="radio" name="gender" class="" value="女"/>
+                            <span>女</span>
+                        </label>
+                    </div>
+    
+                    <hr style="margin-top: 30px;">
+    
+                    <div style="margin-top: 10px;">
+                        <h4 style="margin-bottom: 10px;">年齡</h4>
+                        <label>
+                            <input type="radio" name="age" class="" value="18-20"/>
+                            <span>18歲-20歲</span>
+                        </label>
+            
+                        <label style="margin-left: 15px;">
+                            <input type="radio" name="age" class="" value="21-30"/>
+                            <span>21歲-30歲</span>
+                        </label>
+    
+                        <label style="margin-left: 15px;">
+                            <input type="radio" name="age" class="" value="31-40"/>
+                            <span>31歲-40歲</span>
+                        </label>
+    
+                        <label style="margin-left: 15px;">
+                            <input type="radio" name="age" class="" value="41-50"/>
+                            <span>41歲-50歲</span>
+                        </label>
+                                
+                        <label style="margin-left: 15px;">
+                            <input type="radio" name="age" class="" value="51-60"/>
+                            <span>51歲-60歲</span>
+                        </label>
+                                
+                        <label style="margin-left: 15px;">
+                            <input type="radio" name="age" class="" value="61-65"/>
+                            <span>61歲-65歲</span>
+                        </label>
+                    </div>
+    
+                    <hr style="margin-top: 30px;">
+    
+                    <div style="margin-top: 10px;">
+                        <h4 style="margin-bottom: 10px;">年資</h4>
+                        <label>
+                            <input type="radio" name="seniority" class="" value="1-5"/>
+                            <span>1年-5年</span>
+                        </label>
+    
+                        <label style="margin-left: 15px;">
+                            <input type="radio" name="seniority" class="" value="6-10"/>
+                            <span>6年-10年</span>
+                        </label>
+    
+                        <label style="margin-left: 15px;">
+                            <input type="radio" name="seniority" class="" value="11-15"/>
+                            <span>11年-15年</span>
+                        </label>
+    
+                        <label style="margin-left: 15px;">
+                            <input type="radio" name="seniority" class="" value="16-20"/>
+                            <span>16年-20年</span>
+                        </label>
+    
+                        <label style="margin-left: 15px;">
+                            <input type="radio" name="seniority" class="" value="21-25"/>
+                            <span>21年-25年</span>
+                        </label>
+    
+                        <label style="margin-left: 15px;">
+                            <input type="radio" name="seniority" class="" value="26-30"/>
+                            <span>26年-30年</span>
+                        </label>
+    
+                        <label style="margin-left: 15px;">
+                            <input type="radio" name="seniority" class="" value="31-35"/>
+                            <span>31年-35年</span>
+                        </label>
+    
+                        <label style="margin-left: 15px;">
+                            <input type="radio" name="seniority" class="" value="36-40"/>
+                            <span>36年-40年</span>
+                        </label>
+                    </div>
+    
+                    <hr style="margin-top: 30px;">
+    
+                    <div style="margin-top: 10px;">
+                        <h4 style="margin-bottom: 10px;">公司部門</h4>
+                        <div class="form-outline">
+                            <input type="text" id="department" class="" name="department"  placeholder="請輸入您的公司部門編號" required/>
+                        </div>
+                    </div>
+    
+                    <hr style="margin-top: 30px;">
+    
+                    <div style="margin-top: 10px;">
+                        <h4 style="margin-bottom: 10px;">公司名稱</h4>
+                        <div class="form-outline">
+                            <input type="text" id="message" class="" name="message"  placeholder="請輸入您的公司名稱（協力商請備註公司名稱）"/>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="card col-12" style="margin-top: 40px;">
+                <h2 class="fw-bold" style="margin-bottom: 40px;">問卷內容</h2>
+                    <div class="row">
+                        {% if latest_question_list %}
+                            {% for question in latest_question_list %}
+                                <div class="col-12">
+                                    <p class="q-counter">第&nbsp;{{ forloop.counter }}&nbsp;題</p>
+                                    <p class="q-text">{{ question.question_text }}</p>
+                                    <div class="">
+                                        {% for choice in question.choice_set.all %}
+                                            {% if question.is_checkbox %}
+                                                <label class="">
+                                                    <div style="padding-right: 10px; margin-top: 10px; margin-bottom: 10px;">
+                                                        <input type="checkbox" class="" name="question-{{ question.id }}[]" value="{{ choice.id }}"/>
+                                                        <span class="choice-text">{{ choice.choice_text }}</span>
+                                                    </div>
+                                                </label>
+                                            {% else %}
+                                                <label class="" style="padding-right: 10px; margin-top: 10px; margin-bottom: 10px;">
+                                                    <div class="mb-3">
+                                                        <input class="" name="question-{{ question.id }}" type="radio" value="{{ choice.id }}"/>
+                                                        <span class="choice-text">{{ choice.choice_text }}</span>
+                                                    </div>
+                                                </label>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                                <hr>
+                            {% endfor %}
+                        {% else %}
+                            <div class="col-12">
+                                <h2 class="tm-question-none">沒有內容</h2>
+                            </div>
+        
+                        {% endif %}
+                        <!-- col-12 -->
+                        <div class="col-12">
+                            <h2 class="fw-bold">建議與回饋</h2>
+                            <div class="row">
+                                <div class="col-md-12 col-lg-4">
+                                    <label for="message2" class="mb-3">可以提供您的寶貴的意見供我們參考。</label>
+                                    <textarea class="p-3" name="message2" id="message2" cols="50" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </form>
+
+        <div class="col-12 text-center" style="margin-top: 40px; margin-bottom: 60px;">
+            <button id="submitButton" class="btn btn-custom1">送出</button>
+        </div>
+
+        <script>
+            document.getElementById("submitButton").addEventListener("click", function() {
+                document.getElementById("QuestionnairesForm").submit();
+            });
+        </script>
+    </div>
+
+{% endblock %}

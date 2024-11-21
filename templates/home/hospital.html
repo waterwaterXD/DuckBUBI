@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聯絡診所資訊</title>
+    <!-- 引入思源黑體 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-image: url('/static/assets/img/background.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        #sidebar {
+            width: 250px;
+            background-color: #2d2d2d;
+            color: #ffffff;
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow: hidden; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #sidebar a {
+            color: #ffffff;
+            text-decoration: none;
+            display: block;
+            padding: 10px 0;
+            font-weight: 600;
+        }
+
+        #sidebar a:hover {
+            background-color: #3d3d3d;
+            padding-left: 10px;
+            transition: 0.3s;
+        }
+
+        #sidebar .profile {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        #sidebar .profile img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        #content {
+            margin-left: 250px;
+            padding: 40px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-y: auto;
+            box-sizing: border-box;
+            width: calc(100% - 250px);
+            border-radius: 8px;
+        }
+
+        h1 ,h2 {
+            color: #00aaff;
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            gap: 10px;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .search-bar select,
+        .search-bar button {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+
+        .search-bar select {
+            flex: 1;
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #333;
+        }
+
+        .search-bar button {
+            background-color: #00aaff;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-weight: 600;
+        }
+
+        .search-bar button:hover {
+            background-color: #007acc;
+        }
+
+        .clinic-item {
+            border: 2px solid #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+        }
+
+        .clinic-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .clinic-map {
+            margin-top: 15px;
+            height: 200px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .clinic-map iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .logout-btn button {
+            background-color: #f05454;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .logout-btn button:hover {
+            background-color: #d94343;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .logout-btn button:active {
+            background-color: #c53030;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transform: translateY(0);
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $.ajax({
+                url: '/home/get_locations/',
+                type: 'GET',
+                success: function(data) {
+                    let countySelect = $('#county');
+                    countySelect.append('<option value="">選擇縣市</option>');
+                    for (let county in data) {
+                        countySelect.append('<option value="' + county + '">' + county + '</option>');
+                    }
+
+                    countySelect.change(function() {
+                        let selectedCounty = $(this).val();
+                        let districtSelect = $('#district');
+                        districtSelect.empty();
+                        districtSelect.append('<option value="">選擇行政區</option>');
+                        if (selectedCounty && data[selectedCounty]) {
+                            data[selectedCounty].forEach(function(district) {
+                                districtSelect.append('<option value="' + district + '">' + district + '</option>');
+                            });
+                        }
+                    });
+                }
+            });
+        });
+
+        function searchClinics() {
+            let selectedCounty = $('#county').val();
+            let selectedDistrict = $('#district').val();
+
+            if (!selectedCounty || !selectedDistrict) {
+                alert("請選擇縣市和行政區");
+                return;
+            }
+
+            $.ajax({
+                url: '/home/search_clinics/',
+                type: 'GET',
+                data: {
+                    county: selectedCounty,
+                    district: selectedDistrict
+                },
+                success: function(data) {
+                    $('#clinic-list').empty();
+                    if (data.length > 0) {
+                        data.forEach(function(clinic) {
+                            let clinicItem = 
+                                `<div class="clinic-item">
+                                    <img src="${clinic.photo_url}" alt="${clinic.name}" style="width: 100%; height: 400px; object-fit: cover; border-radius: 10px;">
+                                    <h3 style="color:orange; font-family: 'Noto Sans TC', sans-serif; font-weight: bold; font-size: 24px;">${clinic.name}</h3>
+                                    <p style="color:white; font-family: 'Noto Sans TC', sans-serif; font-weight: bold; font-size: 18px;">電話: ${clinic.phone}</p>
+                                    <a href="${clinic.website}" target="_blank" style="color:orange; font-family: 'Noto Sans TC', sans-serif; font-weight: bold; font-size: 18px; text-decoration: none;">訪問網站</a>
+                                    
+                                    <!-- 让地址成为超链接 -->
+                                    <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(clinic.address)}" 
+                                    target="_blank" 
+                                    style="color:white; font-family: 'Noto Sans TC', sans-serif; font-weight: bold; font-size: 18px; text-decoration:underline;">
+                                    ${clinic.address}
+                                    </a>       
+
+                                    <div class="clinic-map" id="map-${clinic.id}">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBjktt92NYcjE52Mfs1JFTQ9DLnJbPFtvg&q=${encodeURIComponent(clinic.address)}"
+                                            allowfullscreen=""
+                                            loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade">
+                                        </iframe>
+                                    </div>
+                                </div>`;
+                            $('#clinic-list').append(clinicItem);
+                        });
+
+                        $('.clinic-address').click(function() {
+                            let address = $(this).data('address');
+                            let mapId = $(this).closest('.clinic-item').find('.clinic-map iframe').attr('id');
+                            updateMap(address, mapId);
+                        });
+                    } else {
+                        $('#clinic-list').append('<p>找不到符合條件的診所。</p>');
+                    }
+                },
+                error: function(error) {
+                    console.error("查询诊所时发生错误: ", error);
+                }
+            });
+        }
+
+        function updateMap(address, mapId) {
+            let encodedAddress = encodeURIComponent(address);
+            let mapSrc = `https://www.google.com/maps/embed/v1/place?key=AIzaSyBjktt92NYcjE52Mfs1JFTQ9DLnJbPFtvg&q=${encodedAddress}`;
+            $(`#${mapId}`).attr('src', mapSrc);
+        }
+    </script>
+
+</head>
+<body>
+    <div id="sidebar">
+        <div class="profile">
+            <img src="/static/assets/img/fishman.png" style="height: 100px;width: 100px;" alt="Profile Photo">
+        </div>
+        <h2>Duck不必</h2>
+        <nav>
+            <a href="/home/">首頁</a>
+            <a href="/home/questionnaire/">憂鬱量表</a>
+            <a href="/home/contact/">聯絡資訊</a>
+            <a href="/home/depression/">小遊戲-對抗憂鬱症</a>
+            <a href="/home/aboutus/">關於我們</a>
+            <a href="http://127.0.0.1:5000">魚民聊天機器人</a>
+            <a href="/home/hospital/">瀏覽診所資訊</a>
+            <a href="/home/ebook/">電子書</a>
+            <a href="/home/video/">影片介紹</a>
+        </nav>
+        <div class="logout-btn">
+            <h4 style="color: #f1f1f1;">您好{{request.user}} </h4>
+            <a href="/welcome/logout/">
+                <button type="button">登出</button>
+            </a>
+        </div>
+    </div>
+    <div id="content">
+        <h1>查詢診所資訊</h1>
+        <div class="search-bar">
+            <select id="county"></select>
+            <select id="district">
+                <option value="">選擇行政區</option>
+            </select>
+            <button type="button" onclick="searchClinics()">查詢</button>
+        </div>
+
+        <div id="clinic-list">
+            <!-- 搜尋結果將顯示在這裡 -->
+        </div>
+    </div>
+</body>
+</html>
